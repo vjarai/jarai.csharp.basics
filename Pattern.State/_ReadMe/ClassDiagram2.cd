@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="Zustand Entwurfsmuster am Beispiel &quot;Telefon&quot;">
+    <Position X="3.031" Y="0.635" Height="0.333" Width="2.94" />
+  </Comment>
+  <Class Name="Telefon">
+    <Position X="0.75" Y="2" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>wAEAAAAAAAAAEAAQAAAAAgAAAAAAABAEgAAAAABABAA=</HashCode>
+      <FileName>Telefon.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AktuellerZustand" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Verbunden">
+    <Position X="5.75" Y="6.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Verbunden.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zustand">
+    <Position X="5.75" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAEAAEAAAAAAAAAAAAAAAAgAAAAABABBA=</HashCode>
+      <FileName>Zustand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Abgehoben">
+    <Position X="3.25" Y="6.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Abgehoben.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aufgelegt">
+    <Position X="0.75" Y="6.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Aufgelegt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

@@ -1,0 +1,25 @@
+﻿using System;
+using System.Linq;
+using Jarai.Linq.Query;
+
+namespace Jarai.Linq.AnonymousTypes
+{
+    internal class Program
+    {
+        private static void Main(string[] args)
+        {
+            var adressBook = new Adressbook();
+
+            var contactsFromBerlin =
+                from contact in adressBook.Contacts
+                where contact.Ort == "Berlin"
+                // Passende (anonyme/namenlose) Klasse wird automatisch generiert
+                select new { Id = contact.Name, City = $"{contact.Postleitzahl} {contact.Ort}" };
+
+            foreach (var adress in contactsFromBerlin)
+            {
+                Console.WriteLine($"{adress.Id} {adress.City}");
+            }
+        }
+    }
+}

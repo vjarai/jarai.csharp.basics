@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Jarai.WcfService.HostApplication.CalculationService" CodeBehind="CalculationService.svc.cs" %>
