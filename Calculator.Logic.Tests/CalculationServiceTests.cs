@@ -1,4 +1,5 @@
-﻿using Xunit;
+﻿using System;
+using Xunit;
 
 namespace Jarai.Calculator.Logic.Tests
 {
@@ -28,6 +29,17 @@ namespace Jarai.Calculator.Logic.Tests
 
             // Assert
             Assert.Equal(.5, actual);
+        }
+
+        [Fact]
+        public void CanNotDivideByZero()
+        {
+            // Arrange
+            var target = new CalculationService();
+
+            // Act & Assert
+            Assert.Throws<InvalidOperationException>( () => target.Divide(10, 0));
+
         }
 
         [Fact]

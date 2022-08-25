@@ -1,4 +1,6 @@
-﻿namespace Jarai.Calculator.Logic
+﻿using System;
+
+namespace Jarai.Calculator.Logic
 {
     public class CalculationService
     {
@@ -9,6 +11,9 @@
 
         public double Divide(double x, double y)
         {
+            if (y == 0) 
+                throw new InvalidOperationException("Division durch 0 ist nicht möglich.");
+
             return x / y;
         }
 

@@ -1,10 +1,11 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using System.Windows;
 using System.Windows.Input;
 using Jarai.Calculator.Logic;
 
-namespace Jarai.Calculator.Gui.Wpf
+namespace Jarai.Calculator.UserInterface.Wpf.ViewModels
 {
     public class MainWindowViewModel : INotifyPropertyChanged
     {
@@ -91,7 +92,14 @@ namespace Jarai.Calculator.Gui.Wpf
 
         private void Divide()
         {
-            Ergebnis = _calculationService.Divide(Zahl1, Zahl2);
+            try
+            {
+                Ergebnis = _calculationService.Divide(Zahl1, Zahl2);
+            }
+            catch (InvalidOperationException e) // Division durch 0?
+            {
+                MessageBox.Show(e.Message);
+            }
         }
 
         private void Multiply()

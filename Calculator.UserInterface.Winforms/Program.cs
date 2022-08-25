@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace Jarai.Calculator.Gui.WinForms
+namespace Jarai.Calculator.UserInterface.WinForms
 {
     internal static class Program
     {

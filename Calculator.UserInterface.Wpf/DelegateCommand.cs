@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 
-namespace Jarai.Calculator.Gui.Wpf
+namespace Jarai.Calculator.UserInterface.Wpf
 {
     public class DelegateCommand : ICommand
     {
