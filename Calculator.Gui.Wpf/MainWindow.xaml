@@ -5,31 +5,37 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:wpf="clr-namespace:Jarai.Calculator.Gui.Wpf"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" d:DataContext="{d:DesignInstance Type=wpf:MainWindowViewModel }">
-    <Grid >
+        Title="Calculator"  Width="666" SizeToContent="Height" d:DataContext="{d:DesignInstance Type=wpf:MainWindowViewModel }">
+    <Grid Margin="0,0,68,0" >
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="100*"/>
+            <ColumnDefinition Width="100*"/>
+            <ColumnDefinition Width="100*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
-        <Button Grid.Row="0" Grid.Column="2" Content="Add" HorizontalAlignment="Center"  VerticalAlignment="Center"
-                Command="{Binding AddCommand}"/>
-        <Button Grid.Row="1" Grid.Column="2" Content="Subtract" HorizontalAlignment="Center"  VerticalAlignment="Center"
-                Command="{Binding SubtractCommand}"/>
-        <Button Grid.Row="2" Grid.Column="2" Content="Multiply" HorizontalAlignment="Center"  VerticalAlignment="Center"
-                Command="{Binding MultiplyCommand}"/>
-        <Button Grid.Row="3" Grid.Column="2" Content="Divide" HorizontalAlignment="Center"  VerticalAlignment="Center"
-                Command="{Binding DivideCommand}"/>
+         <Label  Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" Height="26" >Zahl1:</Label>
+        <Label Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" Height="26" >Zahl2:</Label>
+        <Label Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" Height="26" >Ergebnis:</Label>
+      
+        <TextBox Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" Text="{Binding Zahl1}" Height="18"/>
+        <TextBox Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Text="{Binding Zahl2}" Height="18"></TextBox>
+        <TextBox Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" Text="{Binding Ergebnis}" Height="18"></TextBox>
+        
+        <Button Grid.Row="0" Grid.Column="2" Width="100" Content="Add" HorizontalAlignment="Center"  VerticalAlignment="Center"
+                Command="{Binding AddCommand}" Height="20"/>
+        <Button Grid.Row="1" Grid.Column="2" Width="100"  Content="Subtract" HorizontalAlignment="Center"  VerticalAlignment="Center"
+                Command="{Binding SubtractCommand}" Height="20"/>
+        <Button Grid.Row="2" Grid.Column="2" Width="100"  Content="Multiply" HorizontalAlignment="Center"  VerticalAlignment="Center"
+                Command="{Binding MultiplyCommand}" Height="20"/>
+        <Button Grid.Row="3" Grid.Column="2" Width="100"  Content="Divide" HorizontalAlignment="Center"  VerticalAlignment="Center"
+                Command="{Binding DivideCommand}" Height="20"/>
 
-        <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding Zahl1}"></TextBox>
-        <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding Zahl2}"></TextBox>
-        <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding Ergebnis}"></TextBox>
+
 
     </Grid>
 </Window>
