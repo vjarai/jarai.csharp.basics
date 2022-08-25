@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using Jarai.Calculator.Logic;
 
 namespace Jarai.Calculator.Gui.Wpf
 {
@@ -9,7 +10,11 @@ namespace Jarai.Calculator.Gui.Wpf
     {
         public MainWindow()
         {
+            DataContext = new MainWindowViewModel(new CalculationService());
             InitializeComponent();
+
         }
+
+        public MainWindowViewModel ViewModel { get { return (MainWindowViewModel)DataContext; } }
     }
 }
