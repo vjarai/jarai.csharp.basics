@@ -24,9 +24,10 @@ namespace Jarai.EntityFramework.CodeFirst
                 // Create record
                 var newContact = new Contact { Name = "Meier" };
                 db.Contacts.Add(newContact);
+                db.SaveChanges(); // Sonst Änderung nicht sichtbar!
 
                 // Read record
-                var firstContact = db.Contacts.First();
+                var firstContact = db.Contacts.ToList().First();
 
                 // Delete record
                 db.Contacts.Remove(firstContact);
