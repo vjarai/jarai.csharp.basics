@@ -1,7 +1,7 @@
 using System;
 using System.Diagnostics;
 
-namespace Jarai.Relation.Bidirectional
+namespace Jarai.CSharp.Relation.Bidirectional
 {
     public class Person
     {

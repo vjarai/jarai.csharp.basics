@@ -1,7 +1,7 @@
 using System;
 using System.Diagnostics;
 
-namespace Jarai.Pattern.State
+namespace Jarai.CSharp.Pattern.State
 {
     public class Telefon
     {

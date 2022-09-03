@@ -1,4 +1,4 @@
-﻿namespace Jarai.Calculator.UserInterface.WinForms
+﻿namespace Jarai.CSharp.Calculator.UserInterface.WinForms
 {
    partial class CalculatorForm
    {

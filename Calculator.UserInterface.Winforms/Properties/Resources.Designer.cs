@@ -8,10 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Jarai.Calculator.UserInterface.WinForms.Properties {
-    using System;
-    
-    
+namespace Jarai.CSharp.Calculator.UserInterface.WinForms.Properties {
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>

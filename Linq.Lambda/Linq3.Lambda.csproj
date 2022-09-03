@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{652D220B-5F2E-4371-B605-CF689B1915B8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Jarai.Linq.Lambda</RootNamespace>
-    <AssemblyName>Jarai.Linq.Lambda</AssemblyName>
+    <RootNamespace>Jarai.CSharp.Linq.Lambda</RootNamespace>
+    <AssemblyName>Jarai.CSharp.Linq.Lambda</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

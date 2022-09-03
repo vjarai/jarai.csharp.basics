@@ -1,6 +1,6 @@
 using System;
 
-namespace Jarai.Relation.Inheritance
+namespace Jarai.CSharp.Relation.Inheritance
 {
     public abstract class Möbel // Sobald eine Klasse mindestens eine abstracte Methode enthält,
         // wird die Klasse zur abstracten Basisclasse (ABC)

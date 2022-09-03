@@ -7,8 +7,8 @@
     <ProjectGuid>{32CC9943-05E9-4F65-9290-7E49A035D0F2}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Jarai.Calculator.UserInterface.WinForms</RootNamespace>
-    <AssemblyName>Jarai.Calculator.UserInterface.WinForms</AssemblyName>
+    <RootNamespace>Jarai.CSharp.Calculator.UserInterface.WinForms</RootNamespace>
+    <AssemblyName>Jarai.CSharp.Calculator.UserInterface.WinForms</AssemblyName>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>

@@ -7,8 +7,8 @@
     <ProjectGuid>{3F081B0A-589B-400D-BC9C-E40D7D9972D2}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Jarai.Basics.Parameters</RootNamespace>
-    <AssemblyName>Jarai.Basics.Parameters</AssemblyName>
+    <RootNamespace>Jarai.CSharp.Basics.Parameters</RootNamespace>
+    <AssemblyName>Jarai.CSharp.Basics.Parameters</AssemblyName>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>

@@ -7,8 +7,8 @@
     <ProjectGuid>{91BC4BE8-C17E-410E-92EC-44D7CE073E95}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Jarai.Basics.ForLoop</RootNamespace>
-    <AssemblyName>Jarai.Basics.ForLoop</AssemblyName>
+    <RootNamespace>Jarai.CSharp.Basics.ForLoop</RootNamespace>
+    <AssemblyName>Jarai.CSharp.Basics.ForLoop</AssemblyName>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>

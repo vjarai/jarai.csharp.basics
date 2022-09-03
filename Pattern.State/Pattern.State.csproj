@@ -10,7 +10,7 @@
     </ApplicationIcon>
     <AssemblyKeyContainerName>
     </AssemblyKeyContainerName>
-    <AssemblyName>Jarai.Pattern.State</AssemblyName>
+    <AssemblyName>Jarai.CSharp.Pattern.State</AssemblyName>
     <AssemblyOriginatorKeyFile>
     </AssemblyOriginatorKeyFile>
     <DefaultClientScript>JScript</DefaultClientScript>
@@ -18,7 +18,7 @@
     <DefaultTargetSchema>IE50</DefaultTargetSchema>
     <DelaySign>false</DelaySign>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Jarai.Pattern.State</RootNamespace>
+    <RootNamespace>Jarai.CSharp.Pattern.State</RootNamespace>
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
     <StartupObject>
     </StartupObject>

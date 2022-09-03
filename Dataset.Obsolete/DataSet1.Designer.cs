@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Jarai.Dataset.Obsolete
+namespace Jarai.CSharp.Dataset.Obsolete
 {
 #pragma warning disable 1591
 

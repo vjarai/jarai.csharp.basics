@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Jarai.Dataset.Obsolete
+namespace Jarai.CSharp.Dataset.Obsolete
 {
     internal class Program
     {

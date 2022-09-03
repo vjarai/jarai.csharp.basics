@@ -1,6 +1,6 @@
 using System;
 
-namespace Jarai.Relation.Inheritance
+namespace Jarai.CSharp.Relation.Inheritance
 {
     internal class Program
     {

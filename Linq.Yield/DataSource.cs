@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading;
 
-namespace Jarai.Linq.YieldReturn
+namespace Jarai.CSharp.Linq.YieldReturn
 {
     internal class DataSource
     {

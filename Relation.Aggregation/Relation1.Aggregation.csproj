@@ -7,8 +7,8 @@
     <ProjectGuid>{72D0B84E-D0A0-41C7-8B46-83837A60AE3C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Jarai.Relation.Aggregation</RootNamespace>
-    <AssemblyName>Jarai.Relation.Aggregation</AssemblyName>
+    <RootNamespace>Jarai.CSharp.Relation.Aggregation</RootNamespace>
+    <AssemblyName>Jarai.CSharp.Relation.Aggregation</AssemblyName>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>

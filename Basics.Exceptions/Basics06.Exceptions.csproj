@@ -7,8 +7,8 @@
     <ProjectGuid>{40A7EC19-6A46-47DB-AA89-BA23645BCE31}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Jarai.Basics.Exceptions</RootNamespace>
-    <AssemblyName>Jarai.Basics.Exceptions</AssemblyName>
+    <RootNamespace>Jarai.CSharp.Basics.Exceptions</RootNamespace>
+    <AssemblyName>Jarai.CSharp.Basics.Exceptions</AssemblyName>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>

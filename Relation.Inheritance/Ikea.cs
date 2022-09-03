@@ -2,7 +2,7 @@ using System;
 using System.Diagnostics;
 using System.Reflection;
 
-namespace Jarai.Relation.Inheritance
+namespace Jarai.CSharp.Relation.Inheritance
 {
     public class Ikea
     {

@@ -1,6 +1,6 @@
 using System;
 
-namespace Jarai.Basics.Parameters
+namespace Jarai.CSharp.Basics.Parameters
 {
     internal class Program
     {

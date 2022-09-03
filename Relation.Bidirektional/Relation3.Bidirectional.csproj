@@ -7,8 +7,8 @@
     <ProjectGuid>{5E3FBEA6-99EA-44AC-AB8F-192FA215AD23}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Jarai.Relation.Bidirectional</RootNamespace>
-    <AssemblyName>Jarai.Relation.Bidirectional</AssemblyName>
+    <RootNamespace>Jarai.CSharp.Relation.Bidirectional</RootNamespace>
+    <AssemblyName>Jarai.CSharp.Relation.Bidirectional</AssemblyName>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>

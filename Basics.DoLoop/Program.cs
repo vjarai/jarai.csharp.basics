@@ -1,6 +1,6 @@
 using System;
 
-namespace Jarai.Basics.DoLoop
+namespace Jarai.CSharp.Basics.DoLoop
 {
     internal class Program
     {

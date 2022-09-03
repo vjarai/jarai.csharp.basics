@@ -1,4 +1,4 @@
-namespace Jarai.Pattern.State
+namespace Jarai.CSharp.Pattern.State
 {
     internal class Program
     {

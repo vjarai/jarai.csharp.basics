@@ -7,8 +7,8 @@
     <ProjectGuid>{5BA69137-30A7-4370-BA13-5E241164D9B9}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Jarai.Basics.Array</RootNamespace>
-    <AssemblyName>Jarai.Basics.Array</AssemblyName>
+    <RootNamespace>Jarai.CSharp.Basics.Array</RootNamespace>
+    <AssemblyName>Jarai.CSharp.Basics.Array</AssemblyName>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>

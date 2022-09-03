@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace Jarai.Linq.YieldReturn
+namespace Jarai.CSharp.Linq.YieldReturn
 {
     internal class Program
     {

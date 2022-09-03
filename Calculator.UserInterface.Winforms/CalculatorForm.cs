@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms;
 
-namespace Jarai.Calculator.UserInterface.WinForms
+namespace Jarai.CSharp.Calculator.UserInterface.WinForms
 {
     public partial class CalculatorForm : Form
     {

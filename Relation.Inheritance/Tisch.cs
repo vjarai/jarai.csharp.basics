@@ -1,6 +1,6 @@
 using System;
 
-namespace Jarai.Relation.Inheritance
+namespace Jarai.CSharp.Relation.Inheritance
 {
     public class Tisch : Möbel
     {

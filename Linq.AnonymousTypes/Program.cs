@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Linq;
-using Jarai.Linq.Query;
+using Jarai.CSharp.Linq.Query;
 
-namespace Jarai.Linq.AnonymousTypes
+namespace Jarai.CSharp.Linq.AnonymousTypes
 {
     internal class Program
     {

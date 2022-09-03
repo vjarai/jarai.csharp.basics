@@ -1,6 +1,6 @@
 ﻿using Jarai.WcfService.ClientApplication.CalculationServiceReference;
 
-namespace Jarai.WcfService.ClientApplication
+namespace Jarai.CSharp.WcfService.ClientApplication
 {
     internal class Program
     {

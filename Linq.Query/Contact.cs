@@ -1,4 +1,4 @@
-﻿namespace Jarai.Linq.Query
+﻿namespace Jarai.CSharp.Linq.Query
 {
     public class Contact
     {

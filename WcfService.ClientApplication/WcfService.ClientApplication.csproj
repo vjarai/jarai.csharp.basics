@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{7F1D2F9B-0409-47E8-9804-7ED1089B64B6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Jarai.WcfService.ClientApplication</RootNamespace>
-    <AssemblyName>Jarai.WcfService.ClientApplication</AssemblyName>
+    <RootNamespace>Jarai.CSharp.WcfService.ClientApplication</RootNamespace>
+    <AssemblyName>Jarai.CSharp.WcfService.ClientApplication</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

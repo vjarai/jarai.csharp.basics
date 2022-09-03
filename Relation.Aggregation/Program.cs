@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Jarai.Relation.Aggregation
+namespace Jarai.CSharp.Relation.Aggregation
 {
     internal class Program
     {

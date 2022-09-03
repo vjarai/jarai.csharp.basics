@@ -7,8 +7,8 @@
     <ProjectGuid>{F5E1738F-8FFD-453C-8AB9-22A861136409}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Jarai.Basics.HelloWorld</RootNamespace>
-    <AssemblyName>Jarai.Basics.HelloWorld</AssemblyName>
+    <RootNamespace>Jarai.CSharp.CSharp.Basics.HelloWorld</RootNamespace>
+    <AssemblyName>Jarai.CSharp.CSharp.Basics.HelloWorld</AssemblyName>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>

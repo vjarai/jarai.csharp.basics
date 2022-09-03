@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{FCBA4BF1-DCD5-46AC-A936-13412829E52F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Jarai.Pattern.Singleton</RootNamespace>
-    <AssemblyName>Jarai.Pattern.Singleton</AssemblyName>
+    <RootNamespace>Jarai.CSharp.Pattern.Singleton</RootNamespace>
+    <AssemblyName>Jarai.CSharp.Pattern.Singleton</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

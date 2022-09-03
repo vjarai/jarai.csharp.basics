@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Jarai.Pattern.Singleton
+namespace Jarai.CSharp.Pattern.Singleton
 {
     internal class Program
     {

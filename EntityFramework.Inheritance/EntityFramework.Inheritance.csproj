@@ -7,8 +7,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{EF391635-35EA-4C0F-B7EB-B7717B433612}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Jarai.EntityFramework.Inheritance</RootNamespace>
-    <AssemblyName>Jarai.EntityFramework.Inheritance</AssemblyName>
+    <RootNamespace>Jarai.CSharp.EntityFramework.Inheritance</RootNamespace>
+    <AssemblyName>Jarai.CSharp.EntityFramework.Inheritance</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

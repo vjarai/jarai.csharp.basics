@@ -1,4 +1,4 @@
-﻿namespace Jarai.Pattern.Singleton
+﻿namespace Jarai.CSharp.Pattern.Singleton
 {
     internal class Highlander
     {

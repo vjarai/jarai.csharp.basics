@@ -7,8 +7,8 @@
     <ProjectGuid>{708DA4C4-21E9-4467-A5C0-EC8088CD1F1C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Jarai.Basics.WhileLoop</RootNamespace>
-    <AssemblyName>Jarai.Basics.WhileLoop</AssemblyName>
+    <RootNamespace>Jarai.CSharp.Basics.WhileLoop</RootNamespace>
+    <AssemblyName>Jarai.CSharp.Basics.WhileLoop</AssemblyName>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>

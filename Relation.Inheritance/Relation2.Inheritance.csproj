@@ -7,8 +7,8 @@
     <ProjectGuid>{34575F7A-8E53-4B9C-9848-20339D9AD13D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Jarai.Relation.Inheritance</RootNamespace>
-    <AssemblyName>Jarai.Relation.Inheritance</AssemblyName>
+    <RootNamespace>Jarai.CSharp.Relation.Inheritance</RootNamespace>
+    <AssemblyName>Jarai.CSharp.Relation.Inheritance</AssemblyName>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>

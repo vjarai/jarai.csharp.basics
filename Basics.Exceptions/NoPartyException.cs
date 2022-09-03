@@ -1,6 +1,6 @@
 using System;
 
-namespace Jarai.Basics.Exceptions
+namespace Jarai.CSharp.Basics.Exceptions
 {
     internal class NoPartyException : Exception
     {

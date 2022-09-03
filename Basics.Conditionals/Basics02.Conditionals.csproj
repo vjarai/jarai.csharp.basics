@@ -7,8 +7,8 @@
     <ProjectGuid>{6D57C611-4301-413B-A615-3E6CA504DFEE}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Jarai.Basics.Conditionals</RootNamespace>
-    <AssemblyName>Jarai.Basics.Conditionals</AssemblyName>
+    <RootNamespace>Jarai.CSharp.Basics.Conditionals</RootNamespace>
+    <AssemblyName>Jarai.CSharp.Basics.Conditionals</AssemblyName>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>

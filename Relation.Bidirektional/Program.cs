@@ -1,4 +1,4 @@
-namespace Jarai.Relation.Bidirectional
+namespace Jarai.CSharp.Relation.Bidirectional
 {
     internal class Program
     {

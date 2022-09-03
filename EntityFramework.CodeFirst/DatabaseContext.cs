@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity;
 
-namespace Jarai.EntityFramework.CodeFirst
+namespace Jarai.CSharp.EntityFramework.CodeFirst
 {
     internal class DatabaseContext : DbContext
     {

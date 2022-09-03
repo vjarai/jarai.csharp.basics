@@ -1,6 +1,6 @@
 using System;
 
-namespace Jarai.Basics.Zahlenraten
+namespace Jarai.CSharp.Basics.Zahlenraten
 {
     internal class Program
     {

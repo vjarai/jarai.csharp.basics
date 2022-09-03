@@ -1,6 +1,6 @@
 using System;
 
-namespace Jarai.Basics.ForLoop
+namespace Jarai.CSharp.Basics.ForLoop
 {
     internal class Program
     {

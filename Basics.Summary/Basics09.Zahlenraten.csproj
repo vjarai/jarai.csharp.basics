@@ -7,8 +7,8 @@
     <ProjectGuid>{E9502092-CD69-4684-BBCF-3059CA985A4B}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Jarai.Basics.Zahlenraten</RootNamespace>
-    <AssemblyName>Jarai.Basics.Zahlenraten</AssemblyName>
+    <RootNamespace>Jarai.CSharp.Basics.Zahlenraten</RootNamespace>
+    <AssemblyName>Jarai.CSharp.Basics.Zahlenraten</AssemblyName>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>

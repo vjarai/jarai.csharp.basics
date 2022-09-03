@@ -7,8 +7,8 @@
     <ProjectGuid>{963C757F-2155-4E6B-A27A-816D3BF70D62}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Jarai.Basics.DoLoop</RootNamespace>
-    <AssemblyName>Jarai.Basics.DoLoop</AssemblyName>
+    <RootNamespace>Jarai.CSharp.Basics.DoLoop</RootNamespace>
+    <AssemblyName>Jarai.CSharp.Basics.DoLoop</AssemblyName>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>

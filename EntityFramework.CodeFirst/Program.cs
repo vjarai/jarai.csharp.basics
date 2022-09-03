@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace Jarai.EntityFramework.CodeFirst
+namespace Jarai.CSharp.EntityFramework.CodeFirst
 {
     internal class Program
     {

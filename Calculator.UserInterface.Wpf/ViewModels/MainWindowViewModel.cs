@@ -3,9 +3,9 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Windows;
 using System.Windows.Input;
-using Jarai.Calculator.Logic;
+using Jarai.CSharp.Calculator.Logic;
 
-namespace Jarai.Calculator.UserInterface.Wpf.ViewModels
+namespace Jarai.CSharp.Calculator.UserInterface.Wpf.ViewModels
 {
     public class MainWindowViewModel : INotifyPropertyChanged
     {

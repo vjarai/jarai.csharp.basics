@@ -1,6 +1,6 @@
-﻿using Jarai.Linq.Query;
+﻿using Jarai.CSharp.Linq.Query;
 
-namespace Jarai.Linq.Lambda
+namespace Jarai.CSharp.Linq.Lambda
 {
     internal class Program
     {

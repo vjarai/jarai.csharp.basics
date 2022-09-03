@@ -3,7 +3,7 @@ using System;
 //wg. Console
 
 
-namespace Jarai.Basics.HelloWorld
+namespace Jarai.CSharp.CSharp.Basics.HelloWorld
 {
     internal class Program
     {

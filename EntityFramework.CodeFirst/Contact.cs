@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Jarai.EntityFramework.CodeFirst
+namespace Jarai.CSharp.EntityFramework.CodeFirst
 {
     public class Contact
     {

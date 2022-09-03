@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Jarai.Calculator.Logic
+namespace Jarai.CSharp.Calculator.Logic
 {
     public class CalculationService
     {

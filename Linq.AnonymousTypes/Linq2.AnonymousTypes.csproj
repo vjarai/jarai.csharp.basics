@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{B3B070F3-8C19-49FA-9837-0B419939B315}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Jarai.Linq.AnonymousTypes</RootNamespace>
-    <AssemblyName>Jarai.Linq.AnonymousTypes</AssemblyName>
+    <RootNamespace>Jarai.CSharp.Linq.AnonymousTypes</RootNamespace>
+    <AssemblyName>Jarai.CSharp.Linq.AnonymousTypes</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

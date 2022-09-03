@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Jarai.EntityFramework.Inheritance.Entities
+namespace Jarai.CSharp.EntityFramework.Inheritance.Entities
 {
     public abstract class Contact
     {

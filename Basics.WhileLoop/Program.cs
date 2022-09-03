@@ -1,6 +1,6 @@
 using System;
 
-namespace Jarai.Basics.WhileLoop
+namespace Jarai.CSharp.Basics.WhileLoop
 {
     internal class Program
     {

@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace Jarai.Calculator.UserInterface.Wpf
+namespace Jarai.CSharp.Calculator.UserInterface.Wpf
 {
     /// <summary>
     ///     Interaction logic for App.xaml

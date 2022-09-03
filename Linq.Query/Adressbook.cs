@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Jarai.Linq.Query
+namespace Jarai.CSharp.Linq.Query
 {
     public class Adressbook
     {

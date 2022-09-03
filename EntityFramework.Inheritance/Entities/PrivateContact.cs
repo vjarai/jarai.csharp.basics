@@ -1,4 +1,4 @@
-﻿namespace Jarai.EntityFramework.Inheritance.Entities
+﻿namespace Jarai.CSharp.EntityFramework.Inheritance.Entities
 {
     internal class PrivateContact : Contact
     {

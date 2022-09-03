@@ -1,7 +1,7 @@
 ﻿using System.Data.Entity;
-using Jarai.EntityFramework.Inheritance.Entities;
+using Jarai.CSharp.EntityFramework.Inheritance.Entities;
 
-namespace Jarai.EntityFramework.Inheritance
+namespace Jarai.CSharp.EntityFramework.Inheritance
 {
     internal class DatabaseContext : DbContext
     {

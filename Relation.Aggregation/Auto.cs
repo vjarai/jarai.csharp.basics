@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace Jarai.Relation.Aggregation
+namespace Jarai.CSharp.Relation.Aggregation
 {
     public class Auto
     {

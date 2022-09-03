@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace Jarai.Linq.Query
+namespace Jarai.CSharp.Linq.Query
 {
     internal class Program
     {

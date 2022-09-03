@@ -1,6 +1,6 @@
 using System;
 
-namespace Jarai.Basics.Conditionals
+namespace Jarai.CSharp.Basics.Conditionals
 {
     internal class Program
     {

@@ -1,10 +1,10 @@
-using System;
+﻿using System;
 
-namespace Jarai.EntityFramework.CodeFirstFromDatabase
+namespace Jarai.CSharp.EntityFramework.CodeFirstFromDatabase
 {
     public class Contact
     {
-        public DateTime Created { get; set; }
+        public DateTime Created { get; set; } = DateTime.Now;
         public int Id { get; set; }
 
         public DateTime? Modified { get; set; }
