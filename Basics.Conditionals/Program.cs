@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 
 namespace Jarai.CSharp.Basics.Conditionals
 {
@@ -76,19 +76,19 @@ namespace Jarai.CSharp.Basics.Conditionals
             #region Variante array
 
             // Eleganteste Variante:
-            // "Wählen Sie eine Datenstruktor, die Ihr Programm einfach macht..."
+            // "WÃ¤hlen Sie eine Datenstruktur, die Ihr Programm einfach macht..."
 
             // Array anlegen
-            string[] noten = { "Sehr gut", "Gut", "Befriedigend", "Ausreichend", "Mangelhaft", "Ungenügend" };
+            string[] noten = { "Sehr gut", "Gut", "Befriedigend", "Ausreichend", "Mangelhaft", "UngenÃ¼gend" };
 
-            // Gültige Note?
+            // GÃ¼ltige Note?
             if (note >= 1 && note <= noten.Length)
             {
                 Console.WriteLine("Das ist:" + noten[note - 1]); //Array mit der note INDIZIEREN
             }
             else
             {
-                Console.WriteLine("Ungültige Eingabe");
+                Console.WriteLine("UngÃ¼ltige Eingabe");
             }
 
             #endregion

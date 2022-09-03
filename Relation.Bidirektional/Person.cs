@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Diagnostics;
 
 namespace Jarai.CSharp.Relation.Bidirectional
@@ -9,7 +9,7 @@ namespace Jarai.CSharp.Relation.Bidirectional
         private readonly string _vorname;
         private int _anzahlEhen;
         private string _nachname;
-        private Person _partner;
+        public Person Partner { get; private set; }
 
         public Person(string vorname, string nachname)
         {
@@ -27,13 +27,13 @@ namespace Jarai.CSharp.Relation.Bidirectional
             }
 
             // verheiratet ?
-            if (_partner == null)
+            if (Partner == null)
             {
                 ergebnis += " und bin " + (_anzahlEhen == 0 ? "ledig." : "geschieden.");
             }
             else
             {
-                ergebnis += " und bin verheiratet mit " + _partner._vorname + " " + _partner._nachname;
+                ergebnis += " und bin verheiratet mit " + Partner._vorname + " " + Partner._nachname;
             }
 
             Debug.WriteLine(ergebnis);
@@ -56,22 +56,22 @@ namespace Jarai.CSharp.Relation.Bidirectional
             }
 
             // Bin ich bereits verheiratet?
-            if (_partner != null)
+            if (Partner != null)
             {
                 throw new Exception(_vorname + " " + _nachname + " ist bereits verheiratet");
             }
 
             // Ist mein partner verheiratet?
-            if (neuerPartner._partner != null)
+            if (neuerPartner.Partner != null)
             {
                 throw new Exception(neuerPartner._vorname + " " + neuerPartner._nachname + " ist bereits verheiratet");
             }
 
             // ich habe einen neuen partner
-            _partner = neuerPartner;
+            Partner = neuerPartner;
 
             // Der partner meines partners bin ich
-            neuerPartner._partner = this;
+            neuerPartner.Partner = this;
 
             // mein partner nimmt meinen Namen an
             neuerPartner._nachname = _nachname;
@@ -82,22 +82,22 @@ namespace Jarai.CSharp.Relation.Bidirectional
 
         public void Trennen()
         {
-            if (_partner == null)
+            if (Partner == null)
             {
                 throw new Exception(_vorname + " " + _nachname + " ist nicht verheiratet.");
             }
 
             // Mein partner nimmt wieder seinen geburtsnamen an
-            _partner._nachname = _partner._geburtsname;
+            Partner._nachname = Partner._geburtsname;
 
             // Ich nehme wieder meinen geburtsnamen an
             _nachname = _geburtsname;
 
             // Mein partner hat keinen partner mehr
-            _partner._partner = null;
+            Partner.Partner = null;
 
             // Ich habe keinen partner mehr.
-            _partner = null;
+            Partner = null;
         }
     }
 }
