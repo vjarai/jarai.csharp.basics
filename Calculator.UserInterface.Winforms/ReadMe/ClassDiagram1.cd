@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Jarai.Calculator.Gui.WinForms.CalculatorForm">
+  <Class Name="Jarai.CSharp.Calculator.Gui.WinForms.CalculatorForm">
     <Position X="4.25" Y="1.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAACAAAAAAAQiAAAACAMA4AAAAAAABAAAAAAA=</HashCode>

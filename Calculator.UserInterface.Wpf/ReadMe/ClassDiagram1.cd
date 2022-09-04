@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
-  <Class Name="Jarai.Calculator.Logic.CalculationService">
+  <Class Name="Jarai.CSharp.Calculator.Logic.CalculationService">
     <Position X="8" Y="0.75" Width="1.5" />
     <TypeIdentifier />
   </Class>
-  <Class Name="Jarai.Calculator.Ui.Wpf.Views.MainWindow">
+  <Class Name="Jarai.CSharp.Calculator.Ui.Wpf.Views.MainWindow">
     <Position X="0.5" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
@@ -15,7 +15,7 @@
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Jarai.Calculator.Ui.Wpf.Views.MainWindowViewModel">
+  <Class Name="Jarai.CSharp.Calculator.Ui.Wpf.Views.MainWindowViewModel">
     <Position X="3.25" Y="0.75" Width="3.25" />
     <TypeIdentifier>
       <HashCode>AAICAAAACQAAAAACIQADAQAAwgAABACAAAAAEAAAAAA=</HashCode>

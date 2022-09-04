@@ -29,7 +29,7 @@
          </TypeUISetting>
       </GenericObjectDataSource>
    </Children>
-   <TypeInfo>Jarai.Calculator.Gui.Wpf.MainWindowViewModel, Jarai.Calculator.Gui.Wpf, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</TypeInfo>
+   <TypeInfo>Jarai.CSharp.Calculator.Gui.Wpf.MainWindowViewModel, Jarai.CSharp.Calculator.Gui.Wpf, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</TypeInfo>
    <TypeUISetting>
       <PropertyUISettings>
          <PropertyUISetting Name="Zahl1">

@@ -43,11 +43,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq2.AnonymousTypes", "Lin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relation1.Aggregation", "Relation.Aggregation\Relation1.Aggregation.csproj", "{72D0B84E-D0A0-41C7-8B46-83837A60AE3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relation3.Bidirectional", "Relation.Bidirektional\Relation3.Bidirectional.csproj", "{5E3FBEA6-99EA-44AC-AB8F-192FA215AD23}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relation2.Bidirectional", "Relation.Bidirektional\Relation2.Bidirectional.csproj", "{5E3FBEA6-99EA-44AC-AB8F-192FA215AD23}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pattern.Singleton", "Pattern.Singleton\Pattern.Singleton.csproj", "{FCBA4BF1-DCD5-46AC-A936-13412829E52F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relation2.Inheritance", "Relation.Inheritance\Relation2.Inheritance.csproj", "{34575F7A-8E53-4B9C-9848-20339D9AD13D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relation3.Inheritance", "Relation.Inheritance\Relation3.Inheritance.csproj", "{34575F7A-8E53-4B9C-9848-20339D9AD13D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pattern.State", "Pattern.State\Pattern.State.csproj", "{E35B3213-A6F4-4DD0-AB77-379240D6E6C1}"
 EndProject
@@ -73,7 +73,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.UserInterface.Wi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.UserInterface.Wpf", "Calculator.UserInterface.Wpf\Calculator.UserInterface.Wpf.csproj", "{5C67462A-075D-43CF-A9FD-8D21A0E58D75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relation3.Bidirectional.Tests", "Relation3.Bidirectional.Tests\Relation3.Bidirectional.Tests.csproj", "{48957C0F-6C79-4F49-92C7-B7D6E701CB8B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relation2.Bidirectional.Tests", "Relation3.Bidirectional.Tests\Relation2.Bidirectional.Tests.csproj", "{48957C0F-6C79-4F49-92C7-B7D6E701CB8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
