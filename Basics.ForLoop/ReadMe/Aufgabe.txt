@@ -1,0 +1,6 @@
+﻿Aufgabe: Zählergesteuerte Schleife
+==================================
+
+Erstellen Sie eine for schleife for(int monat=1; monat<=12; monat++){ ... } die nach 12 monatsumsätzen fragt.
+Wandeln Sie die texteingabe mittels double.Parse(...) in eine Zahl;
+Berechnen Sie den Jahresumsatz und geben Sie ihn aus.

@@ -1,0 +1,14 @@
+﻿Aufgabe: Verzweigungen und Array
+================================
+
+Erstellen Sie ein neues Projekt vom Typ Consolenanwendung (NET Framework).
+Erstellen Sie in Main eine int Variable schulnote und fragen Sie den Anwender danach (Console.ReadLine)
+Zeigen Sie die Note als Text an: "Sehr gut", "Gut", "Befriedigend",....
+
+Variante1: mit if(note==...) ... else ...
+
+Variante2: mit switch(note){ case 1: ...}
+
+Variante3: mit einem Array Console.WriteLine(notentext[note]);
+
+

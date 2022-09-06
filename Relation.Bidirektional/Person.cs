@@ -46,25 +46,25 @@ namespace Jarai.CSharp.Relation.Bidirectional
             // heirate ich eine null?
             if (neuerPartner == null)
             {
-                throw new Exception(_vorname + " " + _nachname + " kann keine \"null\" heiraten");
+                throw new InvalidOperationException(_vorname + " " + _nachname + " kann keine \"null\" heiraten");
             }
 
             // heirate ich mich selbst?
             if (neuerPartner == this)
             {
-                throw new Exception(_vorname + " " + _nachname + " kann sich nicht selbst heiraten");
+                throw new InvalidOperationException(_vorname + " " + _nachname + " kann sich nicht selbst heiraten");
             }
 
             // Bin ich bereits verheiratet?
             if (Partner != null)
             {
-                throw new Exception(_vorname + " " + _nachname + " ist bereits verheiratet");
+                throw new InvalidOperationException(_vorname + " " + _nachname + " ist bereits verheiratet");
             }
 
             // Ist mein partner verheiratet?
             if (neuerPartner.Partner != null)
             {
-                throw new Exception(neuerPartner._vorname + " " + neuerPartner._nachname + " ist bereits verheiratet");
+                throw new InvalidOperationException(neuerPartner._vorname + " " + neuerPartner._nachname + " ist bereits verheiratet");
             }
 
             // ich habe einen neuen partner
@@ -84,7 +84,7 @@ namespace Jarai.CSharp.Relation.Bidirectional
         {
             if (Partner == null)
             {
-                throw new Exception(_vorname + " " + _nachname + " ist nicht verheiratet.");
+                throw new InvalidOperationException(_vorname + " " + _nachname + " ist nicht verheiratet.");
             }
 
             // Mein partner nimmt wieder seinen geburtsnamen an

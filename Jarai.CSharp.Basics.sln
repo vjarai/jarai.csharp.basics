@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basics04.DoLoop", "Basics.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basics05.WhileLoop", "Basics.WhileLoop\Basics05.WhileLoop.csproj", "{708DA4C4-21E9-4467-A5C0-EC8088CD1F1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basics09.Zahlenraten", "Basics.Summary\Basics09.Zahlenraten.csproj", "{E9502092-CD69-4684-BBCF-3059CA985A4B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basics08.Zahlenraten", "Basics.Summary\Basics08.Zahlenraten.csproj", "{E9502092-CD69-4684-BBCF-3059CA985A4B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basics07.Array", "Basics.Array\Basics07.Array.csproj", "{5BA69137-30A7-4370-BA13-5E241164D9B9}"
 EndProject
@@ -65,7 +65,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.Inheritance
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.CodeFirstFromDatabase", "EntityFramework.CodeFirstFromDatabase\EntityFramework.CodeFirstFromDatabase.csproj", "{1C13E115-1352-467B-9E6F-6790B629E676}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basics08.Parameters", "Basics.OutParameters\Basics08.Parameters.csproj", "{3F081B0A-589B-400D-BC9C-E40D7D9972D2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basics09.Parameters", "Basics.OutParameters\Basics09.Parameters.csproj", "{3F081B0A-589B-400D-BC9C-E40D7D9972D2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basics01.HelloWorld", "Basics.HelloWorld\Basics01.HelloWorld.csproj", "{F5E1738F-8FFD-453C-8AB9-22A861136409}"
 EndProject
