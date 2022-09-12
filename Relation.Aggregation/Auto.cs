@@ -22,8 +22,8 @@ namespace Jarai.CSharp.Relation.Aggregation
 
         private readonly Motor _motor; // Auto HAT einen Motor (Aggregation)
 
-        // Array mit 4 Rad-Referenzen(!) anlegen
-        // (Die 4 Rad Objekte werden im Konstruktor in einer for Schleife erstellt)
+        // Array mit 4 Rad-Referenzen anlegen
+        // Die 4 Rad Objekte werden mit new im Auto Konstruktor erstellt
         private readonly Rad[] _rad = new Rad[4];
 
         private double _tachostand;
@@ -123,9 +123,6 @@ namespace Jarai.CSharp.Relation.Aggregation
             return ergebnis;
         }
 
-        ~Auto()
-        {
-            Debug.WriteLine("Destruktor (Finalize()) Auto");
-        }
+        
     }
 }

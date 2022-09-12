@@ -1,3 +1,7 @@
 ﻿Aufgabe: Klassen und Beziehungen
 ================================
 
+Erstellen Sie die Klassen Auto, Motor und Rad.
+Welche Beziehungen gibt es zwischen den Klassen?
+Wann verwenden Sie Aggregation ("HAT EIN") bzw. Vererbung ("IST EIN")?
+

@@ -1,16 +1,9 @@
-using System;
+ï»¿using System;
 
 namespace Jarai.CSharp.Basics.Parameters
 {
     internal class Program
     {
-        // Outputparameter müssen NICHT initialisiert sein
-        private static void BerechneLv(int alter, double vSumme, out int laufzeit, out double beitrag)
-        {
-            laufzeit = 65 - alter;
-            beitrag = vSumme / laufzeit;
-        }
-
         /// <summary>
         ///     Rahmenprogramm
         /// </summary>
@@ -24,11 +17,6 @@ namespace Jarai.CSharp.Basics.Parameters
 
             TauscheByRef(ref a, ref b);
             Console.WriteLine("nach TauscheByRef: a={0:d}, b={0:d}" + a + b);
-
-            int laufzeit;
-            double beitrag;
-            BerechneLv(40, 100000, out laufzeit, out beitrag);
-            Console.WriteLine("nach BerechneLV: Laufzeit, Beitrag" + laufzeit + beitrag);
 
             Console.ReadLine();
         }

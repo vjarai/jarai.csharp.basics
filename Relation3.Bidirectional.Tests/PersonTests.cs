@@ -54,7 +54,7 @@ namespace Jarai.CSharp.Relation.Bidirectional.Tests
 
 
         [Fact]
-        public void Beide_haben_korrekten_Partner_nach_heirat()
+        public void Beide_haben_jeweils_den_anderen_als_Partner_nach_heirat()
         {
             // Arrange
             var person1 = new Person("Susi", "Sorglos");
