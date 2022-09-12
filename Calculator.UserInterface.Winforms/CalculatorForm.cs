@@ -20,22 +20,22 @@ namespace Jarai.CSharp.Calculator.UserInterface.WinForms
             this.calculatorViewModelBindingSource.DataSource = _viewModel;
         }
 
-        private void addButton_Click(object sender, System.EventArgs e)
+        private void addButton_Click(object sender, EventArgs e)
         {
             _viewModel.Ergebnis = _calculationService.Add(_viewModel.Zahl1, _viewModel.Zahl2);
         }
 
-        private void subtractButton_Click(object sender, System.EventArgs e)
+        private void subtractButton_Click(object sender, EventArgs e)
         {
             _viewModel.Ergebnis = _calculationService.Subtract(_viewModel.Zahl1, _viewModel.Zahl2);
         }
 
-        private void multiplyButton_Click(object sender, System.EventArgs e)
+        private void multiplyButton_Click(object sender, EventArgs e)
         {
             _viewModel.Ergebnis = _calculationService.Multiply(_viewModel.Zahl1, _viewModel.Zahl2);
         }
 
-        private void divideButton_Click(object sender, System.EventArgs e)
+        private void divideButton_Click(object sender, EventArgs e)
         {
             try
             {
