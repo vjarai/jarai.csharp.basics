@@ -21,9 +21,11 @@ namespace Jarai.CSharp.Linq.Query
             }
 
             var fritz = adressBook.Contacts
-                .Where(contact => contact.Name.Contains("Fritz"))
+                .Where(contact => contact.Name.Contains("Jarai"))
                 .OrderBy(contact => contact.Name)
                 .FirstOrDefault();
+
+            Console.WriteLine(fritz);
         }
     }
 }

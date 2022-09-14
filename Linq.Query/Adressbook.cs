@@ -9,10 +9,10 @@ namespace Jarai.CSharp.Linq.Query
         public IEnumerable<Contact> Contacts { get; } = new List<Contact>
         {
             new Contact { Name = "Fritz Müller", Postleitzahl = 12345, Ort = "Berlin" },
-            new Contact { Name = "Fritz Müller", Postleitzahl = 12345, Ort = "Berlin" },
-            new Contact { Name = "Fritz Müller", Postleitzahl = 12345, Ort = "Berlin" },
-            new Contact { Name = "Fritz Müller", Postleitzahl = 12345, Ort = "Berlin" },
-            new Contact { Name = "Fritz Müller", Postleitzahl = 12345, Ort = "Berlin" }
+            new Contact { Name = "Susi Müller", Postleitzahl = 12345, Ort = "Berlin" },
+            new Contact { Name = "Franz Meier", Postleitzahl = 13456, Ort = "Berlin" },
+            new Contact { Name = "Bart Simpson", Postleitzahl = 81234, Ort = "München" },
+            new Contact { Name = "Viktor Jarai", Postleitzahl = 65779, Ort = "Kelkheim" }
         };
 
         public IEnumerable<Contact> GetFilteredContacts(Predicate<Contact> filterPredicate)
