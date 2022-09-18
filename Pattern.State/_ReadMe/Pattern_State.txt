@@ -18,7 +18,8 @@ Bei allen Fehlbedienungen soll eine Fehlermeldung erscheinen
 
 Erstellen Sie die Klasse Telefon mit allen fünf Funktionen.
 Erstellen Sie ein Klassendiagramm.
-Implementieren Sie das Zustandsabhängige Verhalten des Telfons ohne eine einzige Kontrollstruktur (if, switch, etc.) zu verwenden.
+
+Implementieren Sie das zustandsabhängige Verhalten des Telfons ohne eine einzige Kontrollstruktur (if, switch, etc.) zu verwenden!
 
 
 

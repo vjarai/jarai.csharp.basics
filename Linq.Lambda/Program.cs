@@ -1,4 +1,5 @@
-﻿using Jarai.CSharp.Linq.Query;
+﻿using System.Linq;
+using Jarai.CSharp.Linq.Query;
 
 namespace Jarai.CSharp.Linq.Lambda
 {
@@ -8,10 +9,10 @@ namespace Jarai.CSharp.Linq.Lambda
         {
             var adressBook = new Adressbook();
 
-            var sortedByOrtContacts = adressBook.GetSortedContacts(c => c.Ort);
-            var sortedByNameContacts = adressBook.GetSortedContacts(c => c.Name);
+            var sortedByOrtContacts = adressBook.Contacts.OrderBy(c => c.Ort).ToArray();
+            var sortedByNameContacts = adressBook.Contacts.OrderBy(c => c.Name).ToArray();
 
-            var filteredContacts = adressBook.GetFilteredContacts(c => c.Ort == "Berlin");
+            var filteredContacts = adressBook.Contacts.Where(c => c.Ort == "Berlin").ToArray();
         }
     }
 }

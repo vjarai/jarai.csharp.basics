@@ -5,7 +5,7 @@ namespace Jarai.CSharp.EntityFramework.CodeFirst
 {
     internal class Program
     {
-        private static void LogSqlCommand(string msg)
+        private static void WriteLog(string msg)
         {
             Console.WriteLine(msg);
         }
@@ -19,7 +19,7 @@ namespace Jarai.CSharp.EntityFramework.CodeFirst
                 Console.WriteLine(db.Database.Connection.ConnectionString);
 
                 // Activate Logging
-                db.Database.Log = LogSqlCommand;
+                db.Database.Log = WriteLog;
 
                 // Create record
                 var newContact = new Contact { Name = "Meier" };

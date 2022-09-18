@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 
 namespace Jarai.CSharp.Linq.YieldReturn
 {
@@ -13,6 +14,8 @@ namespace Jarai.CSharp.Linq.YieldReturn
 
             int fastResult = datasource.GetValuesUsingYieldReturn(100).FirstOrDefault();
             var fastResult2 = datasource.GetValuesUsingYieldReturn(100).Take(5).ToList();
+
+            Console.ReadLine();
         }
     }
 }

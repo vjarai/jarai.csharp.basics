@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
-  <Class Name="EntityFramework.CodeFirst.DatabaseContext">
-    <Position X="2.5" Y="0.75" Width="1.5" />
+  <Class Name="Jarai.CSharp.EntityFramework.CodeFirst.DatabaseContext">
+    <Position X="2.5" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>DatabaseContext.cs</FileName>
@@ -10,11 +10,11 @@
       <Property Name="Contacts" />
     </ShowAsCollectionAssociation>
   </Class>
-  <Class Name="EntityFramework.CodeFirst.Contact">
-    <Position X="6.25" Y="0.75" Width="2" />
+  <Class Name="Jarai.CSharp.EntityFramework.CodeFirst.Contact">
+    <Position X="6.25" Y="1" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>DatabaseContext.cs</FileName>
+      <HashCode>AAACAAAAAAAAAAAAABAAAAQAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Contact.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Tahoma" Size="8.25" />

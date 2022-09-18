@@ -65,6 +65,9 @@
     <None Include="packages.config" />
     <None Include="_ReadMe\ClassDiagram1.cd" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="_ReadMe\EntityFramework_Inheritance.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
