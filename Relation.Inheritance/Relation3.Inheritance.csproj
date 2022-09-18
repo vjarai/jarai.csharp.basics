@@ -57,6 +57,7 @@
   <ItemGroup>
     <Content Include="ReadMe\ClassDiagram1.gif" />
     <Content Include="ReadMe\ClassDiagram1.jpg" />
+    <Content Include="ReadMe\Relation2_Inheritance.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

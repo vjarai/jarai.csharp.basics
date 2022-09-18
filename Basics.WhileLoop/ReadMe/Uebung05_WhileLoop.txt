@@ -1,0 +1,10 @@
+﻿Aufgabe: Kopfgesteuerte Schleife
+==================================
+
+Gehen Sie "Kopfgesteuert" einkaufen ;-)
+
+Fragen Sie bei Programmstart wieviel geld sie mitnehmen.
+Kaufen sie zu unterschiedlichen Preisen ein, solange Ihr geld größer 0 ist: while(geld>0){ ... }
+Prüfen Sie, ob Sie sich den Kauf leisten könnnen und geben Sie ggf. eine Fehlermeldung aus if(preis>geld){ .... }
+Brechen Sie Schleife bei einem preis von 0 vorzeitig ab.
+Zeigen Sie nach verlassen der Schleife ihr verbliebenes geld an.

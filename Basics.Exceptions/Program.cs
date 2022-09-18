@@ -44,7 +44,7 @@ namespace Jarai.CSharp.Basics.Exceptions
             if (anzahlPersonen == 0 || anzahlKuchen == 0)
             {
                 // Auslösen einer Exception mit throw new ...
-                throw new NoPartyException("Party fällt leider aus!");
+                throw new Exception("Party fällt leider aus!");
             }
 
             // Hier ist mindestens eine EXPLIZITE Typkonversion ("CAST") notwendig

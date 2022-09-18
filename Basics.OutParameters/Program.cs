@@ -21,14 +21,20 @@ namespace Jarai.CSharp.Basics.Parameters
             Console.ReadLine();
         }
 
-        private static void TauscheByRef(ref int x, ref int y)
+        /// <summary>
+        /// Kann (wegen ref!) auf die Variablen a und b in Main zugreifen
+        /// </summary>
+        private static void TauscheByRef(ref int x, ref int y) // 
         {
             int temp = x;
             x = y;
             y = temp;
         }
 
-        private static void TauscheByValue(int x, int y) // Funktioniert nicht, da nur die Kopien getauscht werden
+        /// <summary>
+        /// // Funktioniert nicht, da nur x und y Kopien sind und nur diese Kopien getauscht werden
+        /// </summary>
+        private static void TauscheByValue(int x, int y) 
         {
             int temp = x;
             x = y;

@@ -2,5 +2,5 @@
 ==================================
 
 Erstellen Sie eine schleife do{ ... }while(...); die solange nach einem umsatz fragt, bis eine 0 eingegeben wird.
-Ermitteln Sie den größten, den kleinsten und den durchschnittlichen umsatz und geben Sie ihn aus.
+Berechnen Sie den größten, den kleinsten und den durchschnittlichen umsatz und geben Sie ihn aus.
 
