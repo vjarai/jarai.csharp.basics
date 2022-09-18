@@ -1,0 +1,11 @@
+﻿Aufgabe: Taschenrechner UI mit WinForms
+=======================================
+
+Erstellen Sie ein neues Projekt als "WPF Application".
+Erstellen Sie Textbox Controls zur Eingabe der Zahlen.
+Erstellen Sie Label Controls zur Beschriftung und für das Ergebnis.
+Erstellen Sie vier Buttons für die vier Grundrechenarten.
+Benutzen Sie für die Berechnung den CalculationService aus dem vorherigen Projekt.
+
+Zusatzaufgabe (nur für TN mit Event Vorkenntnisssen):
+Erstellen Sie eine CalculatorViewModel Klasse und Binden Sie die Textboxen und das Ergebnis daran.

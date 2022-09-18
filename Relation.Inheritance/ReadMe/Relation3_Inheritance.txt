@@ -2,18 +2,21 @@
 ============================================
 
 Erstellen Sie ein Klassendiagramm (Hinzufügen => Neues Element => Klassendiagramm)
-Erstellen Sie die Klassen Möbel mit den abstrakten Methoden void Montieren() und void Benutzen().
-Erstellen Sie die Klassen Stuhl und Tisch.
-Ein Stuhl und ein Tisch IST EIN Möbel (Vererbung).
+Erstellen Sie die abstracte Klasse Möbel mit den abstrakten Methoden void Montieren() und void Benutzen().
+Erstellen Sie die Klassen Stuhl und Tisch. Ein Stuhl und ein Tisch "IST EIN" Möbel (Vererbung).
 
-Erstellen Sie die Klasse Ikea mit der Methode Verkaufen() die als Ergebnis ein neues Möbel liefert.
-Erstellen Sie ein kleines Rahmenprogramm zum testen der Anwendung, z.B.:
+Erstellen Sie in der Klasse Ikea die Methode Verkaufen(), die als Ergebnis ein neues Möbel liefert.
+Erstellen Sie ein kleines Rahmenprogramm zum Testen der Anwendung, z.B.:
 
     var ikeaFrankfurt = new Ikea("Frankfurt");           
     var meinMöbel = ikeaFrankfurt.Verkaufen();
     meinMöbel.Montieren();
     meinMöbel.Benutzen();
 
+Wie können Sie sicherstellen, dass jedes Möbel vor dem Benutzen() montiert wird?
+
 Fazit: 
-Wann/Warum verwenden Sie Vererbung? Woran erkennt man die Vererbung?
+Wann verwenden Sie Vererbung? Woran erkennt man die Vererbung?
+Welche Methode ist die Fabrikmethode?
+
 

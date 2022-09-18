@@ -55,8 +55,6 @@
     <None Include="ReadMe\Ikea.pdf" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ReadMe\ClassDiagram1.gif" />
-    <Content Include="ReadMe\ClassDiagram1.jpg" />
     <Content Include="ReadMe\Relation3_Inheritance.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

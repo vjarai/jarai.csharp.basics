@@ -30,7 +30,10 @@ namespace Jarai.CSharp.Calculator.UserInterface.Wpf.ViewModels
 
         public double Ergebnis
         {
-            get => _ergebnis;
+            get
+            {
+                return _ergebnis;
+            }
             set
             {
                 if (value.Equals(_ergebnis))
@@ -49,7 +52,10 @@ namespace Jarai.CSharp.Calculator.UserInterface.Wpf.ViewModels
 
         public double Zahl1
         {
-            get => _zahl1;
+            get
+            {
+                return _zahl1;
+            }
             set
             {
                 if (value.Equals(_zahl1))
@@ -64,7 +70,10 @@ namespace Jarai.CSharp.Calculator.UserInterface.Wpf.ViewModels
 
         public double Zahl2
         {
-            get => _zahl2;
+            get
+            {
+                return _zahl2;
+            }
             set
             {
                 if (value.Equals(_zahl2))
