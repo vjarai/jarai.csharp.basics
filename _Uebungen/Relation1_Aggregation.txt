@@ -1,0 +1,8 @@
+﻿Aufgabe: Klassen und Beziehungen (Aggregation)
+==============================================
+
+Erstellen Sie ein Klassendiagramm (Hinzufügen => Neues Element => Klassendiagramm)
+Erstellen Sie die Klassen Auto, Motor und Rad und zeigen Sie diese in dem Klassendiagramm an.
+Welche Beziehungen gibt es zwischen den Klassen?
+Wann verwenden Sie Aggregation ("HAT EIN") bzw. Vererbung ("IST EIN")?
+

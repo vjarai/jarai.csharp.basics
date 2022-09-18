@@ -6,15 +6,16 @@ namespace Jarai.CSharp.Pattern.Singleton
     {
         static void Main(string[] args)
         {
-            // var highlander = new Highlander();
+            // Geht nicht (wg. privatem Konstruktor)
+            // var präsident = new Präsident();  
 
-            var highlander1 = Highlander.GetInstance();
-            var highlander2 = Highlander.GetInstance();
+            var präsident1 = Präsident.GetInstance();
+            var präsident2 = Präsident.GetInstance();
 
-            if (highlander1 != highlander2)
+            if (präsident1 != präsident2)
                 Console.WriteLine("Es darf nur einen geben!!!");
             else
-                Console.WriteLine("Alles ok.");
+                Console.WriteLine("Alles ok, es ist immer derselbe :-)");
         }
     }
 }

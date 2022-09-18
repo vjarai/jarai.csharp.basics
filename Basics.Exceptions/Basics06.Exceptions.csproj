@@ -49,7 +49,7 @@
     <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ReadMe\Uebung06_Exceptions.txt" />
+    <Content Include="ReadMe\Basics06_Exceptions.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

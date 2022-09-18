@@ -1,0 +1,19 @@
+﻿Aufgabe: Klassen und Beziehungen (Vererbung)
+============================================
+
+Erstellen Sie ein Klassendiagramm (Hinzufügen => Neues Element => Klassendiagramm)
+Erstellen Sie die Klassen Möbel mit den abstrakten Methoden void Montieren() und void Benutzen().
+Erstellen Sie die Klassen Stuhl und Tisch.
+Ein Stuhl und ein Tisch IST EIN Möbel (Vererbung).
+
+Erstellen Sie die Klasse Ikea mit der Methode Verkaufen() die als Ergebnis ein neues Möbel liefert.
+Erstellen Sie ein kleines Rahmenprogramm zum testen der Anwendung, z.B.:
+
+    var ikeaFrankfurt = new Ikea("Frankfurt");           
+    var meinMöbel = ikeaFrankfurt.Verkaufen();
+    meinMöbel.Montieren();
+    meinMöbel.Benutzen();
+
+Fazit: 
+Wann/Warum verwenden Sie Vererbung? Woran erkennt man die Vererbung?
+
