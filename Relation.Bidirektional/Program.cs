@@ -1,3 +1,5 @@
+﻿using System;
+
 namespace Jarai.CSharp.Relation.Bidirectional
 {
     internal class Program
@@ -8,28 +10,30 @@ namespace Jarai.CSharp.Relation.Bidirectional
             var p2 = new Person("Susi", "Sorglos");
 
             // nicht verheiratet
-            p1.Anzeigen();
-            p2.Anzeigen();
+            Console.WriteLine(p1);
+            Console.WriteLine(p2);
 
             p1.Heiraten(p2);
-            p1.Anzeigen();
-            p2.Anzeigen();
+            Console.WriteLine(p1);
+            Console.WriteLine(p2);
 
             p2.Trennen();
-            p1.Anzeigen();
-            p2.Anzeigen();
+            Console.WriteLine(p1);
+            Console.WriteLine(p2);
 
             /* Ausgabe
   
-        Guten Tag ich heisse Fritz Meier und bin ledig.
-        Guten Tag ich heisse Susi Sorglos und bin ledig.
-  
-        Guten Tag ich heisse Fritz Meier und bin verheiratet mit Susi Meier
-        Guten Tag ich heisse Susi Meier (geburtsname Sorglos) und bin verheiratet mit Fritz Meier
-              
-        Guten Tag ich heisse Fritz Meier und bin geschieden.
-        Guten Tag ich heisse Susi Sorglos und bin geschieden.
-        */
+            Guten Tag ich heisse Fritz Meier und bin ledig.
+            Guten Tag ich heisse Susi Sorglos und bin ledig.
+      
+            Guten Tag ich heisse Fritz Meier und bin verheiratet mit Susi Meier
+            Guten Tag ich heisse Susi Meier (geburtsname Sorglos) und bin verheiratet mit Fritz Meier
+                  
+            Guten Tag ich heisse Fritz Meier und bin geschieden.
+            Guten Tag ich heisse Susi Sorglos und bin geschieden.
+            */
+
+            Console.ReadLine();
         }
     }
 }

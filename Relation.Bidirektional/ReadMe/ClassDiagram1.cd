@@ -3,7 +3,7 @@
   <Class Name="Jarai.CSharp.Relation.Bidirectional.Person">
     <Position X="3" Y="0.75" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AAAABAAAAAAAAAJAAQAAAAAAAAAAAAAAIEAAAAgAAAg=</HashCode>
+      <HashCode>AAACBAAAAAAAAAIAAQAAAAAAAAAAAAAAIEAAAgAAAAg=</HashCode>
       <FileName>Person.cs</FileName>
     </TypeIdentifier>
   </Class>
