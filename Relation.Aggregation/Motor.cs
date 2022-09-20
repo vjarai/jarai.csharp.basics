@@ -1,33 +1,33 @@
-using System.Diagnostics;
+﻿using System.Diagnostics;
 
 namespace Jarai.CSharp.Relation.Aggregation
 {
     public class Motor
     {
-        private readonly int _ps;
-        private int _drehzahl;
-
         public Motor(int ps)
         {
-            _ps = ps;
+            Ps = ps;
             Debug.WriteLine("Motor gebaut");
         }
 
+        public int Drehzahl { get; private set; }
+        public int Ps { get; }
+
         public void Abstellen()
         {
-            _drehzahl = 0;
+            Drehzahl = 0;
             Debug.WriteLine("Motor abgestellt");
         }
 
         public void Anlassen()
         {
-            if (_drehzahl > 0)
+            if (Drehzahl > 0)
             {
                 Debug.WriteLine("Autsch, Motor war schon an.");
             }
             else
             {
-                _drehzahl = 1000;
+                Drehzahl = 1000;
                 Debug.WriteLine("Motor angelassen");
             }
         }
@@ -40,12 +40,12 @@ namespace Jarai.CSharp.Relation.Aggregation
 
         public override string ToString()
         {
-            return "PS: " + _ps;
+            return "PS: " + Ps;
         }
 
         ~Motor()
         {
-            Debug.WriteLine("Motor von Garbage Kollektion abger�umt.");
+            Debug.WriteLine("Motor von Garbage Kollektion abgeräumt.");
         }
     }
 }

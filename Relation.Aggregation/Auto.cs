@@ -15,20 +15,11 @@ namespace Jarai.CSharp.Relation.Aggregation
 
         private static readonly string Defaultfarbe = "Blau";
 
-        private readonly string _kfzKennzeichen;
-
-        // Readonly Attribute DÜRFEN NUR in einem Konstruktor geändert werden
-        private readonly string _marke; // Zur Laufzeit constant
-
         private readonly Motor _motor; // Auto HAT einen Motor (Aggregation)
 
         // Array mit 4 Rad-Referenzen anlegen
         // Die 4 Rad Objekte werden mit new im Auto Konstruktor erstellt
         private readonly Rad[] _rad = new Rad[4];
-
-        private double _tachostand;
-
-        private double _tankinhalt;
 
 
         /// <summary>
@@ -58,8 +49,8 @@ namespace Jarai.CSharp.Relation.Aggregation
         {
             FahrgestellNr = ++_anzahlAutos;
 
-            _kfzKennzeichen = kfzKennzeichen;
-            _marke = marke;
+            KfzKennzeichen = kfzKennzeichen;
+            Marke = marke;
             Farbe = farbe;
 
             // Motor erstellen (new) und "einbauen"
@@ -78,6 +69,15 @@ namespace Jarai.CSharp.Relation.Aggregation
 
         public string Farbe { get; set; }
 
+        public string KfzKennzeichen { get; }
+
+        // Readonly Attribute DÜRFEN NUR in einem Konstruktor geändert werden
+        public string Marke { get; }
+
+        public double Tachostand { get; private set; }
+
+        public double Tankinhalt { get; private set; }
+
         /// <summary>
         ///     zeigt ALLE Autodaten (incl. Motor und Rad) an
         /// </summary>
@@ -89,29 +89,29 @@ namespace Jarai.CSharp.Relation.Aggregation
         public void Fahren(double strecke)
         {
             _motor.Anlassen();
-            
-            _tachostand += strecke;
-            _tankinhalt -= strecke * Spritverbrauch / 100;
 
-            Debug.WriteLine("Neuer tachostand:" + _tachostand);
-            Debug.WriteLine("Neuer tankinhalt:" + _tankinhalt);
+            Tachostand += strecke;
+            Tankinhalt -= strecke * Spritverbrauch / 100;
+
+            Debug.WriteLine("Neuer tachostand:" + Tachostand);
+            Debug.WriteLine("Neuer tankinhalt:" + Tankinhalt);
 
             _motor.Abstellen();
         }
 
         public void Tanken(double liter)
         {
-            _tankinhalt += liter;
-            Debug.WriteLine("Neuer Tankinhalt:" + _tankinhalt);
+            Tankinhalt += liter;
+            Debug.WriteLine("Neuer Tankinhalt:" + Tankinhalt);
         }
 
         public override string ToString()
         {
             string ergebnis = "==============================\n";
-            ergebnis += "Kfz.Kennz.: " + _kfzKennzeichen + "\n";
-            ergebnis += "Marke     : " + _marke + "\n";
-            ergebnis += "Tachstand : " + _tachostand + "\n";
-            ergebnis += "Tankinhalt: " + _tankinhalt + "\n";
+            ergebnis += "Kfz.Kennz.: " + KfzKennzeichen + "\n";
+            ergebnis += "Marke     : " + Marke + "\n";
+            ergebnis += "Tachstand : " + Tachostand + "\n";
+            ergebnis += "Tankinhalt: " + Tankinhalt + "\n";
             ergebnis += "Fahrg.Nr  : " + FahrgestellNr + "\n";
             ergebnis += _motor + "\n";
 
@@ -122,7 +122,5 @@ namespace Jarai.CSharp.Relation.Aggregation
 
             return ergebnis;
         }
-
-        
     }
 }

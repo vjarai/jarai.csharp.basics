@@ -1,10 +1,10 @@
-using System.Diagnostics;
+﻿using System.Diagnostics;
 
 namespace Jarai.CSharp.Relation.Aggregation
 {
     public class Rad
     {
-        private readonly double _luftdruck = 2.0;
+        public double Luftdruck { get; } = 2.0;
 
         public Rad()
         {
@@ -18,7 +18,7 @@ namespace Jarai.CSharp.Relation.Aggregation
 
         public override string ToString()
         {
-            return "Luftdruck: " + _luftdruck;
+            return "Luftdruck: " + Luftdruck;
         }
     }
 }
