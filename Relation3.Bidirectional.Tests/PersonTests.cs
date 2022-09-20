@@ -5,17 +5,30 @@ namespace Jarai.CSharp.Relation.Bidirectional.Tests
 {
     public class PersonTests
     {
+
+        [Fact]
+        public void Kennt_den_eigenen_Namen()
+        {
+            // Arrange
+            var person = new Person("Susi", "Sorglos");
+
+            // Assert
+            Assert.Equal("Susi", person.Nachname);
+            Assert.Equal("Sorglos",person.Nachname);
+        }
+
         [Fact]
         public void Kann_nicht_heiraten_wenn_selbst_verheiratet()
         {
             // Arrange
-            var person1 = new Person("Susi", "Sorglos");
+            var target = new Person("Susi", "Sorglos");
             var person2 = new Person("Fritz", "Müller");
+            target.Heiraten(person2);
+
             var person3 = new Person("Max", "Mustermann");
-            person1.Heiraten(person2);
 
             // Act & Assert
-            Assert.Throws<InvalidOperationException>(() => person1.Heiraten(person3));
+            Assert.Throws<InvalidOperationException>(() => target.Heiraten(person3));
         }
 
 
@@ -23,13 +36,13 @@ namespace Jarai.CSharp.Relation.Bidirectional.Tests
         public void Kann_nicht_heiraten_wenn_Partner_verheiratet()
         {
             // Arrange
-            var person1 = new Person("Susi", "Sorglos");
+            var target = new Person("Susi", "Sorglos");
             var person2 = new Person("Fritz", "Müller");
             var person3 = new Person("Max", "Mustermann");
             person2.Heiraten(person3);
 
             // Act & Assert
-            Assert.Throws<InvalidOperationException>(() => person1.Heiraten(person2));
+            Assert.Throws<InvalidOperationException>(() => target.Heiraten(person2));
         }
 
         [Fact]
@@ -40,6 +53,17 @@ namespace Jarai.CSharp.Relation.Bidirectional.Tests
 
             // Act & Assert
             Assert.Throws<InvalidOperationException>(() => person.Heiraten(person));
+        }
+
+
+        [Fact]
+        public void Kann_keine_null_heiraten()
+        {
+            // Arrange
+            var person = new Person("Fritz", "Müller");
+
+            // Act & Assert
+            Assert.Throws<InvalidOperationException>(() => person.Heiraten(null));
         }
 
         [Fact]
