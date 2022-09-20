@@ -1,11 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="Test Driven Design Beispiel (&quot;Coded Specification&quot;)&#xD;&#xA;================================&#xD;&#xA;&#xD;&#xA;Eine Person HAT eine (0...1) Beziehung zu einer anderen Person.&#xD;&#xA;&#xD;&#xA;Test First:&#xD;&#xA;======&#xD;&#xA;Am Anfang sind alle Tests rot.&#xD;&#xA;Wenn alle richtig codiert wurde, sind am Ende alle Tests grün.&#xD;&#xA;&#xD;&#xA;=&gt; Immer von ROT nach GRÜN :-)">
+    <Position X="7.389" Y="1.319" Height="1.958" Width="3.776" />
+  </Comment>
   <Class Name="Jarai.CSharp.Relation.Bidirectional.Person">
-    <Position X="3" Y="0.75" Width="2.75" />
+    <Position X="3.5" Y="1" Width="2.75" />
+    <AssociationLine Name="Partner" Type="Jarai.CSharp.Relation.Bidirectional.Person" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.25" Y="2.188" />
+        <Point X="6.5" Y="2.188" />
+        <Point X="6.5" Y="2.938" />
+        <Point X="6.25" Y="2.938" />
+      </Path>
+    </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAACBAAAAAAAAAIAAQAAAAAAAAAAAAAAIEAAAgAAAAg=</HashCode>
       <FileName>Person.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Partner" />
+    </ShowAsAssociation>
   </Class>
   <Font Name="Tahoma" Size="8.25" />
 </ClassDiagram>

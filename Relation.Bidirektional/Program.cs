@@ -31,7 +31,8 @@ namespace Jarai.CSharp.Relation.Bidirectional
                   
             Guten Tag ich heisse Fritz Meier und bin geschieden.
             Guten Tag ich heisse Susi Sorglos und bin geschieden.
-            */
+            
+             */
 
             Console.ReadLine();
         }
