@@ -103,7 +103,7 @@ namespace Jarai.CSharp.Relation.Bidirectional.Tests
             person1.Heiraten(person2);
 
             // Act & Assert
-            Assert.Contains( "Susi", person2.ToString());
+            Assert.Contains( "Susi", person2.Anzeigen());
         }
 
         [Fact]
