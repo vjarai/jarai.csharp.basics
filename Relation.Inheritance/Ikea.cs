@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Diagnostics;
 using System.Reflection;
 
@@ -7,8 +7,6 @@ namespace Jarai.CSharp.Relation.Inheritance
     public class Ikea
     {
         private static readonly double Konzernumsatz;
-        private readonly double _filialumsatz;
-        private readonly string _standort;
 
         static Ikea()
         {
@@ -17,34 +15,73 @@ namespace Jarai.CSharp.Relation.Inheritance
 
         public Ikea(string standort)
         {
-            _standort = standort;
-            _filialumsatz = 0;
+            Standort = standort;
+            Filialumsatz = 0;
         }
+
+        public double Filialumsatz { get;private set; }
+        public string Standort { get; }
 
         public void Show()
         {
             Debug.WriteLine("=======================================");
-            Debug.WriteLine("Ikea in      : " + _standort);
-            Debug.WriteLine("Filialumsatz : " + _filialumsatz);
+            Debug.WriteLine("Ikea in      : " + Standort);
+            Debug.WriteLine("Filialumsatz : " + Filialumsatz);
             Debug.WriteLine("Konzernumsatz: " + Konzernumsatz);
         }
 
-        public M�bel Verkaufen()
+        public Möbel Verkaufen()
         {
-            Console.WriteLine($"Willkommen bei Ikea {_standort}.");
-            Console.WriteLine("Was m�chten Sie kaufen? (Tisch, Stuhl oder Leer).");
+            Console.WriteLine("Willkomen bei Ikea, was wollen Sie kaufen");
 
-            var eingabe = Console.ReadLine();
+            string eingabe = Console.ReadLine();
+            Möbel neuesMöbel = null;
+
+            switch (eingabe)
+            {
+                case "Stuhl":
+                    neuesMöbel = new Stuhl();
+                    break;
+
+                case "Tisch":
+                    neuesMöbel = new Tisch();
+                    break;
+
+                default:
+                    Console.WriteLine("Haben wir leider nicht");
+                    break;
+            }
+
+            if (neuesMöbel != null)  // Wurde etwas gekauft...?
+            {
+                // ja, an die Kasse gehen und zahlen
+                Filialumsatz += neuesMöbel.Preis;
+            }
+
+            // Warenausgabe
+            return neuesMöbel;
+        }
+
+        /*
+        public Möbel Verkaufen2()
+        {
+            Console.WriteLine($"Willkommen bei Ikea {Standort}.");
+            Console.WriteLine("Was möchten Sie kaufen? (Tisch, Stuhl oder Leer).");
+
+            string eingabe = Console.ReadLine();
 
             if (string.IsNullOrEmpty(eingabe))
+            {
                 return null;
+            }
 
-            var typeName = GetType().Namespace + "." + eingabe;
+            string typeName = GetType().Namespace + "." + eingabe;
 
-            // Instanz via Reflection �ber den Klassennamen erstellen
-            var m�bel = (M�bel)Assembly.GetExecutingAssembly().CreateInstance(typeName, true);
+            // Instanz via Reflection über den Klassennamen erstellen
+            var möbel = (Möbel)Assembly.GetExecutingAssembly().CreateInstance(typeName, true);
 
-            return m�bel;
+            return möbel;
         }
+        */
     }
 }

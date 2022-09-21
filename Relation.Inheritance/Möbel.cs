@@ -1,32 +1,35 @@
-using System;
+ï»¿using System;
 
 namespace Jarai.CSharp.Relation.Inheritance
 {
-    public abstract class Möbel // Sobald eine Klasse mindestens eine abstracte Methode enthält,
-        // wird die Klasse zur abstracten Basisclasse (ABC)
-        // Von abstracten Klassen kann keine Instanz erstellt werden 
+    /// <summary>
+    /// Wenn eine Klasse mindestens eine abstracte Methode enthÃ¤lt,
+    /// wird die Klasse zur abstracten Basisclasse.
+    /// Von abstracten Klassen kann keine Instanz erstellt werden.
+    /// </summary>
+    public abstract class MÃ¶bel
     {
-        protected bool IsAssembled = false;
+        public bool IsAssembled { get;  set; } = false;
 
-        protected string Name;
+        public string Name { get; }
 
-        protected double Preis;
+        public double Preis { get; }
 
 
-        protected Möbel(string name, double preis)
+        protected MÃ¶bel(string name, double preis)
         {
             Name = name;
             Preis = preis;
         }
 
-        public abstract void Benutzen(); // Abstracte Methoden MÜSSEN überschrieben werden
+        public abstract void Benutzen(); // Abstracte Methoden MÃœSSEN Ã¼berschrieben werden
 
-        public abstract void Montieren(); // und können in der Basisklasse NICHT implementiert werden
+        public abstract void Montieren(); // und kÃ¶nnen in der Basisklasse NICHT implementiert werden
 
         protected void ThrowExceptionIfNotAssembled()
         {
             if (!IsAssembled)
-                throw new InvalidOperationException("Möbel ist nicht montiert.");
+                throw new InvalidOperationException("MÃ¶bel ist nicht montiert.");
         }
     }
 }
