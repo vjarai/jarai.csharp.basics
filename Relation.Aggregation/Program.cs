@@ -6,8 +6,8 @@ namespace Jarai.CSharp.Relation.Aggregation
     {
         private static void Main(string[] args)
         {
-            // REFERENZ-Variable anlegen und ein Auto Objekt erstellen
-            var meinAuto = new Auto("F-XY-100", "VW", "ROT", 50);
+            // REFERENZ-Variable anlegen und ein neues Auto Objekt erstellen
+            var meinAuto = new Auto("VW", "ROT", 50);
 
             //Methoden aufrufen
             meinAuto.Tanken(30);

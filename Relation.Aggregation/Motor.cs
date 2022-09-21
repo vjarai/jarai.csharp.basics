@@ -42,10 +42,5 @@ namespace Jarai.CSharp.Relation.Aggregation
         {
             return "PS: " + Ps;
         }
-
-        ~Motor()
-        {
-            Debug.WriteLine("Motor von Garbage Kollektion abgeräumt.");
-        }
     }
 }

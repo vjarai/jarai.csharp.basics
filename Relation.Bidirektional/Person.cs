@@ -18,7 +18,7 @@ namespace Jarai.CSharp.Relation.Bidirectional
         
         public string Vorname { get; }
 
-        public string Anzeigen()
+        public override string ToString()
         {
             // TODO...
 
