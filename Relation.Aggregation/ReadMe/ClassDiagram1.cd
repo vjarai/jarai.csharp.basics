@@ -1,12 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
-  <Class Name="Auto">
-    <Position X="0.5" Y="0.5" Width="3.75" />
-    <Compartments>
-      <Compartment Name="Nested Types" Collapsed="false" />
-    </Compartments>
+  <Class Name="Jarai.CSharp.Relation.Aggregation.Auto">
+    <Position X="4.25" Y="2.5" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AIAABAAgAgAAAAAEAQIAIAIQAAAAAAIAAAQABAAAAAg=</HashCode>
+      <HashCode>AIAAAAAgAggQAAAEAQAAIQIAAAAAAABAAAQABAAAAAg=</HashCode>
       <FileName>Auto.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -16,17 +13,17 @@
       <Field Name="_rad" />
     </ShowAsCollectionAssociation>
   </Class>
-  <Class Name="Motor">
-    <Position X="5.75" Y="0.5" Width="1.5" />
+  <Class Name="Jarai.CSharp.Relation.Aggregation.Motor">
+    <Position X="9.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>CAAAgAAAAAAAAAAEAQAAIAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <HashCode>AAAAgAAAAAAAAAAEAQAAAAAAACAAAAAEAAAAAAAABAA=</HashCode>
       <FileName>Motor.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Rad">
-    <Position X="5.75" Y="3.5" Width="1.5" />
+  <Class Name="Jarai.CSharp.Relation.Aggregation.Rad">
+    <Position X="9.75" Y="4.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAEASAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAgAAAEAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Rad.cs</FileName>
     </TypeIdentifier>
   </Class>

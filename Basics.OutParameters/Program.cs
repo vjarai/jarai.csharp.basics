@@ -32,7 +32,7 @@ namespace Jarai.CSharp.Basics.Parameters
         }
 
         /// <summary>
-        /// // Funktioniert nicht, da nur x und y Kopien sind und nur diese Kopien getauscht werden
+        /// // Funktioniert nicht, da x und y Kopien von a und b sind ("call by value") und nur diese Kopien getauscht werden
         /// </summary>
         private static void TauscheByValue(int x, int y) 
         {

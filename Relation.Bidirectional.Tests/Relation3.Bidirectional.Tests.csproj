@@ -72,9 +72,9 @@
     <Analyzer Include="..\packages\xunit.analyzers.0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Relation.Bidirektional\Relation2.Bidirectional.csproj">
+    <ProjectReference Include="..\Relation.Bidirektional\Relation3.Bidirectional.csproj">
       <Project>{5E3FBEA6-99EA-44AC-AB8F-192FA215AD23}</Project>
-      <Name>Relation2.Bidirectional</Name>
+      <Name>Relation3.Bidirectional</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

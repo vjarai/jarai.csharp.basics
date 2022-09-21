@@ -43,11 +43,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq2.AnonymousTypes", "Lin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relation1.Aggregation", "Relation.Aggregation\Relation1.Aggregation.csproj", "{72D0B84E-D0A0-41C7-8B46-83837A60AE3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relation2.Bidirectional", "Relation.Bidirektional\Relation2.Bidirectional.csproj", "{5E3FBEA6-99EA-44AC-AB8F-192FA215AD23}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relation3.Bidirectional", "Relation.Bidirektional\Relation3.Bidirectional.csproj", "{5E3FBEA6-99EA-44AC-AB8F-192FA215AD23}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pattern.Singleton", "Pattern.Singleton\Pattern.Singleton.csproj", "{FCBA4BF1-DCD5-46AC-A936-13412829E52F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relation3.Inheritance", "Relation.Inheritance\Relation3.Inheritance.csproj", "{34575F7A-8E53-4B9C-9848-20339D9AD13D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relation2.Inheritance", "Relation.Inheritance\Relation2.Inheritance.csproj", "{34575F7A-8E53-4B9C-9848-20339D9AD13D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 WCF", "07 WCF", "{D0EF96B4-2007-4550-A9EF-8AB45A47C442}"
 EndProject
@@ -71,9 +71,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.UserInterface.Wi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.UserInterface.Wpf", "Calculator.UserInterface.Wpf\Calculator.UserInterface.Wpf.csproj", "{5C67462A-075D-43CF-A9FD-8D21A0E58D75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relation2.Bidirectional.Tests", "Relation3.Bidirectional.Tests\Relation2.Bidirectional.Tests.csproj", "{48957C0F-6C79-4F49-92C7-B7D6E701CB8B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pattern.State", "Pattern.State\Pattern.State.csproj", "{E35B3213-A6F4-4DD0-AB77-379240D6E6C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relation3.Bidirectional.Tests", "Relation.Bidirectional.Tests\Relation3.Bidirectional.Tests.csproj", "{48957C0F-6C79-4F49-92C7-B7D6E701CB8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -409,18 +409,6 @@ Global
 		{5C67462A-075D-43CF-A9FD-8D21A0E58D75}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5C67462A-075D-43CF-A9FD-8D21A0E58D75}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{5C67462A-075D-43CF-A9FD-8D21A0E58D75}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{48957C0F-6C79-4F49-92C7-B7D6E701CB8B}.Debug|.NET.ActiveCfg = Debug|Any CPU
-		{48957C0F-6C79-4F49-92C7-B7D6E701CB8B}.Debug|.NET.Build.0 = Debug|Any CPU
-		{48957C0F-6C79-4F49-92C7-B7D6E701CB8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{48957C0F-6C79-4F49-92C7-B7D6E701CB8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{48957C0F-6C79-4F49-92C7-B7D6E701CB8B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{48957C0F-6C79-4F49-92C7-B7D6E701CB8B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{48957C0F-6C79-4F49-92C7-B7D6E701CB8B}.Release|.NET.ActiveCfg = Release|Any CPU
-		{48957C0F-6C79-4F49-92C7-B7D6E701CB8B}.Release|.NET.Build.0 = Release|Any CPU
-		{48957C0F-6C79-4F49-92C7-B7D6E701CB8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{48957C0F-6C79-4F49-92C7-B7D6E701CB8B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{48957C0F-6C79-4F49-92C7-B7D6E701CB8B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{48957C0F-6C79-4F49-92C7-B7D6E701CB8B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{E35B3213-A6F4-4DD0-AB77-379240D6E6C1}.Debug|.NET.ActiveCfg = Debug|Any CPU
 		{E35B3213-A6F4-4DD0-AB77-379240D6E6C1}.Debug|.NET.Build.0 = Debug|Any CPU
 		{E35B3213-A6F4-4DD0-AB77-379240D6E6C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -433,6 +421,18 @@ Global
 		{E35B3213-A6F4-4DD0-AB77-379240D6E6C1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E35B3213-A6F4-4DD0-AB77-379240D6E6C1}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{E35B3213-A6F4-4DD0-AB77-379240D6E6C1}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{48957C0F-6C79-4F49-92C7-B7D6E701CB8B}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{48957C0F-6C79-4F49-92C7-B7D6E701CB8B}.Debug|.NET.Build.0 = Debug|Any CPU
+		{48957C0F-6C79-4F49-92C7-B7D6E701CB8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48957C0F-6C79-4F49-92C7-B7D6E701CB8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48957C0F-6C79-4F49-92C7-B7D6E701CB8B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{48957C0F-6C79-4F49-92C7-B7D6E701CB8B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{48957C0F-6C79-4F49-92C7-B7D6E701CB8B}.Release|.NET.ActiveCfg = Release|Any CPU
+		{48957C0F-6C79-4F49-92C7-B7D6E701CB8B}.Release|.NET.Build.0 = Release|Any CPU
+		{48957C0F-6C79-4F49-92C7-B7D6E701CB8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48957C0F-6C79-4F49-92C7-B7D6E701CB8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48957C0F-6C79-4F49-92C7-B7D6E701CB8B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{48957C0F-6C79-4F49-92C7-B7D6E701CB8B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -465,8 +465,8 @@ Global
 		{F5E1738F-8FFD-453C-8AB9-22A861136409} = {7ACF8AEB-7BE2-4E86-AFF8-AC41C5A8DE3C}
 		{32CC9943-05E9-4F65-9290-7E49A035D0F2} = {94703115-9176-44DC-B9A2-FC2B40CB152F}
 		{5C67462A-075D-43CF-A9FD-8D21A0E58D75} = {94703115-9176-44DC-B9A2-FC2B40CB152F}
-		{48957C0F-6C79-4F49-92C7-B7D6E701CB8B} = {C6F55941-4BC3-4A84-9E84-7B22C809DDC4}
 		{E35B3213-A6F4-4DD0-AB77-379240D6E6C1} = {906C9968-4AB7-4BC7-AE56-B78C6997F264}
+		{48957C0F-6C79-4F49-92C7-B7D6E701CB8B} = {C6F55941-4BC3-4A84-9E84-7B22C809DDC4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF1C7CE4-B62E-481C-BACC-354F61E48614}
