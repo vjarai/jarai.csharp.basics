@@ -1,4 +1,5 @@
-﻿using Jarai.WcfService.ClientApplication.CalculationServiceReference;
+﻿using Jarai.CSharp.WcfService.ClientApplication.CalculationServiceReference;
+
 
 namespace Jarai.CSharp.WcfService.ClientApplication
 {

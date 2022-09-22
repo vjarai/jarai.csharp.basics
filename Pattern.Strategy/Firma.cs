@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace Jarai.CSharp.Pattern.Strategy
 {
@@ -25,10 +26,13 @@ namespace Jarai.CSharp.Pattern.Strategy
         {
             Console.WriteLine("Firma '{0}' produziert:", Name);
 
-            foreach (var arbeiter in Mitarbeiter)
+            foreach (Arbeiter arbeiter in Mitarbeiter)
             {
                 arbeiter.Arbeiten();
+                Debug.WriteLine(arbeiter.ToString());
             }
         }
+
+
     }
 }

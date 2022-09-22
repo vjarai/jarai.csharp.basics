@@ -65,7 +65,7 @@
     <None Include="Connected Services\CalculationServiceReference\CalculationService2.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\CalculationServiceReference\Jarai.WcfService.ClientApplication.CalculationServiceReference.CompositeType.datasource">
+    <None Include="Connected Services\CalculationServiceReference\Jarai.CSharp.WcfService.ClientApplication.CalculationServiceReference.CompositeType.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
   </ItemGroup>

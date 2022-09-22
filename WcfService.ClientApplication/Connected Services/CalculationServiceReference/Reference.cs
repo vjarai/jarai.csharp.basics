@@ -8,14 +8,14 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Jarai.WcfService.ClientApplication.CalculationServiceReference {
+namespace Jarai.CSharp.WcfService.ClientApplication.CalculationServiceReference {
     using System.Runtime.Serialization;
     using System;
     
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="CompositeType", Namespace="http://schemas.datacontract.org/2004/07/Wcf.Service.HostApplication")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="CompositeType", Namespace="http://schemas.datacontract.org/2004/07/Jarai.CSharp.WcfService.HostApplication")]
     [System.SerializableAttribute()]
     public partial class CompositeType : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
@@ -85,19 +85,19 @@ namespace Jarai.WcfService.ClientApplication.CalculationServiceReference {
         System.Threading.Tasks.Task<string> GetDataAsync(int value);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICalculationService/GetDataUsingDataContract", ReplyAction="http://tempuri.org/ICalculationService/GetDataUsingDataContractResponse")]
-        Jarai.WcfService.ClientApplication.CalculationServiceReference.CompositeType GetDataUsingDataContract(Jarai.WcfService.ClientApplication.CalculationServiceReference.CompositeType composite);
+        Jarai.CSharp.WcfService.ClientApplication.CalculationServiceReference.CompositeType GetDataUsingDataContract(Jarai.CSharp.WcfService.ClientApplication.CalculationServiceReference.CompositeType composite);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICalculationService/GetDataUsingDataContract", ReplyAction="http://tempuri.org/ICalculationService/GetDataUsingDataContractResponse")]
-        System.Threading.Tasks.Task<Jarai.WcfService.ClientApplication.CalculationServiceReference.CompositeType> GetDataUsingDataContractAsync(Jarai.WcfService.ClientApplication.CalculationServiceReference.CompositeType composite);
+        System.Threading.Tasks.Task<Jarai.CSharp.WcfService.ClientApplication.CalculationServiceReference.CompositeType> GetDataUsingDataContractAsync(Jarai.CSharp.WcfService.ClientApplication.CalculationServiceReference.CompositeType composite);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface ICalculationServiceChannel : Jarai.WcfService.ClientApplication.CalculationServiceReference.ICalculationService, System.ServiceModel.IClientChannel {
+    public interface ICalculationServiceChannel : Jarai.CSharp.WcfService.ClientApplication.CalculationServiceReference.ICalculationService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class CalculationServiceClient : System.ServiceModel.ClientBase<Jarai.WcfService.ClientApplication.CalculationServiceReference.ICalculationService>, Jarai.WcfService.ClientApplication.CalculationServiceReference.ICalculationService {
+    public partial class CalculationServiceClient : System.ServiceModel.ClientBase<Jarai.CSharp.WcfService.ClientApplication.CalculationServiceReference.ICalculationService>, Jarai.CSharp.WcfService.ClientApplication.CalculationServiceReference.ICalculationService {
         
         public CalculationServiceClient() {
         }
@@ -126,11 +126,11 @@ namespace Jarai.WcfService.ClientApplication.CalculationServiceReference {
             return base.Channel.GetDataAsync(value);
         }
         
-        public Jarai.WcfService.ClientApplication.CalculationServiceReference.CompositeType GetDataUsingDataContract(Jarai.WcfService.ClientApplication.CalculationServiceReference.CompositeType composite) {
+        public Jarai.CSharp.WcfService.ClientApplication.CalculationServiceReference.CompositeType GetDataUsingDataContract(Jarai.CSharp.WcfService.ClientApplication.CalculationServiceReference.CompositeType composite) {
             return base.Channel.GetDataUsingDataContract(composite);
         }
         
-        public System.Threading.Tasks.Task<Jarai.WcfService.ClientApplication.CalculationServiceReference.CompositeType> GetDataUsingDataContractAsync(Jarai.WcfService.ClientApplication.CalculationServiceReference.CompositeType composite) {
+        public System.Threading.Tasks.Task<Jarai.CSharp.WcfService.ClientApplication.CalculationServiceReference.CompositeType> GetDataUsingDataContractAsync(Jarai.CSharp.WcfService.ClientApplication.CalculationServiceReference.CompositeType composite) {
             return base.Channel.GetDataUsingDataContractAsync(composite);
         }
     }
