@@ -13,9 +13,9 @@ Was versteht man unter "Persistence Ignorance"? Auf welche Klasse trifft das zu?
 
 Hinweise
 ========
-Sie können sich die generierte Datenbank im installierten "SQL Server Managment Studio" anzeigen lassen.
+Sie können sich die generierte Datenbank im "SQL Server Managment Studio" anzeigen lassen.
 Der Server hat standardmäßig den Namen: (localdb)\MSSQLLocalDB
-Die Datenbank hat standardmäßig gleichen Namen wie Ihr Datenbank Projekt in Visual Studio.
+Die Datenbank hat standardmäßig gleichen Namen wie das Projekt in Visual Studio.
 
 Best Practice:
 ==============

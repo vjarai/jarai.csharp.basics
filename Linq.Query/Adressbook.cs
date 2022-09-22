@@ -4,6 +4,7 @@
     {
         public Adressbook()
         {
+            // Das Contacts Array mit Testdaten füllen...
             Contacts = new[]
             {
                 new Contact { Name = "Fritz Müller", Postleitzahl = 12345, Ort = "Berlin" },
@@ -14,6 +15,10 @@
             };
         }
 
+        /// <summary>
+        /// Array aller in diesem Adressbuch gespeicherten Adressen
+        /// (In der Praxis würde man statt des Arrays eine generische Liste nehmen...)
+        /// </summary>
         public Contact[] Contacts { get; }
     }
 }
