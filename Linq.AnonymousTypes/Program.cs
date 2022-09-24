@@ -13,8 +13,8 @@ namespace Jarai.CSharp.Linq.AnonymousTypes
             var contactsFromBerlin =
                 from contact in adressBook.Contacts
                 where contact.Ort == "Berlin"
-                // Passende (anonyme/namenlose) Klasse wird automatisch generiert
-                select new { Nachname = contact.Name, City = $"DE {contact.Postleitzahl} {contact.Ort}" };
+                // Passende (anonyme/namenlose) Klasse (mit den Properties Nachname und City) wird automatisch generiert
+                select new{ Nachname = contact.Name, City = $"DE {contact.Postleitzahl} {contact.Ort}" };
 
             foreach (var adress in contactsFromBerlin)
             {

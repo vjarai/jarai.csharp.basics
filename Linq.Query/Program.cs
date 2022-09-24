@@ -3,18 +3,31 @@ using System.Linq;
 
 namespace Jarai.CSharp.Linq.Query
 {
+
+    // Website 101 Linq
+
     internal class Program
     {
+        /// <summary>
+        /// LINQ => Language Integrated Native Query
+        /// Abfragen auf ein Objektmodell im Speicher
+        /// </summary>
         private static void Main(string[] args)
         {
             var adressBook = new Adressbook();
 
             // LINQ Query Syntax
-            var contactsFromBerlin =
-                from contact in adressBook.Contacts
-                where contact.Ort == "Berlin"
-                orderby contact.Name
-                select contact;
+            var contactsFromBerlin =                 // Ergebnisvariable
+                from contact in adressBook.Contacts  // entspricht Schleife
+                where contact.Ort == "Berlin"        // Filter
+                orderby contact.Name                 // Sort
+                select  contact;                      // Ins Ergebnis übernehmen
+
+            // Oder Alternativ LINQ Methoden Syntax
+            var contactsFromMunich = adressBook.Contacts
+                .Where(contact => contact.Ort.StartsWith( "München"))
+                .OrderBy(contact => contact.Name);
+
 
             foreach (var item in contactsFromBerlin)
             {
