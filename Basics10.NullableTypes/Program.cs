@@ -1,4 +1,4 @@
-﻿namespace Basics10.NullableTypes
+﻿namespace Jarai.CSharp.Basics.NullableTypes
 {
     internal class Program
     {
