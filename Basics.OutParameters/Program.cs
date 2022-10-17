@@ -13,10 +13,10 @@ namespace Jarai.CSharp.Basics.Parameters
             int a = 100, b = 200;
 
             TauscheByValue(a, b);
-            Console.WriteLine("nach TauscheByValue: a={0:d}, b={0:d}" + a + b);
+            Console.WriteLine($"nach TauscheByValue: a={a}, b={b}");
 
             TauscheByRef(ref a, ref b);
-            Console.WriteLine("nach TauscheByRef: a={0:d}, b={0:d}" + a + b);
+            Console.WriteLine($"nach TauscheByRef: a={a}, b={b}");
 
             Console.ReadLine();
         }
@@ -34,7 +34,7 @@ namespace Jarai.CSharp.Basics.Parameters
         /// <summary>
         /// // Funktioniert nicht, da x und y Kopien von a und b sind ("call by value") und nur diese Kopien getauscht werden
         /// </summary>
-        private static void TauscheByValue(int x, int y) 
+        private static void TauscheByValue(int x, int y)
         {
             int temp = x;
             x = y;
