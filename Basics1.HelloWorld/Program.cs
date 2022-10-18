@@ -1,9 +1,9 @@
-using System;
+ï»¿using System;
 
 //wg. Console
 
 
-namespace Jarai.CSharp.CSharp.Basics.HelloWorld
+namespace Jarai.CSharp.Basics.HelloWorld
 {
     internal class Program
     {
@@ -15,7 +15,7 @@ namespace Jarai.CSharp.CSharp.Basics.HelloWorld
         {
             Console.WriteLine("Ihr vorname?");
 
-            string vorname; // Lokale Variable anlegen (überall möglich)
+            string vorname; // Lokale Variable anlegen (Ã¼berall mÃ¶glich)
             vorname = Console.ReadLine();
 
             Console.WriteLine("Ihr nachname?");
@@ -24,7 +24,7 @@ namespace Jarai.CSharp.CSharp.Basics.HelloWorld
             // Textverkettung mit +
             Console.WriteLine("Guten Tag " + vorname + " " + nachname + " !");
 
-            // Vergleich der INHALTE (in Java wäre .equals() nötig)
+            // Vergleich der INHALTE (in Java wÃ¤re .equals() nÃ¶tig)
             // if( vorname == nachname )
             //	Console.WriteLine( "Vorname und Nachname sind gleich.");
 
