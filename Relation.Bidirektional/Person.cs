@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System.Diagnostics;
 
 namespace Jarai.CSharp.Relation.Bidirectional
 {
@@ -9,34 +9,95 @@ namespace Jarai.CSharp.Relation.Bidirectional
 
         public Person(string vorname, string nachname)
         {
-            // TODO...
+            Vorname = vorname;
+            Nachname = _geburtsname = nachname;
         }
 
-        public string Nachname { get; }
-
-        public Person Partner { get; private set; }
-        
         public string Vorname { get; }
+        public string Nachname { get; private set; }
+        public Person? Partner { get; private set; }
 
         public override string ToString()
         {
-            // TODO...
+            string ergebnis = "Guten Tag ich heisse " + Vorname + " " + Nachname;
 
-            throw new NotImplementedException();
+            if (_geburtsname != Nachname)
+            {
+                ergebnis += " (geburtsname " + _geburtsname + ")";
+            }
+
+            // verheiratet ?
+            if (Partner == null)
+            {
+                ergebnis += " und bin " + (_anzahlEhen == 0 ? "ledig." : "geschieden.");
+            }
+            else
+            {
+                ergebnis += " und bin verheiratet mit " + Partner.Vorname + " " + Partner.Nachname;
+            }
+
+            Debug.WriteLine(ergebnis);
+
+            return ergebnis;
         }
 
         public void Heiraten(Person neuerPartner)
         {
-            // TODO...
+            // heirate ich eine null?
+            if (neuerPartner == null)
+            {
+                throw new InvalidOperationException(Vorname + " " + Nachname + " kann keine \"null\" heiraten");
+            }
 
-            throw new NotImplementedException();
+            // heirate ich mich selbst?
+            if (neuerPartner == this)
+            {
+                throw new InvalidOperationException(Vorname + " " + Nachname + " kann sich nicht selbst heiraten");
+            }
+
+            // Bin ich bereits verheiratet?
+            if (Partner != null)
+            {
+                throw new InvalidOperationException(Vorname + " " + Nachname + " ist bereits verheiratet");
+            }
+
+            // Ist mein partner verheiratet?
+            if (neuerPartner.Partner != null)
+            {
+                throw new InvalidOperationException(neuerPartner.Vorname + " " + neuerPartner.Nachname + " ist bereits verheiratet");
+            }
+
+            // ich habe einen neuen partner
+            Partner = neuerPartner;
+
+            // Der partner meines partners bin ich
+            neuerPartner.Partner = this;
+
+            // mein partner nimmt meinen Namen an
+            neuerPartner.Nachname = Nachname;
+
+            ++_anzahlEhen;
+            ++neuerPartner._anzahlEhen;
         }
 
         public void Trennen()
         {
-            // TODO...
+            if (Partner == null)
+            {
+                throw new InvalidOperationException(Vorname + " " + Nachname + " ist nicht verheiratet.");
+            }
 
-            throw new NotImplementedException();
+            // Mein partner nimmt wieder seinen geburtsnamen an
+            Partner.Nachname = Partner._geburtsname;
+
+            // Ich nehme wieder meinen geburtsnamen an
+            Nachname = _geburtsname;
+
+            // Mein partner hat keinen partner mehr
+            Partner.Partner = null;
+
+            // Ich habe keinen partner mehr.
+            Partner = null;
         }
     }
 }

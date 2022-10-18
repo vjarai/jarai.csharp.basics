@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 
 namespace Jarai.CSharp.Relation.Inheritance
 {
@@ -11,11 +11,14 @@ namespace Jarai.CSharp.Relation.Inheritance
 
             try
             {
-                var meinMöbel = ikeaFrankfurt.Verkaufen();
+                var meinMÃ¶bel = ikeaFrankfurt.Verkaufen();
 
-                // meinMöbel.Benutzen(); // Exception: Nicht montiert!
-                meinMöbel.Montieren();
-                meinMöbel.Benutzen();
+                if (meinMÃ¶bel != null)
+                {
+                    // meinMÃ¶bel.Benutzen(); // Exception: Nicht montiert!
+                    meinMÃ¶bel.Montieren();
+                    meinMÃ¶bel.Benutzen();
+                }
             }
             catch (Exception e)
             {
