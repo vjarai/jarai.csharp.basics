@@ -6,6 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
+    <RootNamespace>Jarai.CSharp.EntityFrameworkCore.Sqlite</RootNamespace>
+    <AssemblyName>Jarai.CSharp.EntityFrameworkCore.Sqlite</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
