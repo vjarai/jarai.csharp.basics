@@ -28,7 +28,8 @@ namespace Jarai.CSharp.Pattern.Strategy
 
             foreach (Arbeiter arbeiter in Mitarbeiter)
             {
-                arbeiter.Arbeiten();
+                arbeiter.Arbeiten(); // Spätes binden zur Laufzeit
+
                 Debug.WriteLine(arbeiter.ToString());
             }
         }

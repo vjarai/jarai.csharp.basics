@@ -27,7 +27,7 @@ namespace Jarai.CSharp.Pattern.State
         public void Abheben()
         {
             // Die tatsächlich aufgerufene Methode ist abhängig vom aktuellen Zustand (spätes binden)
-            AktuellerZustand = AktuellerZustand.Abheben();
+            AktuellerZustand = AktuellerZustand.Abheben(); // Delegation: 
         }
 
         public void AnnehmenAnruf()

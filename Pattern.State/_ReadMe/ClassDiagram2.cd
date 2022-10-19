@@ -18,7 +18,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Jarai.CSharp.Pattern.State.Telefon">
-    <Position X="0.5" Y="1.25" Width="1.5" />
+    <Position X="0.5" Y="1.25" Width="1.75" />
     <TypeIdentifier>
       <HashCode>gAEAAAAAAAAAEAAAAAAAAAEAAAAAAAAAgAAAAABABAA=</HashCode>
       <FileName>Telefon.cs</FileName>
