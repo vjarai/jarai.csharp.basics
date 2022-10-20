@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7F1D2F9B-0409-47E8-9804-7ED1089B64B6}</ProjectGuid>
+    <ProjectGuid>{B3B070F3-8C19-49FA-9837-0B419939B315}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Jarai.CSharp.WcfService.ClientApplication</RootNamespace>
-    <AssemblyName>Jarai.CSharp.WcfService.ClientApplication</AssemblyName>
+    <RootNamespace>Jarai.CSharp.Linq.AnonymousTypes</RootNamespace>
+    <AssemblyName>Jarai.CSharp.Linq.AnonymousTypes</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -35,8 +35,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Runtime.Serialization" />
-    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,51 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Connected Services\CalculationServiceReference\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Connected Services\CalculationServiceReference\CalculationService.wsdl" />
-    <None Include="Connected Services\CalculationServiceReference\CalculationService.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\CalculationServiceReference\CalculationService1.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\CalculationServiceReference\CalculationService2.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\CalculationServiceReference\Jarai.CSharp.WcfService.ClientApplication.CalculationServiceReference.CompositeType.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="ReadMe\ClassDiagram1.cd" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadataStorage Include="Connected Services\CalculationServiceReference\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\CalculationServiceReference\CalculationService.disco" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\CalculationServiceReference\configuration91.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\CalculationServiceReference\configuration.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Connected Services\CalculationServiceReference\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
+    <ProjectReference Include="..\Linq.Query\Linq1.Query.csproj">
+      <Project>{19A34AB9-3D4C-4350-9C30-AB6925448F94}</Project>
+      <Name>Linq1.Query</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

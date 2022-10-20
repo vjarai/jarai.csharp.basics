@@ -1,4 +1,4 @@
-﻿namespace EntityFramework.Core.Sqlite
+﻿namespace Jarai.CSharp.EntityFrameworkCore.Sqlite
 {
     public class Blog
     {

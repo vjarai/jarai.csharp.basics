@@ -30,12 +30,12 @@ namespace Jarai.CSharp.Relation.Inheritance
             Debug.WriteLine("Konzernumsatz: " + Konzernumsatz);
         }
 
-        public Möbel Verkaufen()
+        public Möbel? Verkaufen()
         {
             Console.WriteLine("Willkomen bei Ikea, was wollen Sie kaufen");
 
-            string eingabe = Console.ReadLine();
-            Möbel neuesMöbel = null;
+            string? eingabe = Console.ReadLine();
+            Möbel? neuesMöbel = null;
 
             switch (eingabe)
             {

@@ -6,8 +6,6 @@ namespace Jarai.CSharp.Pattern.Strategy
     {
         protected string Name { get; }  // Protected: Die Klasse und alle abgeleiteten Klassen können darauf zugreifen.
 
-        public string Vorname { get; set; }
-
         public Arbeiter(string name)
         {
             Name = name;
@@ -23,7 +21,7 @@ namespace Jarai.CSharp.Pattern.Strategy
 
         public override string ToString()
         {
-            return $"Arbeiter : {Name}, {Vorname}";
+            return $"Arbeiter : {Name} ";
         }
     }
 }

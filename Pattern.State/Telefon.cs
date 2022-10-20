@@ -1,17 +1,17 @@
-using System.Diagnostics;
+Ôªøusing System.Diagnostics;
 
 namespace Jarai.CSharp.Pattern.State
 {
     public class Telefon
     {
         // Ein Telefon hat einen zustand
-        // Beispiel f¸r "Zustand Entwurfsmuster"
+        // Beispiel f√ºr "Zustand Entwurfsmuster"
 
         private Zustand _aktuellerZustand;
 
         public Telefon()
         {
-            AktuellerZustand = new Aufgelegt();
+            _aktuellerZustand = new Aufgelegt();
         }
 
         public Zustand AktuellerZustand
@@ -26,8 +26,8 @@ namespace Jarai.CSharp.Pattern.State
 
         public void Abheben()
         {
-            // Die tats‰chlich aufgerufene Methode ist abh‰ngig vom aktuellen Zustand (sp‰tes binden)
-            AktuellerZustand = AktuellerZustand.Abheben();
+            // Die tats√§chlich aufgerufene Methode ist abh√§ngig vom aktuellen Zustand (sp√§tes binden)
+            AktuellerZustand = AktuellerZustand.Abheben(); // Delegation: 
         }
 
         public void AnnehmenAnruf()
@@ -46,9 +46,9 @@ namespace Jarai.CSharp.Pattern.State
             AktuellerZustand = AktuellerZustand.Sprechen();
         }
 
-        public void W‰hlen()
+        public void W√§hlen()
         {
-            AktuellerZustand = AktuellerZustand.W‰hlen();
+            AktuellerZustand = AktuellerZustand.W√§hlen();
         }
     }
 }
