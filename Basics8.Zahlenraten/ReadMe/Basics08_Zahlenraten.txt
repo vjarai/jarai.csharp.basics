@@ -7,6 +7,6 @@ Nachdem der Anwender einen Tipp eingegeben hat, antwortet der Computer, ob der T
 Der Anwender muss so lange einen Tipp eingeben, bis er die richtige Zahl erraten hat.
 Der Computer zeigt am Ende an, wieviele Versuche der Anwender benötigt hat.
 
-Optional: Der Computer fragt am Ende ob das Spiel wieder von vorne beginnen soll.
+Optional: Der Computer fragt am Ende, ob das Spiel noch einmal von vorne beginnen soll.
 
 
