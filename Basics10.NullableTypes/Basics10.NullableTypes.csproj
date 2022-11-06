@@ -9,4 +9,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="ReadMe\NullableTypes.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ReadMe\NullableTypes.txt" />
+  </ItemGroup>
+
 </Project>
