@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
-  <Class Name="EntityFramework.Core.Sqlite.Blog">
+  <Class Name="Jarai.CSharp.EntityFrameworkCore.Sqlite.Blog">
     <Position X="7.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAABAAAABAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
@@ -10,14 +10,14 @@
       <Property Name="Posts" />
     </ShowAsCollectionAssociation>
   </Class>
-  <Class Name="EntityFramework.Core.Sqlite.BloggingContext">
-    <Position X="5.5" Y="1.75" Width="1.5" />
+  <Class Name="Jarai.CSharp.EntityFrameworkCore.Sqlite.BloggingContext">
+    <Position X="4.5" Y="2" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAQAAAAAABAAAAAAAAMAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BloggingContext.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="EntityFramework.Core.Sqlite.Post">
+  <Class Name="Jarai.CSharp.EntityFrameworkCore.Sqlite.Post">
     <Position X="11" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAIAAAAAgABAEEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
