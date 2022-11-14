@@ -92,19 +92,7 @@ namespace Jarai.CSharp.Relation.Bidirectional.Tests
             Assert.Equal(person1, person2.Partner);
         }
 
-        [Fact]
-        public void Kennt_den_Namen_des_Partners_nach_heirat()
-        {
-            // Arrange
-            var person1 = new Person("Susi", "Sorglos");
-            var person2 = new Person("Fritz", "Müller");
-
-            // Act
-            person1.Heiraten(person2);
-
-            // Act & Assert
-            Assert.Contains( "Susi", person2.ToString());
-        }
+        
 
         [Fact]
         public void Beide_haben_keinen_Partner_mehr_nach_trennung()

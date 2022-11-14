@@ -17,22 +17,24 @@ namespace Jarai.CSharp.Linq.Query
             var adressBook = new Adressbook();
 
             // LINQ Query Syntax
-            var contactsFromBerlin =                 // Ergebnisvariable
+            var contactsFromBerlinQuery =                 // Ergebnisvariable
                 from contact in adressBook.Contacts  // entspricht Schleife
                 where contact.Ort == "Berlin"        // Filter
                 orderby contact.Name                 // Sort
                 select  contact;                      // Ins Ergebnis übernehmen
 
             // Oder Alternativ LINQ Methoden Syntax
-            var contactsFromMunich = adressBook.Contacts
+            var contactsFromMunichQuery = adressBook.Contacts
                 .Where(contact => contact.Ort.StartsWith( "München"))
                 .OrderBy(contact => contact.Name);
 
 
-            foreach (var item in contactsFromBerlin)
+            foreach (var item in contactsFromBerlinQuery)
             {
                 Console.WriteLine(item);
             }
+
+            
 
             // LINQ Methoden Syntax (mit => Lambda Expressions)
             var fritz = adressBook.Contacts
