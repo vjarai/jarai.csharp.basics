@@ -1,4 +1,4 @@
-using System;
+Ôªøusing System;
 
 namespace Jarai.CSharp.Basics.Zahlenraten
 {
@@ -14,12 +14,13 @@ namespace Jarai.CSharp.Basics.Zahlenraten
                 int tipp, anzahlVersuche = 0;
 
                 // Berechnung Zufallszahl
-                var r = new Random();
-                int geheimzahl = r.Next(1, 101);
+                var zufallszahlenGenerator = new Random();
+                int geheimzahl = zufallszahlenGenerator.Next(1, 101);
+
                 Console.WriteLine("Geheimzahl:" + geheimzahl);
 
                 // Einlesen von Tastatureingaben
-                Console.WriteLine("Willkommen zum frˆhlichen Zahlenraten (zwischen 1 und 100)!");
+                Console.WriteLine("Willkommen zum fr√∂hlichen Zahlenraten (zwischen 1 und 100)!");
                 do
                 {
                     Console.WriteLine("Bitte Tipp eingeben: ");
@@ -30,12 +31,13 @@ namespace Jarai.CSharp.Basics.Zahlenraten
 
                     if (tipp > geheimzahl)
                     {
-                        Console.WriteLine("Leider zu groﬂ...");
+                        Console.WriteLine("Leider zu gro√ü...");
                     }
                     else if (tipp < geheimzahl)
                     {
                         Console.WriteLine("Leider zu klein...");
                     }
+
                 } while (tipp != geheimzahl);
 
                 Console.WriteLine("Gewonnen !\nUnd das mit nur " + anzahlVersuche + " Versuchen!!!");

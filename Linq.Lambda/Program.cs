@@ -9,10 +9,26 @@ namespace Jarai.CSharp.Linq.Lambda
         {
             var adressBook = new Adressbook();
 
-            var sortedByOrtContacts = adressBook.Contacts.OrderBy(c => c.Ort).ToArray();
-            var sortedByNameContacts = adressBook.Contacts.OrderBy(c => c.Name).ToArray();
+            var sortedByOrtContacts1 = adressBook.Contacts
+                .Where(contact => contact.Name == "Müller")
+                .Select(contact => contact.Ort)
+                .ToArray();
 
-            var filteredContacts = adressBook.Contacts.Where(c => c.Ort == "Berlin").ToArray();
+            var sortedByOrtContacts2= adressBook.Contacts
+                .Where(NameFilter)
+                .Select(OrtSelector)
+                .ToArray();
+            
+        }
+
+        private static string OrtSelector(Contact contact)
+        {
+            return contact.Ort;
+        }
+
+        private static bool NameFilter(Contact contact)
+        {
+            return contact.Name == "Müller";
         }
     }
 }

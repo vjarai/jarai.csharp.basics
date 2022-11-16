@@ -34,15 +34,6 @@ namespace Jarai.CSharp.Linq.Query
                 Console.WriteLine(item);
             }
 
-            
-
-            // LINQ Methoden Syntax (mit => Lambda Expressions)
-            var fritz = adressBook.Contacts
-                .Where(contact => contact.Name.Contains("Jarai"))
-                .OrderBy(contact => contact.Name)
-                .FirstOrDefault();
-
-            Console.WriteLine(fritz);
         }
     }
 }
