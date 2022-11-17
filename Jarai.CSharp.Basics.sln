@@ -87,6 +87,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkCore.CodeFir
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkCore.Sqlite", "EntityFrameworkCore.Sqlite\EntityFrameworkCore.Sqlite.csproj", "{716FE2A4-662D-4656-85DC-7B641293ED8A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator.UserInterface.ConsoleApp", "Calculator.UserInterface.ConsoleApp\Calculator.UserInterface.ConsoleApp.csproj", "{FF0135C0-31D8-43D6-A60D-4F06FB1C5AA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|.NET = Debug|.NET
@@ -761,6 +763,26 @@ Global
 		{716FE2A4-662D-4656-85DC-7B641293ED8A}.Release|x64.Build.0 = Release|Any CPU
 		{716FE2A4-662D-4656-85DC-7B641293ED8A}.Release|x86.ActiveCfg = Release|Any CPU
 		{716FE2A4-662D-4656-85DC-7B641293ED8A}.Release|x86.Build.0 = Release|Any CPU
+		{FF0135C0-31D8-43D6-A60D-4F06FB1C5AA3}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{FF0135C0-31D8-43D6-A60D-4F06FB1C5AA3}.Debug|.NET.Build.0 = Debug|Any CPU
+		{FF0135C0-31D8-43D6-A60D-4F06FB1C5AA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF0135C0-31D8-43D6-A60D-4F06FB1C5AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF0135C0-31D8-43D6-A60D-4F06FB1C5AA3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{FF0135C0-31D8-43D6-A60D-4F06FB1C5AA3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{FF0135C0-31D8-43D6-A60D-4F06FB1C5AA3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FF0135C0-31D8-43D6-A60D-4F06FB1C5AA3}.Debug|x64.Build.0 = Debug|Any CPU
+		{FF0135C0-31D8-43D6-A60D-4F06FB1C5AA3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FF0135C0-31D8-43D6-A60D-4F06FB1C5AA3}.Debug|x86.Build.0 = Debug|Any CPU
+		{FF0135C0-31D8-43D6-A60D-4F06FB1C5AA3}.Release|.NET.ActiveCfg = Release|Any CPU
+		{FF0135C0-31D8-43D6-A60D-4F06FB1C5AA3}.Release|.NET.Build.0 = Release|Any CPU
+		{FF0135C0-31D8-43D6-A60D-4F06FB1C5AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF0135C0-31D8-43D6-A60D-4F06FB1C5AA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF0135C0-31D8-43D6-A60D-4F06FB1C5AA3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{FF0135C0-31D8-43D6-A60D-4F06FB1C5AA3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{FF0135C0-31D8-43D6-A60D-4F06FB1C5AA3}.Release|x64.ActiveCfg = Release|Any CPU
+		{FF0135C0-31D8-43D6-A60D-4F06FB1C5AA3}.Release|x64.Build.0 = Release|Any CPU
+		{FF0135C0-31D8-43D6-A60D-4F06FB1C5AA3}.Release|x86.ActiveCfg = Release|Any CPU
+		{FF0135C0-31D8-43D6-A60D-4F06FB1C5AA3}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -801,6 +823,7 @@ Global
 		{C0EF0208-F63C-412E-AE35-9DEFC9DEF884} = {C6F55941-4BC3-4A84-9E84-7B22C809DDC4}
 		{EBBA034A-6F5D-4EF6-AEED-C94DEFC8E2AD} = {BD09E5F6-FE6C-4F3A-A388-E52359483AEE}
 		{716FE2A4-662D-4656-85DC-7B641293ED8A} = {BD09E5F6-FE6C-4F3A-A388-E52359483AEE}
+		{FF0135C0-31D8-43D6-A60D-4F06FB1C5AA3} = {2D995E7D-654E-458F-AFDA-FDC0C584C053}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF1C7CE4-B62E-481C-BACC-354F61E48614}
