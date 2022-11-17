@@ -63,9 +63,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basics09.Parameters", "Basi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basics01.HelloWorld", "Basics1.HelloWorld\Basics01.HelloWorld.csproj", "{F5E1738F-8FFD-453C-8AB9-22A861136409}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.UserInterface.WinForms", "Calculator.UserInterface.Winforms\Calculator.UserInterface.WinForms.csproj", "{32CC9943-05E9-4F65-9290-7E49A035D0F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.UserInterface.WinFormsApp", "Calculator.UserInterface.Winforms\Calculator.UserInterface.WinFormsApp.csproj", "{32CC9943-05E9-4F65-9290-7E49A035D0F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.UserInterface.Wpf", "Calculator.UserInterface.Wpf\Calculator.UserInterface.Wpf.csproj", "{5C67462A-075D-43CF-A9FD-8D21A0E58D75}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.UserInterface.WpfApp", "Calculator.UserInterface.Wpf\Calculator.UserInterface.WpfApp.csproj", "{5C67462A-075D-43CF-A9FD-8D21A0E58D75}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pattern.State", "Pattern.State\Pattern.State.csproj", "{E35B3213-A6F4-4DD0-AB77-379240D6E6C1}"
 EndProject
