@@ -9,14 +9,17 @@ namespace Jarai.CSharp.Linq.Lambda
         {
             var adressBook = new Adressbook();
 
-            var sortedByOrtContacts1 = adressBook.Contacts
-                .Where(contact => contact.Name == "Müller")
-                .Select(contact => contact.Ort)
-                .ToArray();
-
-            var sortedByOrtContacts2= adressBook.Contacts
+            // LINQ mit expliciten Methoden
+            var contacts2 = adressBook.Contacts
                 .Where(NameFilter)
                 .Select(OrtSelector)
+                .ToArray();
+
+
+            // LINQ mit anonymen Methoden (Lamda Expressions)
+            var contacts1 = adressBook.Contacts
+                .Where(contact => contact.Name == "Müller")
+                .Select(contact => contact.Ort)
                 .ToArray();
             
         }
