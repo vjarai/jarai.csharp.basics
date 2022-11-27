@@ -1,10 +1,8 @@
-﻿using System;
-using System.Data;
-using System.Data.SqlClient;
+﻿using System.Data;
 using System.Globalization;
-using System.Windows.Forms;
 using Microsoft.Data.SqlClient;
 
+namespace Dataset.Winforms;
 
 public partial class Form1 : Form
 {
@@ -62,8 +60,8 @@ public partial class Form1 : Form
         catch (SqlException)
         {
             MessageBox.Show("To run this example, replace the value of the " +
-                "connectionString variable with a connection string that is " +
-                "valid for your system.");
+                            "connectionString variable with a connection string that is " +
+                            "valid for your system.");
         }
     }
 

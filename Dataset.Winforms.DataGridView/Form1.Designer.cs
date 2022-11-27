@@ -1,8 +1,10 @@
 ﻿using Microsoft.Data.SqlClient;
 
+namespace Dataset.Winforms;
+
 public partial class Form1 : Form
 {
-    private DataGridView dataGridView1 = new DataGridView();
+    private System.Windows.Forms.DataGridView dataGridView1 = new System.Windows.Forms.DataGridView();
     private BindingSource bindingSource1 = new BindingSource();
     private SqlDataAdapter dataAdapter = new SqlDataAdapter();
     private Button reloadButton = new Button();

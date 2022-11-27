@@ -1,4 +1,5 @@
-namespace Dataset.Winforms.DataGridView
+﻿
+namespace Dataset.Winforms
 {
     internal static class Program
     {

@@ -7,7 +7,6 @@ namespace Jarai.CSharp.Basics.Parameters
         /// <summary>
         ///     Rahmenprogramm
         /// </summary>
-        /// <param name="args"></param>
         private static void Main(string[] args)
         {
             int a = 100, b = 200;

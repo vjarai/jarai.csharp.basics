@@ -1,4 +1,4 @@
-﻿namespace Dataset.Winforms.DataGridView
+﻿namespace Dataset.Winforms
 {
     partial class Form2
     {
