@@ -6,7 +6,7 @@ namespace Jarai.CSharp.Basics.Zahlenraten
     {
         private static void Main(string[] args)
         {
-            string antwort;
+            string nochEinmal;
 
             do
             {
@@ -17,10 +17,11 @@ namespace Jarai.CSharp.Basics.Zahlenraten
                 var zufallszahlenGenerator = new Random();
                 int geheimzahl = zufallszahlenGenerator.Next(1, 101);
 
+                // Schummelfunktion (nur zum Debuggen)
                 Console.WriteLine("Geheimzahl:" + geheimzahl);
 
-                // Einlesen von Tastatureingaben
                 Console.WriteLine("Willkommen zum fröhlichen Zahlenraten (zwischen 1 und 100)!");
+
                 do
                 {
                     Console.WriteLine("Bitte Tipp eingeben: ");
@@ -43,8 +44,9 @@ namespace Jarai.CSharp.Basics.Zahlenraten
                 Console.WriteLine("Gewonnen !\nUnd das mit nur " + anzahlVersuche + " Versuchen!!!");
 
                 Console.WriteLine("Noch einmal? (J/N)");
-                antwort = Console.ReadLine();
-            } while (antwort == "J" || antwort == "j");
+                nochEinmal = Console.ReadLine();
+
+            } while (nochEinmal == "J" || nochEinmal == "j");
         }
     }
 }

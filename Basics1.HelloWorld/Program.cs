@@ -1,6 +1,5 @@
-﻿using System;
+﻿using System;       //wg. Console
 
-//wg. Console
 
 
 namespace Jarai.CSharp.Basics.HelloWorld
@@ -23,10 +22,6 @@ namespace Jarai.CSharp.Basics.HelloWorld
 
             // Textverkettung mit +
             Console.WriteLine("Guten Tag " + vorname + " " + nachname + " !");
-
-            // Vergleich der INHALTE (in Java wäre .equals() nötig)
-            // if( vorname == nachname )
-            //	Console.WriteLine( "Vorname und Nachname sind gleich.");
 
             Console.ReadLine();
         }
