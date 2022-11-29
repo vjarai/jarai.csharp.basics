@@ -21,9 +21,9 @@ namespace Jarai.CSharp.Basics.Parameters
         }
 
         /// <summary>
-        /// Kann (wegen ref!) auf die Variablen a und b in Main zugreifen
+        ///  Funktioniert nicht, da x und y Kopien von a und b sind ("call by value") und nur diese Kopien getauscht werden
         /// </summary>
-        private static void TauscheByRef(ref int x, ref int y) // 
+        private static void TauscheByValue(int x, int y)
         {
             int temp = x;
             x = y;
@@ -31,9 +31,9 @@ namespace Jarai.CSharp.Basics.Parameters
         }
 
         /// <summary>
-        /// // Funktioniert nicht, da x und y Kopien von a und b sind ("call by value") und nur diese Kopien getauscht werden
+        /// Kann (wegen ref!) auf die Variablen a und b in Main zugreifen
         /// </summary>
-        private static void TauscheByValue(int x, int y)
+        private static void TauscheByRef(ref int x, ref int y) // 
         {
             int temp = x;
             x = y;

@@ -2,7 +2,7 @@
 
 namespace Jarai.CSharp.Calculator.Logic
 {
-    public class CalculationService
+    public class CalculationService : ICalculationService
     {
         public double Add(double x, double y)
         {

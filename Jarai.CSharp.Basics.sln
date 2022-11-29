@@ -63,9 +63,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basics09.Parameters", "Basi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basics01.HelloWorld", "Basics1.HelloWorld\Basics01.HelloWorld.csproj", "{F5E1738F-8FFD-453C-8AB9-22A861136409}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.UserInterface.WinFormsApp", "Calculator.UserInterface.Winforms\Calculator.UserInterface.WinFormsApp.csproj", "{32CC9943-05E9-4F65-9290-7E49A035D0F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator2.UserInterface.WinFormsApp", "Calculator.UserInterface.Winforms\Calculator2.UserInterface.WinFormsApp.csproj", "{32CC9943-05E9-4F65-9290-7E49A035D0F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.UserInterface.WpfApp", "Calculator.UserInterface.Wpf\Calculator.UserInterface.WpfApp.csproj", "{5C67462A-075D-43CF-A9FD-8D21A0E58D75}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator3.UserInterface.WpfApp", "Calculator.UserInterface.Wpf\Calculator3.UserInterface.WpfApp.csproj", "{5C67462A-075D-43CF-A9FD-8D21A0E58D75}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pattern.State", "Pattern.State\Pattern.State.csproj", "{E35B3213-A6F4-4DD0-AB77-379240D6E6C1}"
 EndProject
@@ -87,9 +87,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkCore.CodeFir
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkCore.Sqlite", "EntityFrameworkCore.Sqlite\EntityFrameworkCore.Sqlite.csproj", "{716FE2A4-662D-4656-85DC-7B641293ED8A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator.UserInterface.ConsoleApp", "Calculator.UserInterface.ConsoleApp\Calculator.UserInterface.ConsoleApp.csproj", "{FF0135C0-31D8-43D6-A60D-4F06FB1C5AA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator1.UserInterface.ConsoleApp", "Calculator.UserInterface.ConsoleApp\Calculator1.UserInterface.ConsoleApp.csproj", "{FF0135C0-31D8-43D6-A60D-4F06FB1C5AA3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dataset.Winforms", "Dataset.Winforms.DataGridView\Dataset.Winforms.csproj", "{8E005B84-0DF4-46E8-917B-31AC6947ED53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator4.UserInterface.Razor", "Calculator.UserInterface.Razor\Calculator4.UserInterface.Razor.csproj", "{EF8CAFAA-4E15-4D5D-9A08-B5FF53431402}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -805,6 +807,26 @@ Global
 		{8E005B84-0DF4-46E8-917B-31AC6947ED53}.Release|x64.Build.0 = Release|Any CPU
 		{8E005B84-0DF4-46E8-917B-31AC6947ED53}.Release|x86.ActiveCfg = Release|Any CPU
 		{8E005B84-0DF4-46E8-917B-31AC6947ED53}.Release|x86.Build.0 = Release|Any CPU
+		{EF8CAFAA-4E15-4D5D-9A08-B5FF53431402}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{EF8CAFAA-4E15-4D5D-9A08-B5FF53431402}.Debug|.NET.Build.0 = Debug|Any CPU
+		{EF8CAFAA-4E15-4D5D-9A08-B5FF53431402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF8CAFAA-4E15-4D5D-9A08-B5FF53431402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF8CAFAA-4E15-4D5D-9A08-B5FF53431402}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{EF8CAFAA-4E15-4D5D-9A08-B5FF53431402}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{EF8CAFAA-4E15-4D5D-9A08-B5FF53431402}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EF8CAFAA-4E15-4D5D-9A08-B5FF53431402}.Debug|x64.Build.0 = Debug|Any CPU
+		{EF8CAFAA-4E15-4D5D-9A08-B5FF53431402}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EF8CAFAA-4E15-4D5D-9A08-B5FF53431402}.Debug|x86.Build.0 = Debug|Any CPU
+		{EF8CAFAA-4E15-4D5D-9A08-B5FF53431402}.Release|.NET.ActiveCfg = Release|Any CPU
+		{EF8CAFAA-4E15-4D5D-9A08-B5FF53431402}.Release|.NET.Build.0 = Release|Any CPU
+		{EF8CAFAA-4E15-4D5D-9A08-B5FF53431402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF8CAFAA-4E15-4D5D-9A08-B5FF53431402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF8CAFAA-4E15-4D5D-9A08-B5FF53431402}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{EF8CAFAA-4E15-4D5D-9A08-B5FF53431402}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{EF8CAFAA-4E15-4D5D-9A08-B5FF53431402}.Release|x64.ActiveCfg = Release|Any CPU
+		{EF8CAFAA-4E15-4D5D-9A08-B5FF53431402}.Release|x64.Build.0 = Release|Any CPU
+		{EF8CAFAA-4E15-4D5D-9A08-B5FF53431402}.Release|x86.ActiveCfg = Release|Any CPU
+		{EF8CAFAA-4E15-4D5D-9A08-B5FF53431402}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -847,6 +869,7 @@ Global
 		{716FE2A4-662D-4656-85DC-7B641293ED8A} = {BD09E5F6-FE6C-4F3A-A388-E52359483AEE}
 		{FF0135C0-31D8-43D6-A60D-4F06FB1C5AA3} = {2D995E7D-654E-458F-AFDA-FDC0C584C053}
 		{8E005B84-0DF4-46E8-917B-31AC6947ED53} = {BD09E5F6-FE6C-4F3A-A388-E52359483AEE}
+		{EF8CAFAA-4E15-4D5D-9A08-B5FF53431402} = {2D995E7D-654E-458F-AFDA-FDC0C584C053}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF1C7CE4-B62E-481C-BACC-354F61E48614}

@@ -1,0 +1,38 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Calculator</h1>
+
+    <form method="post">
+        <p>
+            <label for="zahl1">Zahl 1:</label>
+            <input asp-for="Zahl1" id="zahl1" name="zahl1" required minlength="1" maxlength="8" size="10">
+        </p>
+        <p>
+            <label for="operation">+ - * /:</label>
+            <input asp-for="Operation" id="operation" name="operation" required minlength="1" maxlength="8" size="10">
+        </p>
+
+        <p>
+            <label for="zahl2">Zahl 2:</label>
+            <input asp-for="Zahl1" id="zahl2" name="zahl2" required minlength="1" maxlength="8" size="10">
+        </p>
+
+
+
+        <input type="submit" value="Berechnen">
+
+    </form>
+    
+    <br/>
+    <br/>
+
+    <h2>
+        @Model.Result
+    </h2> 
+
+</div>
