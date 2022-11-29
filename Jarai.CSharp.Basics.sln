@@ -91,7 +91,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator1.UserInterface.C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dataset.Winforms", "Dataset.Winforms.DataGridView\Dataset.Winforms.csproj", "{8E005B84-0DF4-46E8-917B-31AC6947ED53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator4.UserInterface.Razor", "Calculator.UserInterface.Razor\Calculator4.UserInterface.Razor.csproj", "{EF8CAFAA-4E15-4D5D-9A08-B5FF53431402}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator4.UserInterface.RazorPage", "Calculator.UserInterface.Razor\Calculator4.UserInterface.RazorPage.csproj", "{EF8CAFAA-4E15-4D5D-9A08-B5FF53431402}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

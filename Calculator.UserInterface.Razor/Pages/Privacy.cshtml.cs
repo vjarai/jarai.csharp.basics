@@ -1,7 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Calculator.UserInterface.Razor.Pages
+namespace Jarai.CSharp.Calculator.UserInterface.RazorPage.Pages
 {
     public class PrivacyModel : PageModel
     {

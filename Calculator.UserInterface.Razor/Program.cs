@@ -1,6 +1,6 @@
-﻿using Jarai.CSharp.Calculator.Logic;
+using Jarai.CSharp.Calculator.Logic;
 
-namespace Calculator.UserInterface.Razor
+namespace Jarai.CSharp.Calculator.UserInterface.RazorPage
 {
     public class Program
     {
