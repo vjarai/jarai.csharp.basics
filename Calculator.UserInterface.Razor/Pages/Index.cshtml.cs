@@ -6,8 +6,8 @@ namespace Jarai.CSharp.Calculator.UserInterface.RazorPage.Pages
 {
     public class IndexModel : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
         private readonly ICalculationService _calculationService;
+        private readonly ILogger<IndexModel> _logger;
 
         public IndexModel(ILogger<IndexModel> logger, ICalculationService calculationService)
         {
@@ -21,7 +21,7 @@ namespace Jarai.CSharp.Calculator.UserInterface.RazorPage.Pages
 
         [BindProperty] public string Operation { get; set; } = "+";
 
-        public string Result { get; set; }
+        public string Result { get; set; } = String.Empty;
 
         public void OnGet()
         {

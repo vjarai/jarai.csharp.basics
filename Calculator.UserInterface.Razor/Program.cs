@@ -1,4 +1,4 @@
-using Jarai.CSharp.Calculator.Logic;
+﻿using Jarai.CSharp.Calculator.Logic;
 
 namespace Jarai.CSharp.Calculator.UserInterface.RazorPage
 {
@@ -19,6 +19,7 @@ namespace Jarai.CSharp.Calculator.UserInterface.RazorPage
             {
                 app.UseExceptionHandler("/Error");
             }
+
             app.UseStaticFiles();
 
             app.UseRouting();
