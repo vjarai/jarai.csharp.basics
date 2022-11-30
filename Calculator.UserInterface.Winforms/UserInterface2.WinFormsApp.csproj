@@ -6,6 +6,8 @@
     <Nullable>disable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Jarai.CSharp.Calculator.UserInterface.WinForms</RootNamespace>
+    <AssemblyName>Jarai.CSharp.Calculator.UserInterface.WinForms</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

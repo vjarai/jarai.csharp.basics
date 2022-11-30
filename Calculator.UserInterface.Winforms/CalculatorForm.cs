@@ -1,6 +1,4 @@
-﻿using System;
-using System.Windows.Forms;
-using Jarai.CSharp.Calculator.Logic;
+﻿using Jarai.CSharp.Calculator.Logic;
 
 namespace Jarai.CSharp.Calculator.UserInterface.WinForms
 {

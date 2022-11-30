@@ -1,7 +1,4 @@
-﻿using System;
-using System.Windows.Forms;
-
-namespace Jarai.CSharp.Calculator.UserInterface.WinForms
+﻿namespace Jarai.CSharp.Calculator.UserInterface.WinForms
 {
     internal static class Program
     {

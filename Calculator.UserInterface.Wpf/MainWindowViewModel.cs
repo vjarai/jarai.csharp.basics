@@ -5,7 +5,7 @@ using System.Windows;
 using System.Windows.Input;
 using Jarai.CSharp.Calculator.Logic;
 
-namespace Jarai.CSharp.Calculator.UserInterface.Wpf.ViewModels
+namespace Jarai.CSharp.Calculator.UserInterface.Wpf
 {
     public class MainWindowViewModel : INotifyPropertyChanged
     {

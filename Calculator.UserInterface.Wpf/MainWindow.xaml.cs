@@ -1,8 +1,7 @@
 ﻿using System.Windows;
 using Jarai.CSharp.Calculator.Logic;
-using Jarai.CSharp.Calculator.UserInterface.Wpf.ViewModels;
 
-namespace Jarai.CSharp.Calculator.UserInterface.Wpf.Views
+namespace Jarai.CSharp.Calculator.UserInterface.Wpf
 {
     /// <summary>
     ///     Interaction logic for MainWindow.xaml

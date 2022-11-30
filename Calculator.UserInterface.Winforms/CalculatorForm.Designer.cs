@@ -1,6 +1,6 @@
 ﻿namespace Jarai.CSharp.Calculator.UserInterface.WinForms
 {
-   partial class CalculatorForm
+    partial class CalculatorForm
    {
       /// <summary>
       /// Erforderliche Designervariable.
@@ -144,7 +144,7 @@
             // 
             // calculatorViewModelBindingSource
             // 
-            this.calculatorViewModelBindingSource.DataSource = typeof(Jarai.CSharp.Calculator.UserInterface.WinForms.CalculatorViewModel);
+            this.calculatorViewModelBindingSource.DataSource = typeof(CalculatorViewModel);
             // 
             // CalculatorForm
             // 
