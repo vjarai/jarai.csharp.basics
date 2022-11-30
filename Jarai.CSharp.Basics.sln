@@ -63,7 +63,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basics09.Parameters", "Basi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basics01.HelloWorld", "Basics1.HelloWorld\Basics01.HelloWorld.csproj", "{F5E1738F-8FFD-453C-8AB9-22A861136409}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserInterface2.WinFormsApp", "Calculator.UserInterface.Winforms\UserInterface2.WinFormsApp.csproj", "{32CC9943-05E9-4F65-9290-7E49A035D0F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserInterface2.WinFormsApp", "Calculator.UserInterface.Winforms\UserInterface2.WinFormsApp.csproj", "{32CC9943-05E9-4F65-9290-7E49A035D0F2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserInterface3.WpfApp", "Calculator.UserInterface.Wpf\UserInterface3.WpfApp.csproj", "{5C67462A-075D-43CF-A9FD-8D21A0E58D75}"
 EndProject
