@@ -4,25 +4,25 @@
     {
         static void Main(string[] args)
         {
-            // Nullable<bool> esRegnet;
+            // Nullable<bool> esWirdRegnen;
 
-            // Oder einfacher mit ?
-            bool? esRegnet;
+            // Oder kürzer mit ?
+            bool? esWirdRegnen;
 
-            esRegnet = null;
-            esRegnet = true;
-            esRegnet = false;
+            esWirdRegnen = null;
+            esWirdRegnen = true;
+            esWirdRegnen = false;
 
-            // Abfrage, ob der Wert von esRegnet gesetzt ist
-            if (!esRegnet.HasValue)
+            // Abfrage, ob der Wert von esWirdRegnen gesetzt ist
+            if (!esWirdRegnen.HasValue)
                 Console.WriteLine("Ich weis nicht, ob es regnet.");
             else
-                Console.WriteLine($"Wert von esRegnet ist: {esRegnet}");
+                Console.WriteLine($"Es wird regnen: {esWirdRegnen}");
 
             // Der Coalesce operator (??) übernimmt den rechten Wert als Default, wenn die linke Seite null ist
-            esRegnet = esRegnet ?? true;
+            esWirdRegnen = esWirdRegnen ?? true;
 
-            Console.WriteLine($"Wert von x: {esRegnet}");
+            Console.WriteLine($"Wert von x: {esWirdRegnen}");
 
             Console.ReadLine();
         }

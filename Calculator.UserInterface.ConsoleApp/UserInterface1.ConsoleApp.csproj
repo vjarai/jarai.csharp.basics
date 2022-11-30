@@ -1,16 +1,18 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
     <RootNamespace>Jarai.CSharp.Calculator.UserInterface.ConsoleApp</RootNamespace>
     <AssemblyName>Jarai.CSharp.Calculator.UserInterface.ConsoleApp</AssemblyName>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
   </PropertyGroup>
 
+    
   <ItemGroup>
     <ProjectReference Include="..\Calculator.Logic\Calculator.Logic.csproj" />
   </ItemGroup>
 
 </Project>
+
