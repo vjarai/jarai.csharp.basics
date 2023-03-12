@@ -9,11 +9,11 @@ namespace Jarai.CSharp.Linq.YieldReturn
         {
             var datasource = new DataSource();
 
-            int slowResult = datasource.GetValues(100).FirstOrDefault();
-            var slowResult2 = datasource.GetValues(100).Take(5);
+            int slowResult = datasource.GenerateData(100).FirstOrDefault();
+            var slowResult2 = datasource.GenerateData(100).Take(5);
 
-            int fastResult = datasource.GetValuesUsingYieldReturn(100).FirstOrDefault();
-            var fastResult2 = datasource.GetValuesUsingYieldReturn(100).Take(5).ToList();
+            int fastResult = datasource.GenerateDataUsingYieldReturn(100).FirstOrDefault();
+            var fastResult2 = datasource.GenerateDataUsingYieldReturn(100).Take(5).ToList();
 
             Console.ReadLine();
         }

@@ -19,13 +19,13 @@ namespace Jarai.CSharp.Linq.Query
             // LINQ Query Syntax
             var contactsFromBerlinQuery =                 // Ergebnisvariable
                 from contact in adressBook.Contacts  // entspricht Schleife
-                where contact.Ort == "Berlin"        // Filter
+                where contact.Ort.ToUpper() == "BERLIN"        // Filter
                 orderby contact.Name                 // Sort
                 select  contact;                      // Ins Ergebnis übernehmen
 
             // Oder Alternativ LINQ Methoden Syntax
             var contactsFromMunichQuery = adressBook.Contacts
-                .Where(contact => contact.Ort.StartsWith( "München"))
+                .Where(contact => contact.Ort.ToUpper() == "MÜNCHEN")
                 .OrderBy(contact => contact.Name);
 
 

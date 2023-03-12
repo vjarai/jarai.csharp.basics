@@ -9,7 +9,7 @@ namespace Jarai.CSharp.Relation.Inheritance
     /// </summary>
     public abstract class Möbel
     {
-        public bool IsAssembled { get;  set; } = false;
+        public bool IsAssembled { get; set; } = false;
 
         public string Name { get; }
 
@@ -29,7 +29,7 @@ namespace Jarai.CSharp.Relation.Inheritance
         protected void ThrowExceptionIfNotAssembled()
         {
             if (!IsAssembled)
-                throw new InvalidOperationException("Möbel ist nicht montiert.");
+                throw new MoebelNichtMontiertException("Möbel ist nicht montiert.");
         }
     }
 }

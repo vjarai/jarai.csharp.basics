@@ -20,9 +20,13 @@ namespace Jarai.CSharp.Relation.Inheritance
                     meinMöbel.Benutzen();
                 }
             }
+            catch (MoebelNichtMontiertException e)
+            {
+                Console.WriteLine("Bitte das Möbel vor der Benutzung montieren: " + e);
+            }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Console.WriteLine("Houston, wir haben ein Problem: " + e.Message);
             }
 
             ikeaFrankfurt.Show();

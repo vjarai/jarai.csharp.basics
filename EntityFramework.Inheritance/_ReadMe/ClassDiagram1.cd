@@ -8,14 +8,14 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Jarai.CSharp.EntityFramework.Inheritance.Entities.BusinessContact">
-    <Position X="5" Y="4.25" Width="1.75" />
+    <Position X="4" Y="4.25" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entities\BusinessContact.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Jarai.CSharp.EntityFramework.Inheritance.Entities.PrivateContact">
-    <Position X="7.75" Y="4.25" Width="2.5" />
+    <Position X="7.5" Y="4.25" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
       <FileName>Entities\PrivateContact.cs</FileName>

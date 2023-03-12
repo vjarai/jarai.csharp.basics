@@ -9,7 +9,7 @@ namespace Jarai.CSharp.Linq.YieldReturn
         /// <summary>
         ///     Calculates a result List of values in advance and returns it
         /// </summary>
-        public IEnumerable<int> GetValues(int count)
+        public IEnumerable<int> GenerateData(int count)
         {
             var result = new List<int>();
 
@@ -28,7 +28,7 @@ namespace Jarai.CSharp.Linq.YieldReturn
         ///     ON DEMAND yields one element of the result
         ///     (Only used values are calculated)
         /// </summary>
-        public IEnumerable<int> GetValuesUsingYieldReturn(int count)
+        public IEnumerable<int> GenerateDataUsingYieldReturn(int count)
         {
             for (int i = 0; i < count; i++)
             {
