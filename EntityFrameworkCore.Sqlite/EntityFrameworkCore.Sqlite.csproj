@@ -11,11 +11,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="_ReadMe\Readme.txt" />
+    <None Remove="_ReadMe\Readme.md" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="_ReadMe\Readme.txt" />
+    <Content Include="_ReadMe\Readme.md" />
   </ItemGroup>
 
   <ItemGroup>

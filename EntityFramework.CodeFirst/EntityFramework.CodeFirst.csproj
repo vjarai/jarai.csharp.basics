@@ -65,7 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="_ReadMe\EntityFramework.jpg" />
-    <Content Include="_ReadMe\EntityFramework_CodeFirst.txt" />
+    <None Include="_ReadMe\EntityFramework_CodeFirst.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

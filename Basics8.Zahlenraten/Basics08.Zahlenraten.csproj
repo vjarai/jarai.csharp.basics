@@ -12,7 +12,7 @@
     </DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="ReadMe\Basics08_Zahlenraten.txt" />
+    <Content Include="ReadMe\Basics08_Zahlenraten.md" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers" Version="0.4.346202">

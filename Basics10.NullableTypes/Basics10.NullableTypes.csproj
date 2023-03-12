@@ -10,11 +10,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="ReadMe\NullableTypes.txt" />
+    <None Remove="ReadMe\NullableTypes.md" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="ReadMe\NullableTypes.txt" />
+    <Content Include="ReadMe\NullableTypes.md" />
   </ItemGroup>
 
 </Project>
