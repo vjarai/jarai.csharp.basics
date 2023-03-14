@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 
 namespace Jarai.CSharp.Basics.ForLoop
 {
@@ -10,11 +10,11 @@ namespace Jarai.CSharp.Basics.ForLoop
 
             for (int monat = 1; monat <= 12; monat++)
             {
-                Console.WriteLine("Bitte Umsatz für monat {0:d} eingeben.", monat);
+                Console.WriteLine("Bitte Umsatz fÃ¼r monat {0:d} eingeben.", monat);
                 string eingabe = Console.ReadLine();
                 double umsatz = double.Parse(eingabe);
 
-                summe += umsatz; // oder umständlicher: summe = Summe + umsatz;
+                summe += umsatz; // oder umstÃ¤ndlicher: summe = Summe + umsatz;
             }
 
             Console.WriteLine("Jahressumme: " + summe);

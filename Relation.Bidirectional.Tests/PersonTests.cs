@@ -10,11 +10,11 @@ namespace Jarai.CSharp.Relation.Bidirectional.Tests
         public void Kennt_den_eigenen_Namen()
         {
             // Arrange
-            var person = new Person("Susi", "Sorglos");
+            var target = new Person("Susi", "Sorglos");
 
             // Assert
-            Assert.Equal("Susi", person.Vorname);
-            Assert.Equal("Sorglos",person.Nachname);
+            Assert.Equal("Susi", target.Vorname);
+            Assert.Equal("Sorglos",target.Nachname);
         }
 
         [Fact]
@@ -49,10 +49,10 @@ namespace Jarai.CSharp.Relation.Bidirectional.Tests
         public void Kann_sich_nicht_selbst_heiraten()
         {
             // Arrange
-            var person = new Person("Fritz", "Müller");
+            var target = new Person("Fritz", "Müller");
 
             // Act & Assert
-            Assert.Throws<InvalidOperationException>(() => person.Heiraten(person));
+            Assert.Throws<InvalidOperationException>(() => target.Heiraten(target));
         }
 
 
@@ -60,20 +60,20 @@ namespace Jarai.CSharp.Relation.Bidirectional.Tests
         public void Kann_keine_null_heiraten()
         {
             // Arrange
-            var person = new Person("Fritz", "Müller");
+            var target = new Person("Fritz", "Müller");
 
             // Act & Assert
-            Assert.Throws<InvalidOperationException>(() => person.Heiraten(null));
+            Assert.Throws<InvalidOperationException>(() => target.Heiraten(null));
         }
 
         [Fact]
         public void Kann_sich_nicht_trennen_wenn_ledig()
         {
             // Arrange
-            var person = new Person("Fritz", "Müller");
+            var target = new Person("Fritz", "Müller");
 
             // Act & Assert
-            Assert.Throws<InvalidOperationException>(() => person.Trennen());
+            Assert.Throws<InvalidOperationException>(() => target.Trennen());
         }
 
 

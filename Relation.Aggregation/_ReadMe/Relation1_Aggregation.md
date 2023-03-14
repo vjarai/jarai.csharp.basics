@@ -1,7 +1,7 @@
 ﻿# Klassen und Beziehungen, Teil 1: Aggregation bzw. Komposition
 
 ### Frage:
-- Was sind die wichtigsten "Vokabeln" der Objekt orientierten Programmierung (OOP)?
+- Was sind die wichtigsten "Vokabeln" der Objektorientierten Programmierung (OOP)?
 
 ### Aufgabe:
 - Erstellen Sie ein Klassendiagramm (Hinzufügen => Neues Element => Klassendiagramm)
@@ -9,4 +9,4 @@
 - Welche Eigenschaften gibt es in den jeweiligen Klassen?
 - Wer darf die Eigenschaften ändern (private / public)?
 - Welche Beziehungen gibt es zwischen den Klassen?
-- Wann verwenden Sie Aggregation ("HAT EIN") bzw. Vererbung ("IST EIN")?
+- Wann verwenden Sie Aggregation ("HAT EIN") und wann Vererbung ("IST EIN")?
