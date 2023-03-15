@@ -11,7 +11,7 @@ namespace Jarai.CSharp.Basics.Parameters
         {
             int a = 100, b = 200;
 
-            TauscheByValue(a, b);
+            TauscheByValue(a, b); 
             Console.WriteLine($"nach TauscheByValue: a={a}, b={b}");
 
             TauscheByRef(ref a, ref b);
@@ -23,7 +23,7 @@ namespace Jarai.CSharp.Basics.Parameters
         /// <summary>
         ///  Funktioniert nicht, da x und y Kopien von a und b sind ("call by value") und nur diese Kopien getauscht werden
         /// </summary>
-        private static void TauscheByValue(int x, int y)
+        private static void TauscheByValue(int x, int y) // Input Parameter
         {
             int temp = x;
             x = y;
@@ -33,7 +33,7 @@ namespace Jarai.CSharp.Basics.Parameters
         /// <summary>
         /// Kann (wegen ref!) auf die Variablen a und b in Main zugreifen
         /// </summary>
-        private static void TauscheByRef(ref int x, ref int y) // 
+        private static void TauscheByRef(ref int x, ref int y) // Outputparameter immer mit ref
         {
             int temp = x;
             x = y;
