@@ -1,6 +1,6 @@
 ﻿# Strategy Pattern
 
-### => Je nachdem welche Strategie eine Firma hat, stellt sie verschiedene Arten von Arbeitern ein.
+### Je nachdem welche Strategie eine Firma hat, werden verschiedene Typen von Arbeitern eingestellt.
 
 - Erstellen Sie die Klassen Firma, Maler und Schreiner (sowie alle ggf. benötigten weiteren Klassen).
 - Wie lauten die Beziehungen zwischen den Klassen?
@@ -14,4 +14,4 @@
 
 
 ### Optional:
-Es wird erst (strategisch ;-) zur Laufzeit entschieden, ob die Firma einen Maler oder einen Schreiner einstellt...
+Es wird erst strategisch ;-) zur Laufzeit entschieden, ob die Firma einen Maler oder einen Schreiner einstellt...

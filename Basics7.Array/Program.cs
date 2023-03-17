@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 
 namespace Jarai.CSharp.Basics.Array
 {
@@ -10,13 +10,13 @@ namespace Jarai.CSharp.Basics.Array
             string eingabe = Console.ReadLine();
             int anzahl = int.Parse(eingabe);
 
-            double[] umsatz = new double[anzahl]; // eindimensionales Array (Vektor) passender Größe anlegen
+            double[] umsatz = new double[anzahl]; // eindimensionales Array (Vektor) passender GrÃ¶ÃŸe anlegen
             //var matrix = new double[4,4];   // geht im Prinzip auch mehrdimensional...
 
-            // Bei ungültigem index wird IndexOutOfRangeException geworfen:
+            // Bei ungÃ¼ltigem index wird IndexOutOfRangeException geworfen:
             //umsatz[-1] = 0;
 
-            // Schleife für Eingabe
+            // Schleife fÃ¼r Eingabe
             for (int i = 0; i < umsatz.Length; i++)
             {
                 Console.WriteLine("Bitte umsatz[{0:d}] eingeben", i);
@@ -24,13 +24,13 @@ namespace Jarai.CSharp.Basics.Array
                 umsatz[i] = double.Parse(eingabe);
             }
 
-            // foreach durchläuft alle Elemente des Arrays
+            // foreach durchlÃ¤uft alle Elemente des Arrays (in "vorwÃ¤rts" Richtung)
             foreach (double wert in umsatz)
             {
                 Console.WriteLine("umsatz = " + wert);
             }
 
-            // Alternativ: Ausgabe rückwärts
+            // Alternativ: Ausgabe rÃ¼ckwÃ¤rts
             for (int i = umsatz.Length - 1; i >= 0; i--)
             {
                 Console.WriteLine("umsatz[{0}] = {1}", i, umsatz[i]);

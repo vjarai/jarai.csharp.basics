@@ -16,7 +16,7 @@ namespace Jarai.CSharp.Pattern.Strategy
 
         public virtual void Anzeigen() // Virtuelle Methoden DÜRFEN überschrieben werden in abgeleiteten Klassen
         {
-            Console.WriteLine($"Arbeiter : {Name}");  // Schlechter Stil: Vermischung von Userinterface und Logic
+            Console.WriteLine($"Arbeiter : {Name}");  
         }
 
         public override string ToString()
