@@ -9,7 +9,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="ReadMe\MSIL.jpg" />
-    <Content Include="ReadMe\Program.txt" />
     <Content Include="ReadMe\Basics01_HelloWorld.md" />
   </ItemGroup>
   <ItemGroup>
