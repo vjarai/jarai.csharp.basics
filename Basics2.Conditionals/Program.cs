@@ -4,12 +4,12 @@ namespace Jarai.CSharp.Basics.Conditionals
 {
     internal class Program
     {
-        private static void Main(string[] args)
+        private static void Main()
         {
             Console.WriteLine("Bitte Schulnote eingeben (1-6)");
             string eingabe = Console.ReadLine();
 
-            int note = int.Parse(eingabe);
+            int note = int.Parse(eingabe);  // Umwandlung Texteingabe in Zahl
 
             #region Variante if else
 
@@ -79,12 +79,12 @@ namespace Jarai.CSharp.Basics.Conditionals
             // "Wählen Sie eine Datenstruktur, die Ihr Programm einfach macht..."
 
             // Array anlegen
-            string[] noten = { "Sehr gut", "Gut", "Befriedigend", "Ausreichend", "Mangelhaft", "Ungenügend" };
+            string[] notenTexte = { "Sehr gut", "Gut", "Befriedigend", "Ausreichend", "Mangelhaft", "Ungenügend" };
 
             // Gültige Note?
-            if (note >= 1 && note <= noten.Length)
+            if (note >= 1 && note <= notenTexte.Length)  // && ist das logische Und
             {
-                Console.WriteLine("Das ist:" + noten[note - 1]); //Array mit der note INDIZIEREN
+                Console.WriteLine("Das ist:" + notenTexte[note - 1]); //Array mit der note INDIZIEREN
             }
             else
             {

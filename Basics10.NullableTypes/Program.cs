@@ -4,25 +4,27 @@
     {
         static void Main(string[] args)
         {
+            int regenWahrscheinlichkeit = new Random().Next(1, 100);
+
             // Nullable<bool> esWirdRegnen;
-
             // Oder kürzer mit ?
-            bool? esWirdRegnen;
+            bool? esWirdRegnen = null;
 
-            esWirdRegnen = null;
-            esWirdRegnen = true;
-            esWirdRegnen = false;
+            if (regenWahrscheinlichkeit < 30)
+                esWirdRegnen = false;
+            else if (regenWahrscheinlichkeit > 70)
+                esWirdRegnen = true;
 
             // Abfrage, ob der Wert von esWirdRegnen gesetzt ist
-            if (!esWirdRegnen.HasValue)
-                Console.WriteLine("Ich weis nicht, ob es regnet.");
+            if (esWirdRegnen.HasValue)
+                Console.WriteLine($"Regenvorhersage: {esWirdRegnen}");
             else
-                Console.WriteLine($"Es wird regnen: {esWirdRegnen}");
+                Console.WriteLine("Wir wissen nicht, ob es regnen wird.");
 
             // Der Coalesce operator (??) übernimmt den rechten Wert als Default, wenn die linke Seite null ist
-            esWirdRegnen = esWirdRegnen ?? true;
+            bool regenschirmMitnehmen = esWirdRegnen ?? true; 
 
-            Console.WriteLine($"Wert von x: {esWirdRegnen}");
+            Console.WriteLine($"Regenschirm mitnehmen: {regenschirmMitnehmen}");
 
             Console.ReadLine();
         }

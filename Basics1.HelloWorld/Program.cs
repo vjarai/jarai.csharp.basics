@@ -10,7 +10,7 @@ namespace Jarai.CSharp.Basics.HelloWorld
         ///     Main ist der Einstiegspunkt der Anwendung
         ///     Main kann ohne Instanz aufgerufen werden (static)
         /// </summary>
-        private static void Main(string[] args)
+        private static void Main()
         {
             Console.WriteLine("Ihr vorname?");
 

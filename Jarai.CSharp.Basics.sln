@@ -99,9 +99,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Desktop", "Desktop", "{4AA9
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Browser", "Browser", "{5CA2EE1E-380E-4E28-9C77-9F1245ADED83}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET Framework 4 (alt)", ".NET Framework 4 (alt)", "{587C8B28-E6D6-488E-9A65-B8B3EE4BA57B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entity Framework (alt)", "Entity Framework (alt)", "{587C8B28-E6D6-488E-9A65-B8B3EE4BA57B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET", ".NET", "{F4C0F50B-B50D-4F3F-9A3F-77EDB0C6889B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entity Framework Core", "Entity Framework Core", "{F4C0F50B-B50D-4F3F-9A3F-77EDB0C6889B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pattern.Factory", "Pattern.Factory\Pattern.Factory.csproj", "{9930619E-A2FF-4C37-8ED9-88AC2AB6B30C}"
 EndProject
