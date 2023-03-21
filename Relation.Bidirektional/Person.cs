@@ -43,61 +43,12 @@ namespace Jarai.CSharp.Relation.Bidirectional
 
         public void Heiraten(Person neuerPartner)
         {
-            // heirate ich eine null?
-            if (neuerPartner == null)
-            {
-                throw new InvalidOperationException(Vorname + " " + Nachname + " kann keine \"null\" heiraten");
-            }
-
-            // heirate ich mich selbst?
-            if (neuerPartner == this)
-            {
-                throw new InvalidOperationException(Vorname + " " + Nachname + " kann sich nicht selbst heiraten");
-            }
-
-            // Bin ich bereits verheiratet?
-            if (Partner != null)
-            {
-                throw new InvalidOperationException(Vorname + " " + Nachname + " ist bereits verheiratet");
-            }
-
-            // Ist mein partner verheiratet?
-            if (neuerPartner.Partner != null)
-            {
-                throw new InvalidOperationException(neuerPartner.Vorname + " " + neuerPartner.Nachname + " ist bereits verheiratet");
-            }
-
-            // ich habe einen neuen partner
-            Partner = neuerPartner;
-
-            // Der partner meines partners bin ich
-            neuerPartner.Partner = this;
-
-            // mein partner nimmt meinen Namen an
-            neuerPartner.Nachname = Nachname;
-
-            ++_anzahlEhen;
-            ++neuerPartner._anzahlEhen;
+            // ToDo: Alle Person Tests sollen grün sein...
         }
 
         public void Trennen()
         {
-            if (Partner == null)
-            {
-                throw new InvalidOperationException(Vorname + " " + Nachname + " ist nicht verheiratet.");
-            }
-
-            // Mein partner nimmt wieder seinen geburtsnamen an
-            Partner.Nachname = Partner._geburtsname;
-
-            // Ich nehme wieder meinen geburtsnamen an
-            Nachname = _geburtsname;
-
-            // Mein partner hat keinen partner mehr
-            Partner.Partner = null;
-
-            // Ich habe keinen partner mehr.
-            Partner = null;
+            // ToDo: Alle Person Tests sollen grün sein...
         }
     }
 }

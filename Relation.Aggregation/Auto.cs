@@ -30,8 +30,8 @@ namespace Jarai.CSharp.Relation.Aggregation
         /// <summary>
         ///     Default Konstruktor (ohne Parameter) erstellt Standard Autos
         /// </summary>
-        public Auto()
-            : this("VW", Defaultfarbe, 50) // Aufruf Konstruktor mit Parametern
+        public Auto()                       // Ruft den Konstruktor mit Parametern auf 
+            : this("VW", Defaultfarbe, 50)  // "Constructor Chaining"
         {
             FahrgestellNr = ++_anzahlAutos;
             Debug.WriteLine("Standard Konstruktor Auto");
@@ -108,8 +108,7 @@ namespace Jarai.CSharp.Relation.Aggregation
             Tachostand += strecke;
             Tankinhalt -= strecke * Spritverbrauch / 100;
 
-            Debug.WriteLine("Neuer tachostand:" + Tachostand);
-            Debug.WriteLine("Neuer tankinhalt:" + Tankinhalt);
+            Debug.WriteLine($"Auto fahren: Tachostand: {Tachostand}, Tankinhalt: {Tankinhalt}");
 
             Motor.Abstellen();
         }
@@ -117,7 +116,7 @@ namespace Jarai.CSharp.Relation.Aggregation
         public void Tanken(double liter)
         {
             Tankinhalt += liter;
-            Debug.WriteLine("Neuer Tankinhalt:" + Tankinhalt);
+            Debug.WriteLine($"Auto tanken: Neuer Tankinhalt: {Tankinhalt}");
         }
 
         /// <summary>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿/*
+
 using System.Diagnostics;
 
 namespace Jarai.CSharp.Relation.Bidirectional
@@ -14,28 +15,10 @@ namespace Jarai.CSharp.Relation.Bidirectional
             Nachname = _geburtsname = nachname;
         }
 
-        /// <summary>
-        /// Der Nachname kann ausserhalb der Klasse Person gelesen werden (public get).
-        /// Der Nachname kann nur von Methoden der Klasse Person geändert werden (private set).
-        /// </summary>
-        public string Nachname { get; private set; }
-
-        /// <summary>
-        /// Der Partner kann ausserhalb der Klasse Person gelesen werden (public get).
-        /// Der Partner kann nur von Methoden der Klasse Person geändert werden (private set).
-        /// </summary>
-        public Person Partner { get; private set; }
-
-        /// <summary>
-        /// Der Vornamen kann ausserhalb der Klasse Person gelesen werden (public get).
-        /// Der Vorname kann nur bei der Geburt (im Konstruktor) gesetzt werden (kein set).
-        /// </summary>
         public string Vorname { get; }
+        public string Nachname { get; private set; }
+        public Person? Partner { get; private set; }
 
-
-        /// <summary>
-        /// Liefert alle Daten der Person als Text 
-        /// </summary>
         public override string ToString()
         {
             string ergebnis = "Guten Tag ich heisse " + Vorname + " " + Nachname;
@@ -120,3 +103,5 @@ namespace Jarai.CSharp.Relation.Bidirectional
         }
     }
 }
+
+*/

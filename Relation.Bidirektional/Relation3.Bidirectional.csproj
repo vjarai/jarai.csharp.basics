@@ -10,4 +10,12 @@
     <AssemblyName>Jarai.CSharp.Relation.Bidirectional</AssemblyName>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="_ReadMe\Musterloesung.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="_ReadMe\Musterloesung.txt" />
+  </ItemGroup>
+
 </Project>
