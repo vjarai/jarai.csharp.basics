@@ -7,14 +7,14 @@ namespace Jarai.CSharp.Pattern.State
         // Ein Telefon hat einen zustand
         // Beispiel für "Zustand Entwurfsmuster"
 
-        private Zustand _aktuellerZustand;
+        private Telefonzustand _aktuellerZustand;
 
         public Telefon()
         {
             _aktuellerZustand = new Aufgelegt();
         }
 
-        public Zustand AktuellerZustand
+        public Telefonzustand AktuellerZustand
         {
             get
             {

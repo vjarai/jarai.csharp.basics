@@ -3,11 +3,11 @@
   <Comment CommentText="        /// &lt;summary&gt;&#xD;&#xA;        /// ON DEMAND yields one element of the result&#xD;&#xA;        /// (Only used values are calculated)&#xD;&#xA;        /// &lt;/summary&gt;&#xD;&#xA;        public IEnumerable&lt;int&gt; GetValuesUsingYieldReturn(int count)&#xD;&#xA;        {&#xD;&#xA;            for (var i = 0; i &lt; count; i++)&#xD;&#xA;            {&#xD;&#xA;                Console.WriteLine($&quot;Yielding value {i}&quot;);&#xD;&#xA;&#xD;&#xA;                Thread.Sleep(10); // simulate slow calculation...&#xD;&#xA;                yield return i;&#xD;&#xA;            }&#xD;&#xA;        }">
     <Position X="0.5" Y="2.028" Height="2.351" Width="3.828" />
   </Comment>
-  <Class Name="Linq.Yield.DataSource">
+  <Class Name="Jarai.CSharp.Linq.YieldReturn.DataGenerator">
     <Position X="0.5" Y="0.5" Width="3.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAIAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>DataSource.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>DataGenerator.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Tahoma" Size="8.25" />

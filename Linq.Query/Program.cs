@@ -1,27 +1,23 @@
-﻿using System;
-using System.Linq;
-
-namespace Jarai.CSharp.Linq.Query
+﻿namespace Jarai.CSharp.Linq.Query
 {
-
     // Website 101 Linq
 
     internal class Program
     {
         /// <summary>
-        /// LINQ => Language Integrated Native Query
-        /// Abfragen auf ein Objektmodell im Speicher
+        ///     LINQ => Language Integrated Native Query
+        ///     Abfragen auf ein Objektmodell im Speicher
         /// </summary>
         private static void Main(string[] args)
         {
             var adressBook = new Adressbook();
 
             // LINQ Query Syntax
-            var contactsFromBerlinQuery =                 // Ergebnisvariable
-                from contact in adressBook.Contacts  // entspricht Schleife
-                where contact.Ort.ToUpper() == "BERLIN"        // Filter
-                orderby contact.Name                 // Sort
-                select  contact;                      // Ins Ergebnis übernehmen
+            var contactsFromBerlinQuery = // Ergebnisvariable
+                from contact in adressBook.Contacts // entspricht Schleife
+                where contact.Ort.ToUpper() == "BERLIN" // Filter
+                orderby contact.Name // Sort
+                select contact; // Ins Ergebnis übernehmen
 
             // Oder Alternativ LINQ Methoden Syntax
             var contactsFromMunichQuery = adressBook.Contacts
@@ -33,7 +29,6 @@ namespace Jarai.CSharp.Linq.Query
             {
                 Console.WriteLine(item);
             }
-
         }
     }
 }

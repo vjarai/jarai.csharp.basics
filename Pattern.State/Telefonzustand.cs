@@ -3,31 +3,31 @@ using System.Diagnostics;
 
 namespace Jarai.CSharp.Pattern.State
 {
-    public abstract class Zustand  // Abstracte Klasse: Reine Basisklasse, d.h. es können keine Instanzen erstellt werden
+    public abstract class Telefonzustand  // Abstracte Klasse: Reine Basisklasse, d.h. es können keine Instanzen erstellt werden
     {
-        protected Zustand(string bezeichnung)
+        protected Telefonzustand(string bezeichnung)
         {
             Bezeichnung = bezeichnung;
         }
 
         public string Bezeichnung { get; }
 
-        public virtual Zustand Abheben()
+        public virtual Telefonzustand Abheben()
         {
             throw new InvalidOperationException("Sie können derzeit den Hörer nicht abheben.");
         }
 
-        public virtual Zustand AnnehmenAnruf()
+        public virtual Telefonzustand AnnehmenAnruf()
         {
             throw new InvalidOperationException("Sie können derzeit keinen Anruf annehmen.");
         }
 
-        public virtual Zustand Auflegen()
+        public virtual Telefonzustand Auflegen()
         {
             throw new InvalidOperationException("Sie können derzeit den Hörer nicht auflegen.");
         }
 
-        public virtual Zustand Sprechen()
+        public virtual Telefonzustand Sprechen()
         {
             throw new InvalidOperationException("Sie können derzeit nicht sprechen.");
         }
@@ -38,7 +38,7 @@ namespace Jarai.CSharp.Pattern.State
             return Bezeichnung;
         }
 
-        public virtual Zustand Wählen()
+        public virtual Telefonzustand Wählen()
         {
             throw new InvalidOperationException("Sie können derzeit keine Nummer wählen.");
         }

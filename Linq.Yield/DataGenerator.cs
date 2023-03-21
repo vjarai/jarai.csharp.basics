@@ -1,16 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading;
-
-namespace Jarai.CSharp.Linq.YieldReturn
+﻿namespace Jarai.CSharp.Linq.YieldReturn
 {
-    internal class DataSource
+    internal class DataGenerator
     {
         /// <summary>
         ///     Calculates a result List of values in advance and returns it
         /// </summary>
         public IEnumerable<int> GenerateData(int count)
         {
+
             var result = new List<int>();
 
             for (int i = 0; i < count; i++)
@@ -35,6 +32,7 @@ namespace Jarai.CSharp.Linq.YieldReturn
                 Console.WriteLine($"Yielding value {i}");
 
                 Thread.Sleep(10); // simulate slow calculation...
+
                 yield return i;
             }
         }

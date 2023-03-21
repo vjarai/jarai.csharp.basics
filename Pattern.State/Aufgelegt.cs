@@ -2,20 +2,20 @@ using System.Diagnostics;
 
 namespace Jarai.CSharp.Pattern.State
 {
-    public class Aufgelegt : Zustand
+    public class Aufgelegt : Telefonzustand
     {
         public Aufgelegt()
             : base("<Hörer ist aufgelegt>")
         {
         }
 
-        public override Zustand Abheben()
+        public override Telefonzustand Abheben()
         {
             Debug.WriteLine("Hörer wird abgehoben.");
             return new Abgehoben();
         }
 
-        public override Zustand AnnehmenAnruf()
+        public override Telefonzustand AnnehmenAnruf()
         {
             Debug.WriteLine("Anruf wird angenommen.");
             return new Verbunden();

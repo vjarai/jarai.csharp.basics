@@ -34,11 +34,11 @@
       <FileName>Verbunden.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Jarai.CSharp.Pattern.State.Zustand">
+  <Class Name="Jarai.CSharp.Pattern.State.Telefonzustand">
     <Position X="4.5" Y="1.25" Width="2" />
     <TypeIdentifier>
       <HashCode>AAEAAAAAAAAAEAAEAAAAAAAAAAAAAAAAgAAAAABABBA=</HashCode>
-      <FileName>Zustand.cs</FileName>
+      <FileName>Telefonzustand.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Tahoma" Size="8.25" />

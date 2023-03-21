@@ -16,8 +16,8 @@
         }
 
         /// <summary>
-        /// Array aller in diesem Adressbuch gespeicherten Adressen
-        /// (In der Praxis würde man statt des Arrays eine generische Liste nehmen...)
+        ///     Array aller in diesem Adressbuch gespeicherten Adressen
+        ///     (In der Praxis würde man statt des Arrays eine generische Liste nehmen...)
         /// </summary>
         public Contact[] Contacts { get; }
     }

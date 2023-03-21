@@ -10,14 +10,13 @@
 - Abheben (nur im Zustand aufgelegt)
 - Wählen (nur im Zustand abgehoben)
 - Sprechen (nur im Zustand verbunden)
-- Auflegen (nur im Zustand verbunden)
+- Auflegen (im Zustand verbunden oder abgehoben)
 
-Bei allen Fehlbedienungen soll eine Fehlermeldung erscheinen, <br>
-z.B. "Wählen nur im abgehobenen Zustand möglich".
+Bei allen Fehlbedienungen soll eine Exception geworfen werden. <br>
 
 Erstellen Sie die Klasse Telefon mit allen fünf Funktionen.<br>
 Erstellen Sie ein Klassendiagramm.
-Schreiben Sie eine 
+
 
 Implementieren Sie das zustandsabhängige Verhalten des Telfons ***ohne eine einzige Kontrollstruktur (if, switch, etc.)*** zu verwenden!
 
