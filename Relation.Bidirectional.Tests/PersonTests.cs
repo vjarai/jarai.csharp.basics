@@ -1,11 +1,9 @@
-﻿using System;
-using Xunit;
+﻿using Xunit;
 
 namespace Jarai.CSharp.Relation.Bidirectional.Tests
 {
     public class PersonTests
     {
-
         [Fact]
         public void Kennt_den_eigenen_Namen()
         {
@@ -14,7 +12,7 @@ namespace Jarai.CSharp.Relation.Bidirectional.Tests
 
             // Assert
             Assert.Equal("Susi", target.Vorname);
-            Assert.Equal("Sorglos",target.Nachname);
+            Assert.Equal("Sorglos", target.Nachname);
         }
 
         [Fact]
@@ -23,9 +21,9 @@ namespace Jarai.CSharp.Relation.Bidirectional.Tests
             // Arrange
             var target = new Person("Susi", "Sorglos");
             var person2 = new Person("Fritz", "Müller");
-            target.Heiraten(person2);
-
             var person3 = new Person("Max", "Mustermann");
+
+            target.Heiraten(person2);
 
             // Act & Assert
             Assert.Throws<InvalidOperationException>(() => target.Heiraten(person3));
@@ -39,6 +37,7 @@ namespace Jarai.CSharp.Relation.Bidirectional.Tests
             var target = new Person("Susi", "Sorglos");
             var person2 = new Person("Fritz", "Müller");
             var person3 = new Person("Max", "Mustermann");
+
             person2.Heiraten(person3);
 
             // Act & Assert
@@ -92,7 +91,6 @@ namespace Jarai.CSharp.Relation.Bidirectional.Tests
             Assert.Equal(person1, person2.Partner);
         }
 
-        
 
         [Fact]
         public void Beide_haben_keinen_Partner_mehr_nach_trennung()

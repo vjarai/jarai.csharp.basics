@@ -103,8 +103,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entity Framework (alt)", "E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entity Framework Core", "Entity Framework Core", "{F4C0F50B-B50D-4F3F-9A3F-77EDB0C6889B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pattern.Factory", "Pattern.Factory\Pattern.Factory.csproj", "{9930619E-A2FF-4C37-8ED9-88AC2AB6B30C}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|.NET = Debug|.NET
@@ -859,26 +857,6 @@ Global
 		{967DBD91-A25E-431A-B085-CC471155DA31}.Release|x64.Build.0 = Release|Any CPU
 		{967DBD91-A25E-431A-B085-CC471155DA31}.Release|x86.ActiveCfg = Release|Any CPU
 		{967DBD91-A25E-431A-B085-CC471155DA31}.Release|x86.Build.0 = Release|Any CPU
-		{9930619E-A2FF-4C37-8ED9-88AC2AB6B30C}.Debug|.NET.ActiveCfg = Debug|Any CPU
-		{9930619E-A2FF-4C37-8ED9-88AC2AB6B30C}.Debug|.NET.Build.0 = Debug|Any CPU
-		{9930619E-A2FF-4C37-8ED9-88AC2AB6B30C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9930619E-A2FF-4C37-8ED9-88AC2AB6B30C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9930619E-A2FF-4C37-8ED9-88AC2AB6B30C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{9930619E-A2FF-4C37-8ED9-88AC2AB6B30C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{9930619E-A2FF-4C37-8ED9-88AC2AB6B30C}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{9930619E-A2FF-4C37-8ED9-88AC2AB6B30C}.Debug|x64.Build.0 = Debug|Any CPU
-		{9930619E-A2FF-4C37-8ED9-88AC2AB6B30C}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{9930619E-A2FF-4C37-8ED9-88AC2AB6B30C}.Debug|x86.Build.0 = Debug|Any CPU
-		{9930619E-A2FF-4C37-8ED9-88AC2AB6B30C}.Release|.NET.ActiveCfg = Release|Any CPU
-		{9930619E-A2FF-4C37-8ED9-88AC2AB6B30C}.Release|.NET.Build.0 = Release|Any CPU
-		{9930619E-A2FF-4C37-8ED9-88AC2AB6B30C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9930619E-A2FF-4C37-8ED9-88AC2AB6B30C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9930619E-A2FF-4C37-8ED9-88AC2AB6B30C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{9930619E-A2FF-4C37-8ED9-88AC2AB6B30C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{9930619E-A2FF-4C37-8ED9-88AC2AB6B30C}.Release|x64.ActiveCfg = Release|Any CPU
-		{9930619E-A2FF-4C37-8ED9-88AC2AB6B30C}.Release|x64.Build.0 = Release|Any CPU
-		{9930619E-A2FF-4C37-8ED9-88AC2AB6B30C}.Release|x86.ActiveCfg = Release|Any CPU
-		{9930619E-A2FF-4C37-8ED9-88AC2AB6B30C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -927,7 +905,6 @@ Global
 		{5CA2EE1E-380E-4E28-9C77-9F1245ADED83} = {2D995E7D-654E-458F-AFDA-FDC0C584C053}
 		{587C8B28-E6D6-488E-9A65-B8B3EE4BA57B} = {BD09E5F6-FE6C-4F3A-A388-E52359483AEE}
 		{F4C0F50B-B50D-4F3F-9A3F-77EDB0C6889B} = {BD09E5F6-FE6C-4F3A-A388-E52359483AEE}
-		{9930619E-A2FF-4C37-8ED9-88AC2AB6B30C} = {906C9968-4AB7-4BC7-AE56-B78C6997F264}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF1C7CE4-B62E-481C-BACC-354F61E48614}
