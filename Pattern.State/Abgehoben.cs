@@ -11,13 +11,13 @@ namespace Jarai.CSharp.Pattern.State
 
         public override Telefonzustand Auflegen()
         {
-            Debug.WriteLine("Hörer wird aufgelegt.");
+            Console.WriteLine("Hörer wird aufgelegt.");
             return new Aufgelegt();
         }
 
         public override Telefonzustand Wählen()
         {
-            Debug.WriteLine("Rufnummer wird gewählt.");
+            Console.WriteLine("Rufnummer wird gewählt.");
             return new Verbunden();
         }
     }

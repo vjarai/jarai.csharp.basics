@@ -1,4 +1,4 @@
-namespace Jarai.CSharp.Pattern.State
+﻿namespace Jarai.CSharp.Pattern.State
 {
     internal class Program
     {
@@ -6,15 +6,18 @@ namespace Jarai.CSharp.Pattern.State
         {
             var meinTelefon = new Telefon();
 
+            // Happy Path "jemanden anrufen"
+            meinTelefon.Abheben();
+            meinTelefon.Wählen();
+            meinTelefon.Sprechen();
             meinTelefon.Auflegen();
+
+            // Happy Path "Anruf annehmen"
             meinTelefon.AnnehmenAnruf();
             meinTelefon.Sprechen();
             meinTelefon.Auflegen();
 
-            meinTelefon.Abheben();
-            meinTelefon.W�hlen();
-            meinTelefon.Sprechen();
-            meinTelefon.Auflegen();
+
         }
     }
 }

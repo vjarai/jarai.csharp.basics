@@ -2,11 +2,12 @@
 
 namespace Jarai.CSharp.Pattern.State
 {
+    /// <summary>
+    ///  Ein Telefon HAT EINEN Telefonzustand
+    ///  Beispiel für "Zustand Entwurfsmuster"
+    /// </summary>
     public class Telefon
     {
-        // Ein Telefon hat einen zustand
-        // Beispiel für "Zustand Entwurfsmuster"
-
         private Telefonzustand _aktuellerZustand;
 
         public Telefon()
@@ -18,7 +19,7 @@ namespace Jarai.CSharp.Pattern.State
         {
             get
             {
-                Debug.WriteLine("\nAktueller Zustand: " + _aktuellerZustand);
+                Console.WriteLine("\nAktueller Zustand: " + _aktuellerZustand);
                 return _aktuellerZustand;
             }
             private set { _aktuellerZustand = value; }
