@@ -2,7 +2,7 @@
 
 https://learn.microsoft.com/de-de/ef/core/managing-schemas/scaffolding/?tabs=dotnet-core-cli
 
-- Beiöligende Northwind.sql auf lokalem SQL Server ausführen
+- Beiligende Northwind.sql auf lokalem SQL Server ausführen
 - Tools->Nuget Packet Manager->Packet Manager Console
 - Im Fenster Package Manager Console nacheinander eingeben:<br><br>
 Install-Package Microsoft.EntityFrameworkCore.Tools<br>
