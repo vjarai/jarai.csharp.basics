@@ -1,4 +1,6 @@
-﻿namespace EntityFrameworkCore.DatabaseFirst
+﻿using Jarai.CSharp.EntityFrameworkCore.DatabaseFirst.Model;
+
+namespace Jarai.CSharp.EntityFrameworkCore.DatabaseFirst
 {
     internal class Program
     {

@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
-namespace EntityFrameworkCore.DatabaseFirst.Model;
+namespace Jarai.CSharp.EntityFrameworkCore.DatabaseFirst.Model;
 
 public partial class NorthwindContext : DbContext
 {

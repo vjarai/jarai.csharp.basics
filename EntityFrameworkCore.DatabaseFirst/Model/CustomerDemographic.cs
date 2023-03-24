@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace EntityFrameworkCore.DatabaseFirst.Model;
+﻿namespace Jarai.CSharp.EntityFrameworkCore.DatabaseFirst.Model;
 
 public partial class CustomerDemographic
 {
