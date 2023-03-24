@@ -2,6 +2,7 @@
 
 https://learn.microsoft.com/de-de/ef/core/managing-schemas/scaffolding/?tabs=dotnet-core-cli
 
+- Neues Projekt erstellen und als Startprojekt festlegen
 - Beiligende Northwind.sql auf lokalem SQL Server ausführen
 - Extras->Nuget Paket Manager->Paket Manager Console
 - Im Fenster Paket Manager Console nacheinander eingeben:<br><br>
