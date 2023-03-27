@@ -5,5 +5,5 @@
 - Lassen Sie den Anwender alle Umsatzwerte in einer ersten (zählergesteuerten) for Schleife eingeben.
 - Geben Sie die Umsatzzahlen in einer zweiten (foreach) Schleife wieder aus:<br>
 ```forach(double wert in umsatz) ... ```
-
+- Geben Sie die Umsatzzahlen in einer weiteren (for) Schleife RÜCKWÄRTS aus. 
 
