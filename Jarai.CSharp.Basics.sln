@@ -103,7 +103,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entity Framework (alt)", "E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entity Framework Core", "Entity Framework Core", "{F4C0F50B-B50D-4F3F-9A3F-77EDB0C6889B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkCore.DatabaseFirst", "EntityFrameworkCore.DatabaseFirst\EntityFrameworkCore.DatabaseFirst.csproj", "{E026E5C7-B089-46A3-9D43-7088F6D723E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkCore.DatabaseFirst", "EntityFrameworkCore.DatabaseFirst\EntityFrameworkCore.DatabaseFirst.csproj", "{E026E5C7-B089-46A3-9D43-7088F6D723E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Objektorientierung4.Konto", "Objektorientierung4.Konto\Objektorientierung4.Konto.csproj", "{3B4551CE-B6A2-471F-8E7C-23B7C7D794DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -879,6 +881,26 @@ Global
 		{E026E5C7-B089-46A3-9D43-7088F6D723E4}.Release|x64.Build.0 = Release|Any CPU
 		{E026E5C7-B089-46A3-9D43-7088F6D723E4}.Release|x86.ActiveCfg = Release|Any CPU
 		{E026E5C7-B089-46A3-9D43-7088F6D723E4}.Release|x86.Build.0 = Release|Any CPU
+		{3B4551CE-B6A2-471F-8E7C-23B7C7D794DC}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{3B4551CE-B6A2-471F-8E7C-23B7C7D794DC}.Debug|.NET.Build.0 = Debug|Any CPU
+		{3B4551CE-B6A2-471F-8E7C-23B7C7D794DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B4551CE-B6A2-471F-8E7C-23B7C7D794DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B4551CE-B6A2-471F-8E7C-23B7C7D794DC}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3B4551CE-B6A2-471F-8E7C-23B7C7D794DC}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3B4551CE-B6A2-471F-8E7C-23B7C7D794DC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3B4551CE-B6A2-471F-8E7C-23B7C7D794DC}.Debug|x64.Build.0 = Debug|Any CPU
+		{3B4551CE-B6A2-471F-8E7C-23B7C7D794DC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3B4551CE-B6A2-471F-8E7C-23B7C7D794DC}.Debug|x86.Build.0 = Debug|Any CPU
+		{3B4551CE-B6A2-471F-8E7C-23B7C7D794DC}.Release|.NET.ActiveCfg = Release|Any CPU
+		{3B4551CE-B6A2-471F-8E7C-23B7C7D794DC}.Release|.NET.Build.0 = Release|Any CPU
+		{3B4551CE-B6A2-471F-8E7C-23B7C7D794DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B4551CE-B6A2-471F-8E7C-23B7C7D794DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B4551CE-B6A2-471F-8E7C-23B7C7D794DC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3B4551CE-B6A2-471F-8E7C-23B7C7D794DC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{3B4551CE-B6A2-471F-8E7C-23B7C7D794DC}.Release|x64.ActiveCfg = Release|Any CPU
+		{3B4551CE-B6A2-471F-8E7C-23B7C7D794DC}.Release|x64.Build.0 = Release|Any CPU
+		{3B4551CE-B6A2-471F-8E7C-23B7C7D794DC}.Release|x86.ActiveCfg = Release|Any CPU
+		{3B4551CE-B6A2-471F-8E7C-23B7C7D794DC}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -928,6 +950,7 @@ Global
 		{587C8B28-E6D6-488E-9A65-B8B3EE4BA57B} = {BD09E5F6-FE6C-4F3A-A388-E52359483AEE}
 		{F4C0F50B-B50D-4F3F-9A3F-77EDB0C6889B} = {BD09E5F6-FE6C-4F3A-A388-E52359483AEE}
 		{E026E5C7-B089-46A3-9D43-7088F6D723E4} = {F4C0F50B-B50D-4F3F-9A3F-77EDB0C6889B}
+		{3B4551CE-B6A2-471F-8E7C-23B7C7D794DC} = {C6F55941-4BC3-4A84-9E84-7B22C809DDC4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF1C7CE4-B62E-481C-BACC-354F61E48614}
