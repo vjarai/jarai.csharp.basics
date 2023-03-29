@@ -16,20 +16,22 @@ namespace Objektorientierung4.Konto
         public Konto(string kontoInhaber)
         {
             _kontoInhaber = kontoInhaber;
-            _pin = 0;
+            _pin = 4711;
             _kontoNummer = ++_anzahlKonten;
         }
 
         public void Anzeigen()
         {
-            Console.WriteLine($"Konto: {_kontoNummer}");
+            Console.WriteLine($"Konto     : {_kontoNummer} \n" +
+                              $"Inhaber   : {_kontoInhaber}\n" +
+                              $"Kontostand: {_kontoStand} \n");
         }
 
         public void Einzahlen(decimal betrag)
         {
             _kontoStand += betrag;
 
-            Console.WriteLine($"{betrag} EUR auf Konto {_kontoNummer} eingezahlt. " +
+            Console.WriteLine($"{betrag} EUR auf Konto {_kontoNummer} eingezahlt\n " +
                               $"Neuer Kontostand: {_kontoStand}");
         }
 
@@ -43,13 +45,15 @@ namespace Objektorientierung4.Konto
 
             _kontoStand -= betrag;
 
-            Console.WriteLine($"{betrag} EUR von Konto {_kontoNummer} abgehoben. " +
+            Console.WriteLine($"{betrag} EUR von Konto {_kontoNummer} abgehoben\n" +
                               $"Neuer Kontostand: {_kontoStand}");
 
         }
 
         public void Überweisen(Konto habenkonto, int pin, decimal betrag)
         {
+            this.Abheben(betrag, pin);
+            habenkonto.Einzahlen(betrag);
         }
     }
 }
