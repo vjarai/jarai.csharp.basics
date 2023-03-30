@@ -2,12 +2,12 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Jarai.CSharp.Relation.Inheritance</RootNamespace>
-    <AssemblyName>Jarai.CSharp.Relation.Inheritance</AssemblyName>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo> 
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <RootNamespace>Jarai.CSharp.Objektorientierung1.Aggregation</RootNamespace>
+    <AssemblyName>Jarai.CSharp.Objektorientierung1.Aggregation</AssemblyName>
   </PropertyGroup>
 
 </Project>

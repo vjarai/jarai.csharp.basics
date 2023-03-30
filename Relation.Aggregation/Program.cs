@@ -1,4 +1,4 @@
-﻿namespace Jarai.CSharp.Relation.Aggregation
+﻿namespace Jarai.CSharp.Objektorientierung1.Aggregation
 {
     internal class Program
     {

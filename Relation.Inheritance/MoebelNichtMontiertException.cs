@@ -1,4 +1,4 @@
-﻿namespace Jarai.CSharp.Relation.Inheritance
+﻿namespace Jarai.CSharp.Objektorientierung2.Inheritance
 {
     public class MoebelNichtMontiertException : Exception
     {

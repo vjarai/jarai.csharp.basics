@@ -1,8 +1,6 @@
-﻿using System;
-using System.Diagnostics;
-using System.Reflection;
+﻿using System.Diagnostics;
 
-namespace Jarai.CSharp.Relation.Inheritance
+namespace Jarai.CSharp.Objektorientierung2.Inheritance
 {
     public class Ikea
     {
@@ -19,7 +17,7 @@ namespace Jarai.CSharp.Relation.Inheritance
             Filialumsatz = 0;
         }
 
-        public double Filialumsatz { get;private set; }
+        public double Filialumsatz { get; private set; }
         public string Standort { get; }
 
         public void Show()
@@ -34,17 +32,17 @@ namespace Jarai.CSharp.Relation.Inheritance
         {
             Console.WriteLine("Willkomen bei Ikea, was wollen Sie kaufen");
 
-            string? eingabe = Console.ReadLine();
-            Möbel? neuesMöbel = null;
+            string eingabe = Console.ReadLine();
+            Möbel warenkorb = null;
 
             switch (eingabe)
             {
                 case "Stuhl":
-                    neuesMöbel = new Stuhl();
+                    warenkorb = new Stuhl();
                     break;
 
                 case "Tisch":
-                    neuesMöbel = new Tisch();
+                    warenkorb = new Tisch();
                     break;
 
                 default:
@@ -52,36 +50,14 @@ namespace Jarai.CSharp.Relation.Inheritance
                     break;
             }
 
-            if (neuesMöbel != null)  // Wurde etwas gekauft...?
+            if (warenkorb != null) // Wurde etwas gekauft...?
             {
                 // ja, an die Kasse gehen und zahlen
-                Filialumsatz += neuesMöbel.Preis;
+                Filialumsatz += warenkorb.Preis;
             }
 
             // Warenausgabe
-            return neuesMöbel;
+            return warenkorb;
         }
-
-        /*
-        public Möbel Verkaufen2()
-        {
-            Console.WriteLine($"Willkommen bei Ikea {Standort}.");
-            Console.WriteLine("Was möchten Sie kaufen? (Tisch, Stuhl oder Leer).");
-
-            string eingabe = Console.ReadLine();
-
-            if (string.IsNullOrEmpty(eingabe))
-            {
-                return null;
-            }
-
-            string typeName = GetType().Namespace + "." + eingabe;
-
-            // Instanz via Reflection über den Klassennamen erstellen
-            var möbel = (Möbel)Assembly.GetExecutingAssembly().CreateInstance(typeName, true);
-
-            return möbel;
-        }
-        */
     }
 }

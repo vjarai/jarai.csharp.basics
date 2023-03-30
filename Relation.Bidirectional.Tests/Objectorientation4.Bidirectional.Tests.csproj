@@ -5,8 +5,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-    <RootNamespace>Jarai.CSharp.Relation.Bidirectional.Tests</RootNamespace>
-    <AssemblyName>Jarai.CSharp.Relation.Bidirectional.Tests</AssemblyName>
+    <RootNamespace>Jarai.CSharp.Objektorientierung4.Bidirectional</RootNamespace>
+    <AssemblyName>Jarai.CSharp.Objektorientierung4.Bidirectional</AssemblyName>
     <IsPackable>false</IsPackable>
   </PropertyGroup>
 
@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Relation.Bidirektional\Relation3.Bidirectional.csproj" />
+    <ProjectReference Include="..\Relation.Bidirektional\Objectorientation4.Bidirectional.csproj" />
   </ItemGroup>
 
 </Project>

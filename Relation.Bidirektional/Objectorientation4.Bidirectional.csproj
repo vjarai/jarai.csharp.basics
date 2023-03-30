@@ -6,8 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-    <RootNamespace>Jarai.CSharp.Relation.Bidirectional</RootNamespace>
-    <AssemblyName>Jarai.CSharp.Relation.Bidirectional</AssemblyName>
+    <RootNamespace>Jarai.CSharp.Objektorientierung4.Bidirectional</RootNamespace>
+    <AssemblyName>Jarai.CSharp.Objektorientierung4.Bidirectional</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

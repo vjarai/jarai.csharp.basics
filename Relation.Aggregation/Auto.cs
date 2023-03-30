@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace Jarai.CSharp.Relation.Aggregation
+namespace Jarai.CSharp.Objektorientierung1.Aggregation
 {
     public class Auto
     {

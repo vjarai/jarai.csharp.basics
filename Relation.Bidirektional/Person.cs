@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace Jarai.CSharp.Relation.Bidirectional
+namespace Jarai.CSharp.Objektorientierung4.Bidirectional
 {
     public class Person
     {

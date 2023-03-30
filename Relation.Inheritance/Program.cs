@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Jarai.CSharp.Relation.Inheritance
+﻿namespace Jarai.CSharp.Objektorientierung2.Inheritance
 {
     internal class Program
     {

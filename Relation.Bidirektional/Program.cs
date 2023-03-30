@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Jarai.CSharp.Relation.Bidirectional
+﻿namespace Jarai.CSharp.Objektorientierung4.Bidirectional
 {
     internal class Program
     {

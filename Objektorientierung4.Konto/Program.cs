@@ -1,4 +1,4 @@
-﻿namespace Objektorientierung4.Konto
+﻿namespace Jarai.CSharp.Objektorientierung3.Konto
 {
     internal class Program
     {

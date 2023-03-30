@@ -1,6 +1,6 @@
 ﻿using Xunit;
 
-namespace Jarai.CSharp.Relation.Bidirectional.Tests
+namespace Jarai.CSharp.Objektorientierung4.Bidirectional
 {
     public class PersonTests
     {

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace Objektorientierung4.Konto
+﻿namespace Jarai.CSharp.Objektorientierung3.Konto
 {
     public class Konto
     {
