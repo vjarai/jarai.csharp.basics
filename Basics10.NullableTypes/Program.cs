@@ -8,7 +8,7 @@
 
             // Nullable<bool> esWirdRegnen;
             // Oder kürzer mit ?
-            bool? esWirdRegnen = null;
+            bool? esWirdRegnen = null; // null bedeutet: "Ich weiß es nicht"
 
             if (regenWahrscheinlichkeit < 30)
                 esWirdRegnen = false;

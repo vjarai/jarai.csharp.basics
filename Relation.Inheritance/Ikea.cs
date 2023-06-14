@@ -28,7 +28,7 @@ namespace Jarai.CSharp.Objektorientierung2.Inheritance
             Debug.WriteLine("Konzernumsatz: " + Konzernumsatz);
         }
 
-        public Möbel? Verkaufen()
+        public Möbel Verkaufen()
         {
             Console.WriteLine("Willkomen bei Ikea, was wollen Sie kaufen");
 
