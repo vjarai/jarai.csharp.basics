@@ -9,31 +9,29 @@ namespace Jarai.CSharp.Basics.Conditionals
             Console.WriteLine("Bitte Schulnote eingeben (1-6)");
             string eingabe = Console.ReadLine();
 
-            int note = int.Parse(eingabe);  // Umwandlung Texteingabe in Zahl
-
             #region Variante if else
 
-            if (note == 1)
+            if (eingabe == "1")
             {
                 Console.WriteLine("Sehr gut");
             }
-            else if (note == 2)
+            else if (eingabe == "2")
             {
                 Console.WriteLine("Gut");
             }
-            else if (note == 3)
+            else if (eingabe == "3")
             {
                 Console.WriteLine("Befriedigend");
             }
-            else if (note == 4)
+            else if (eingabe == "4")
             {
                 Console.WriteLine("Ausreichend");
             }
-            else if (note == 5)
+            else if (eingabe == "5")
             {
                 Console.WriteLine("Mangelhaft");
             }
-            else if (note == 6)
+            else if (eingabe == "6")
             {
                 Console.WriteLine("Suboptimal");
             }
@@ -46,24 +44,24 @@ namespace Jarai.CSharp.Basics.Conditionals
 
             #region Variante switch
 
-            switch (note)
+            switch (eingabe)
             {
-                case 1:
+                case "1":
                     Console.WriteLine("Sehr gut");
-                    break;
-                case 2:
+                    break; // nicht vergessen
+                case "2":
                     Console.WriteLine("Gut");
                     break;
-                case 3:
+                case "3":
                     Console.WriteLine("Befriedigend");
                     break;
-                case 4:
+                case "4":
                     Console.WriteLine("Ausreichend");
                     break;
-                case 5:
+                case "5":
                     Console.WriteLine("Mangelhaft");
                     break;
-                case 6:
+                case "6":
                     Console.WriteLine("Suboptimal");
                     break;
                 default:
@@ -71,6 +69,7 @@ namespace Jarai.CSharp.Basics.Conditionals
                     break;
             }
 
+        
             #endregion
 
             #region Variante array
@@ -80,6 +79,8 @@ namespace Jarai.CSharp.Basics.Conditionals
 
             // Array anlegen
             string[] notenTexte = { "Sehr gut", "Gut", "Befriedigend", "Ausreichend", "Mangelhaft", "Ungenügend" };
+
+            int note = int.Parse(eingabe);  // Umwandlung Texteingabe in Zahl
 
             // Gültige Note?
             if (note >= 1 && note <= notenTexte.Length)  // && ist das logische Und

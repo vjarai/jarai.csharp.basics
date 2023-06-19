@@ -107,7 +107,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkCore.Databas
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Objectorientation3.Konto", "Objektorientierung4.Konto\Objectorientation3.Konto.csproj", "{3B4551CE-B6A2-471F-8E7C-23B7C7D794DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basics11.Enum", "Basics11.Enum\Basics11.Enum.csproj", "{A46CB254-2A36-4479-8E4C-68F163EADFE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basics11.Enum", "Basics11.Enum\Basics11.Enum.csproj", "{A46CB254-2A36-4479-8E4C-68F163EADFE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
