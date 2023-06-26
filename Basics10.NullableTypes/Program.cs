@@ -17,7 +17,7 @@
 
             // Abfrage, ob der Wert von esWirdRegnen gesetzt ist
             if (esWirdRegnen.HasValue)
-                Console.WriteLine($"Regenvorhersage: {esWirdRegnen}");
+                Console.WriteLine($"Es wird regnen: {esWirdRegnen}");
             else
                 Console.WriteLine("Wir wissen nicht, ob es regnen wird.");
 

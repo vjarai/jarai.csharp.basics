@@ -8,6 +8,9 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
   <ItemGroup>
+    <AdditionalFiles Remove="C:\Users\Viktor\.nuget\packages\microsoft.dotnet.upgradeassistant.extensions.default.analyzers\0.4.346202\build\\WebTypeReplacements.typemap" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="ReadMe\Basics02_Conditionals.md" />
   </ItemGroup>
   <ItemGroup>
