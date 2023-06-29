@@ -7,6 +7,7 @@
     <UseWPF>true</UseWPF>
     <RootNamespace>Jarai.CSharp.Calculator.UserInterface.Wpf</RootNamespace>
     <AssemblyName>Jarai.CSharp.Calculator.UserInterface.Wpf</AssemblyName>
+    <StartupObject>Jarai.CSharp.Calculator.UserInterface.Wpf.App</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,13 +15,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="MainWindow.xaml.cs">
+    <Compile Update="Views\MainWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <Page Update="MainWindow.xaml">
+    <Page Update="Views\MainWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

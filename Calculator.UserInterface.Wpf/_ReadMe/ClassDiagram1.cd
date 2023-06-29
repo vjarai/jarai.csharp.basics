@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Jarai.CSharp.Calculator.UserInterface.Wpf.MainWindow">
+    <Position X="1.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ViewModel" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Jarai.CSharp.Calculator.UserInterface.Wpf.ViewModels.MainWindowViewModel">
+    <Position X="5" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAICAAAACQAAAAACIQADAQAAwgAABACAAAAAEAAAAAA=</HashCode>
+      <FileName>ViewModels\MainWindowViewModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AddCommand" />
+      <Property Name="DivideCommand" />
+      <Property Name="MultiplyCommand" />
+      <Property Name="SubtractCommand" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Jarai.CSharp.Calculator.Logic.CalculationService">
+    <Position X="9.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="System.Windows.Input.ICommand">
+    <Position X="9.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

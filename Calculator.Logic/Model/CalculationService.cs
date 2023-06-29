@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Jarai.CSharp.Calculator.Logic
+namespace Jarai.CSharp.Calculator.Logic.Model
 {
     public class CalculationService : ICalculationService
     {
@@ -11,7 +11,7 @@ namespace Jarai.CSharp.Calculator.Logic
 
         public double Divide(double x, double y)
         {
-            if (y == 0) 
+            if (y == 0)
                 throw new InvalidOperationException("Division durch 0 ist nicht möglich.");
 
             return x / y;

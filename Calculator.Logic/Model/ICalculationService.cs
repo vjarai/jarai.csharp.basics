@@ -1,4 +1,4 @@
-﻿namespace Jarai.CSharp.Calculator.Logic
+﻿namespace Jarai.CSharp.Calculator.Logic.Model
 {
     public interface ICalculationService
     {

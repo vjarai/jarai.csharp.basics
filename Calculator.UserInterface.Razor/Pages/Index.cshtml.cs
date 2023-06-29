@@ -1,4 +1,4 @@
-﻿using Jarai.CSharp.Calculator.Logic;
+﻿using Jarai.CSharp.Calculator.Logic.Model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 

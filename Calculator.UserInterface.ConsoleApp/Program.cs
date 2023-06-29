@@ -1,4 +1,4 @@
-﻿using Jarai.CSharp.Calculator.Logic;
+﻿using Jarai.CSharp.Calculator.Logic.Model;
 
 namespace Jarai.CSharp.Calculator.UserInterface.ConsoleApp
 {

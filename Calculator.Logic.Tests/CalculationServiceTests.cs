@@ -1,7 +1,7 @@
-﻿using System;
+﻿using Jarai.CSharp.Calculator.Logic.Model;
 using Xunit;
 
-namespace Jarai.CSharp.Calculator.Logic.Tests
+namespace Calculator.Logic.Tests
 {
     public class CalculationServiceTests
     {

@@ -1,8 +1,7 @@
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
-using UserInterface5.BlazorWebAssembly;
 
-namespace UserInterface5.BlazorWebAssembly
+namespace UserInterface5.BlazorWebAssembly.Client
 {
     public class Program
     {
