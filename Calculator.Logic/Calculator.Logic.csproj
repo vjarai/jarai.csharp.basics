@@ -8,11 +8,6 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="ReadMe\MSIL.jpg" />
-    <Content Include="ReadMe\Program.txt" />
-    <Content Include="ReadMe\Basics01_HelloWorld.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers" Version="0.4.346202">
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
