@@ -18,7 +18,7 @@ namespace Jarai.CSharp.Basics.Zahlenraten
                 int geheimzahl = zufallszahlenGenerator.Next(1, 101);
 
                 // Schummelfunktion (nur zum Debuggen)
-                Console.WriteLine("Geheimzahl:" + geheimzahl);
+                // Console.WriteLine("Geheimzahl:" + geheimzahl);
 
                 Console.WriteLine("Willkommen zum fröhlichen Zahlenraten (zwischen 1 und 100)!");
 
