@@ -18,7 +18,7 @@ namespace Jarai.CSharp.Linq.Lambda
 
             // LINQ mit anonymen Methoden (Lamda Expressions)
             var contacts1 = adressBook.Contacts
-                .Where(contact => contact.Name == "Müller")
+                .Where(contact => contact.Name.Contains("Müller"))
                 .Select(contact => contact.Ort)
                 .ToArray();
             
@@ -31,7 +31,7 @@ namespace Jarai.CSharp.Linq.Lambda
 
         private static bool NameFilter(Contact contact)
         {
-            return contact.Name == "Müller";
+            return contact.Name.Contains("Müller");
         }
     }
 }
