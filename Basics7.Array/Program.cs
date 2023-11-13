@@ -13,13 +13,10 @@ namespace Jarai.CSharp.Basics.Array
             double[] umsatz = new double[anzahl]; // eindimensionales Array (Vektor) passender Größe anlegen
             //var matrix = new double[4,4];   // geht im Prinzip auch mehrdimensional...
 
-            // Bei ungültigem index wird IndexOutOfRangeException geworfen:
-            //umsatz[-1] = 0;
-
             // Schleife für Eingabe
             for (int i = 0; i < umsatz.Length; i++)
             {
-                Console.WriteLine("Bitte umsatz[{0:d}] eingeben", i);
+                Console.WriteLine($"Bitte umsatz[{i}] eingeben");
                 eingabe = Console.ReadLine();
                 umsatz[i] = double.Parse(eingabe);
             }
@@ -33,7 +30,7 @@ namespace Jarai.CSharp.Basics.Array
             // Alternativ: Ausgabe rückwärts
             for (int i = umsatz.Length - 1; i >= 0; i--)
             {
-                Console.WriteLine("umsatz[{0}] = {1}", i, umsatz[i]);
+                Console.WriteLine($"umsatz[{i}] = {umsatz[i]}");
             }
 
             Console.ReadLine();
