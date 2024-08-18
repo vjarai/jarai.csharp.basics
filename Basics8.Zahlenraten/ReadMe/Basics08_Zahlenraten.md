@@ -1,5 +1,5 @@
-﻿# Abschluss Aufgabe 1. Tag
-# Zahlenraten:
+﻿# Zusammenfassung 1. Tag
+# Spiel Zahlenraten:
 
 - Erstellen Sie eine neue Konsolen Anwendung für das Spiel Zahlenraten
 - Der Computer denkt sich eine zufällige Zahl im Bereich 1 bis 100 aus: <br>```int geheimzahl = new Random().Next(1, 101);```

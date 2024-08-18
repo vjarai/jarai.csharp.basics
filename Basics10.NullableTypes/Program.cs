@@ -8,12 +8,15 @@
 
             // Nullable<bool> esWirdRegnen;
             // Oder kürzer mit ?
-            bool? esWirdRegnen = null; // null bedeutet: "Ich weiß es nicht"
+            bool? esWirdRegnen; // Es gibt DREI Zustände: true, false, null
 
             if (regenWahrscheinlichkeit < 30)
                 esWirdRegnen = false;
             else if (regenWahrscheinlichkeit > 70)
                 esWirdRegnen = true;
+            else 
+                esWirdRegnen = null;  // null bedeutet: "Ich weiß es nicht"
+                                      // => Best practice: nullwerte möglichst vermeiden!
 
             // Abfrage, ob der Wert von esWirdRegnen gesetzt ist
             if (esWirdRegnen.HasValue)

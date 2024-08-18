@@ -58,7 +58,7 @@ namespace Jarai.CSharp.Basics.Exceptions
             // Ausgabe mit TEXT-Verkettung "+" (Ergebnis wird implizit in string gewandelt)
             Console.WriteLine("Kuchen pro Person: " + ergebnis); // Hier Implizite Typkonversion double => string
 
-            // Ausgabe mit string interpolation
+            // Besser: Ausgabe mit string interpolation
             Console.WriteLine($"Kuchen pro Person: {ergebnis:F2}");
 
 
