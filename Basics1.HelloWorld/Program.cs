@@ -20,8 +20,11 @@ namespace Jarai.CSharp.Basics.HelloWorld
             Console.WriteLine("Ihr nachname?");
             string nachname = Console.ReadLine(); // Besser: Variable anlegen UND gleich zuweisen
 
-            // Textverkettung mit +
+            // Alter Stil: Textverkettung mit +
             Console.WriteLine("Guten Tag " + vorname + " " + nachname + " !");
+
+            // Neuer Stil: Textverkettung mit $-Zeichen
+            Console.WriteLine($"Guten Tag {vorname} {nachname} !");
 
             // Wartet auf eine Tastatureingabe (damit die App nicht sofort wieder geschlossen wird)
             Console.ReadLine();
