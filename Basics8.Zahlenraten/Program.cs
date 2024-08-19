@@ -14,8 +14,7 @@ namespace Jarai.CSharp.Basics.Zahlenraten
                 int tipp, anzahlVersuche = 0;
 
                 // Berechnung Zufallszahl
-                var zufallszahlenGenerator = new Random();
-                int geheimzahl = zufallszahlenGenerator.Next(1, 101);
+                int geheimzahl = new Random().Next(1, 101);
 
                 // Schummelfunktion (nur zum Debuggen)
                 // Console.WriteLine("Geheimzahl:" + geheimzahl);
@@ -25,8 +24,7 @@ namespace Jarai.CSharp.Basics.Zahlenraten
                 do
                 {
                     Console.WriteLine("Bitte Tipp eingeben: ");
-                    string eingabe = Console.ReadLine();
-                    tipp = int.Parse(eingabe);
+                    tipp = int.Parse(Console.ReadLine());
 
                     anzahlVersuche++;
 
@@ -41,7 +39,9 @@ namespace Jarai.CSharp.Basics.Zahlenraten
 
                 } while (tipp != geheimzahl);
 
-                Console.WriteLine("Gewonnen !\nUnd das mit nur " + anzahlVersuche + " Versuchen!!!");
+                Console.WriteLine($"Gewonnen !\nUnd das mit nur {anzahlVersuche} Versuchen!!!");
+
+
 
                 Console.WriteLine("Noch einmal? (J/N)");
                 nochEinmal = Console.ReadLine();
