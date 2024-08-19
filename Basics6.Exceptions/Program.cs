@@ -16,7 +16,7 @@ namespace Jarai.CSharp.Basics.Exceptions
             {
                 anzahlPersonen = int.Parse(eingabe);
             }
-            catch (FormatException ex) // den Laufzeitfehler bei nichtnumerischer Eingabe abfangen
+            catch (Exception ex) // den Laufzeitfehler bei nichtnumerischer Eingabe abfangen
             {
                 Console.WriteLine("Ungültige Eingabe bei Personen:" + ex.Message);
                 return;
@@ -29,7 +29,7 @@ namespace Jarai.CSharp.Basics.Exceptions
             {
                 anzahlKuchen = int.Parse(eingabe);
             }
-            catch (FormatException ex)
+            catch (Exception ex)
             {
                 Console.WriteLine("Ungültige Eingabe bei Kuchen:" + ex.Message);
                 throw; // rethrow, erhält den ursprünglichen CallStack
