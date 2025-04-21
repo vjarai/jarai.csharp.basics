@@ -4,7 +4,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>Jarai.CSharp.Basics.NullableTypes</RootNamespace>
     <AssemblyName>Jarai.CSharp.Basics.Parameters</AssemblyName>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>

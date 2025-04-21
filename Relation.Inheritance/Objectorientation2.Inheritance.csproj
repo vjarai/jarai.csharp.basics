@@ -4,7 +4,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>Jarai.CSharp.Objektorientierung2.Inheritance</RootNamespace>
     <AssemblyName>Jarai.CSharp.Objektorientierung2.Inheritance</AssemblyName>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo> 
