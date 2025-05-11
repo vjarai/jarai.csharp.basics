@@ -9,7 +9,7 @@ namespace Jarai.CSharp.Basics.Exceptions
             int anzahlPersonen;
             int anzahlKuchen;
 
-            Console.WriteLine("Wieviele Personen?");
+            Console.WriteLine("Wie viele Personen?");
             string eingabe = Console.ReadLine(); // OK: Variable anlegen UND sofort zuweisen
 
             try // Umwandlung versuchen...
@@ -22,7 +22,7 @@ namespace Jarai.CSharp.Basics.Exceptions
                 return;
             }
 
-            Console.WriteLine("Wieviele Kuchen?");
+            Console.WriteLine("Wie viele Kuchen?");
             eingabe = Console.ReadLine();
 
             try
