@@ -12,6 +12,8 @@
             // Start DB Transaction
             using (var db = new DatabaseContext())
             {
+                db.Database.EnsureCreated();
+
                // Create record
                 var newContact = new Contact { Name = "Meier" };
                 db.Contacts.Add(newContact);
