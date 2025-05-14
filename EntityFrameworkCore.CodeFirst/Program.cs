@@ -2,11 +2,7 @@
 {
     internal class Program
     {
-        private static void WriteLog(string msg)
-        {
-            Console.WriteLine(msg);
-        }
-
+       
         private static void Main(string[] args)
         {
             // Start DB Transaction
