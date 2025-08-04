@@ -5,6 +5,7 @@ namespace Jarai.CSharp.Calculator.UserInterface.WinForms
     public partial class CalculatorForm : Form
     {
         private readonly CalculationService _calculationService;
+
         private readonly CalculatorViewModel _viewModel;
 
 

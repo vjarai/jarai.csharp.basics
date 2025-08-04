@@ -4,7 +4,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>Jarai.CSharp.Pattern.Singleton</RootNamespace>
     <AssemblyName>Jarai.CSharp.Pattern.Singleton</AssemblyName>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>Disable</Nullable>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo> 

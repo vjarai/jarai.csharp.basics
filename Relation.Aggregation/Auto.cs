@@ -2,6 +2,10 @@
 
 namespace Jarai.CSharp.Objektorientierung1.Aggregation
 {
+
+
+
+
     public class Auto
     {
         // konstante Attribute MÜSSEN sofort initialisiert werden 
@@ -11,7 +15,7 @@ namespace Jarai.CSharp.Objektorientierung1.Aggregation
 
         // statische Attribute DÜRFEN sofort initialisiert werden
         // oder im statischen Konstruktor (s.u.)
-        private static int _anzahlAutos;
+        private static int _anzahlAutos = 0;
 
         private static readonly string Defaultfarbe = "Blau";
 
