@@ -107,8 +107,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Objectorientation3.Konto", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basics11.Enum", "Basics11.Enum\Basics11.Enum.csproj", "{A46CB254-2A36-4479-8E4C-68F163EADFE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{5B5CCE07-A2B2-4428-B007-676D663724D0}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|.NET = Debug|.NET
@@ -903,26 +901,6 @@ Global
 		{A46CB254-2A36-4479-8E4C-68F163EADFE1}.Release|x64.Build.0 = Release|Any CPU
 		{A46CB254-2A36-4479-8E4C-68F163EADFE1}.Release|x86.ActiveCfg = Release|Any CPU
 		{A46CB254-2A36-4479-8E4C-68F163EADFE1}.Release|x86.Build.0 = Release|Any CPU
-		{5B5CCE07-A2B2-4428-B007-676D663724D0}.Debug|.NET.ActiveCfg = Debug|Any CPU
-		{5B5CCE07-A2B2-4428-B007-676D663724D0}.Debug|.NET.Build.0 = Debug|Any CPU
-		{5B5CCE07-A2B2-4428-B007-676D663724D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5B5CCE07-A2B2-4428-B007-676D663724D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5B5CCE07-A2B2-4428-B007-676D663724D0}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{5B5CCE07-A2B2-4428-B007-676D663724D0}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{5B5CCE07-A2B2-4428-B007-676D663724D0}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{5B5CCE07-A2B2-4428-B007-676D663724D0}.Debug|x64.Build.0 = Debug|Any CPU
-		{5B5CCE07-A2B2-4428-B007-676D663724D0}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{5B5CCE07-A2B2-4428-B007-676D663724D0}.Debug|x86.Build.0 = Debug|Any CPU
-		{5B5CCE07-A2B2-4428-B007-676D663724D0}.Release|.NET.ActiveCfg = Release|Any CPU
-		{5B5CCE07-A2B2-4428-B007-676D663724D0}.Release|.NET.Build.0 = Release|Any CPU
-		{5B5CCE07-A2B2-4428-B007-676D663724D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5B5CCE07-A2B2-4428-B007-676D663724D0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5B5CCE07-A2B2-4428-B007-676D663724D0}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{5B5CCE07-A2B2-4428-B007-676D663724D0}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{5B5CCE07-A2B2-4428-B007-676D663724D0}.Release|x64.ActiveCfg = Release|Any CPU
-		{5B5CCE07-A2B2-4428-B007-676D663724D0}.Release|x64.Build.0 = Release|Any CPU
-		{5B5CCE07-A2B2-4428-B007-676D663724D0}.Release|x86.ActiveCfg = Release|Any CPU
-		{5B5CCE07-A2B2-4428-B007-676D663724D0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
