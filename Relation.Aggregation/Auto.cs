@@ -27,7 +27,7 @@ namespace Jarai.CSharp.Objektorientierung1.Aggregation
         static Auto()
         {
             _anzahlAutos = 0;
-            Debug.WriteLine("Statischer Konstruktor Auto");
+            Console.WriteLine("Statischer Konstruktor Auto");
         }
 
 
@@ -38,7 +38,7 @@ namespace Jarai.CSharp.Objektorientierung1.Aggregation
             : this("VW", Defaultfarbe, 50)  // "Constructor Chaining"
         {
             FahrgestellNr = ++_anzahlAutos;
-            Debug.WriteLine("Standard Konstruktor Auto");
+            Console.WriteLine("Standard Konstruktor Auto");
         }
 
 
@@ -61,7 +61,7 @@ namespace Jarai.CSharp.Objektorientierung1.Aggregation
                 Räder[i] = new Rad();
             }
 
-            Debug.WriteLine("Konstruktor mit Parametern Auto");
+            Console.WriteLine("Konstruktor mit Parametern Auto");
         }
 
         /// <summary>
@@ -96,23 +96,23 @@ namespace Jarai.CSharp.Objektorientierung1.Aggregation
         /// <summary>
         ///     zeigt ALLE Autodaten (incl. Motor und Rad) auf der Console an
         /// </summary>
-        public void Anzeigen()
+        public virtual void Anzeigen()
         {
-            Debug.WriteLine(ToString());
+            Console.WriteLine(ToString());
         }
 
         /// <summary>
         /// Das Auto fährt eine strecke
         /// Motor wird automatisch angelassen und gestoppt (Start/Stop Automatic)
         /// </summary>
-        public void Fahren(double strecke)
+        public virtual void Fahren(double strecke)
         {
             Motor.Anlassen();
 
             Tachostand += strecke;
             Tankinhalt -= strecke * Spritverbrauch / 100;
 
-            Debug.WriteLine($"Auto fahren: Tachostand: {Tachostand}, Tankinhalt: {Tankinhalt}");
+            Console.WriteLine($"Auto fahren: Tachostand: {Tachostand}, Tankinhalt: {Tankinhalt}");
 
             Motor.Abstellen();
         }
@@ -120,7 +120,7 @@ namespace Jarai.CSharp.Objektorientierung1.Aggregation
         public void Tanken(double liter)
         {
             Tankinhalt += liter;
-            Debug.WriteLine($"Auto tanken: Neuer Tankinhalt: {Tankinhalt}");
+            Console.WriteLine($"Auto tanken: Neuer Tankinhalt: {Tankinhalt}");
         }
 
         /// <summary>

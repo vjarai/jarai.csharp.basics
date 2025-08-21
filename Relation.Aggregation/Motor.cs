@@ -7,7 +7,7 @@ namespace Jarai.CSharp.Objektorientierung1.Aggregation
         public Motor(int ps)
         {
             Ps = ps;
-            Debug.WriteLine("Motor gebaut");
+            Console.WriteLine("Motor gebaut");
         }
 
         public int Drehzahl { get; private set; }
@@ -16,25 +16,25 @@ namespace Jarai.CSharp.Objektorientierung1.Aggregation
         public void Abstellen()
         {
             Drehzahl = 0;
-            Debug.WriteLine("Motor abgestellt");
+            Console.WriteLine("Motor abgestellt");
         }
 
         public void Anlassen()
         {
             if (Drehzahl > 0)
             {
-                Debug.WriteLine("Autsch, Motor war schon an.");
+                Console.WriteLine("Autsch, Motor war schon an.");
             }
             else
             {
                 Drehzahl = 1000;
-                Debug.WriteLine("Motor angelassen");
+                Console.WriteLine("Motor angelassen");
             }
         }
 
         public void Anzeigen()
         {
-            Debug.WriteLine(ToString());
+            Console.WriteLine(ToString());
         }
 
 

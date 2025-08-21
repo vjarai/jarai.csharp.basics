@@ -6,6 +6,8 @@
         {
             // REFERENZ-Variable anlegen und ein neues Auto Objekt erstellen
             var meinAuto = new Auto("VW", "ROT", 50);
+            var meinCabrio = new Cabrio();
+            meinCabrio.Fahren(10);
 
             //Methoden aufrufen
             meinAuto.Tanken(30);

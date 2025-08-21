@@ -8,12 +8,12 @@ namespace Jarai.CSharp.Objektorientierung1.Aggregation
 
         public Rad()
         {
-            Debug.WriteLine("Rad erstellt");
+            Console.WriteLine("Rad erstellt");
         }
 
         public void Anzeigen()
         {
-            Debug.WriteLine(ToString());
+            Console.WriteLine(ToString());
         }
 
         public override string ToString()
