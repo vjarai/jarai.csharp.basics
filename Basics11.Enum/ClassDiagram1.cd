@@ -6,9 +6,6 @@
       <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Bestellung.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Status" />
-    </ShowAsAssociation>
   </Class>
   <Enum Name="Basics11.Enum.Bestellstatus">
     <Position X="5" Y="1.25" Width="1.5" />

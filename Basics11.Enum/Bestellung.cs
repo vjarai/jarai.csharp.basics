@@ -7,6 +7,6 @@ namespace Basics11.Enum
 {
     public class Bestellung
     {
-        public Bestellstatus Status { get; set; }
+        public Bestellstatus Status { get; set; } = Bestellstatus.ImWarenkorb;
     }
 }

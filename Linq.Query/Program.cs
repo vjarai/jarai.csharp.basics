@@ -24,7 +24,6 @@
                 .Where(contact => contact.Ort.ToUpper() == "MÜNCHEN")
                 .OrderBy(contact => contact.Name);
 
-
             foreach (var item in contactsFromBerlinQuery)
             {
                 Console.WriteLine(item);

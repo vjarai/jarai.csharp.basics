@@ -25,7 +25,7 @@ namespace Jarai.CSharp.Basics.Exceptions
             Console.WriteLine("Wie viele Kuchen?");
             eingabe = Console.ReadLine();
 
-            try
+            try  // Abfangen eines Fehlers
             {
                 anzahlKuchen = int.Parse(eingabe);
             }

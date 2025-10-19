@@ -7,11 +7,11 @@ namespace Basics11.Enum
 {
     public enum Bestellstatus
     {
-        ImWarenkorb,
-        Bestellt,
-        Bezahlt,
-        Versendet,
-        Geliefert,
-        Storniert
+        ImWarenkorb = 1,
+        Bestellt = 2,
+        Bezahlt = 3,
+        Versendet = 4,
+        Geliefert = 5,
+        Storniert = 6,
     }
 }

@@ -2,7 +2,7 @@
 
 namespace Jarai.CSharp.EntityFrameworkCore.CodeFirst
 {
-    internal class DatabaseContext : DbContext
+    public class DatabaseContext : DbContext
     {
         private readonly string _connectionString =
             @"data source=(localdb)\MSSQLLocalDB;initial catalog=Jarai.CSharp.EntityFramework.Core.CodeFirst;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework";
