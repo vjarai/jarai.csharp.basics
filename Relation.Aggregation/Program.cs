@@ -17,10 +17,10 @@
             else
                 aktuellesFahrzeug = meinCabrio;
 
-                                           // Spätes Binden wird benötigt, ZUR LAUFZEIT muss entschieden werden ob
-            aktuellesFahrzeug.Fahren(100); // Auto.Fahren oder 2. Cabrio.Fahren aufgerufen wird
-                                           // Methode Fahren muss in der Basisklasse virtual sein
-                                           // und in der abgeleiteten Klasse override
+                                            // Spätes Binden wird benötigt, ZUR LAUFZEIT muss entschieden werden ob
+            aktuellesFahrzeug.Fahren(100); // Auto.Fahren() oder Cabrio.Fahren() aufgerufen wird
+                                           // => Methode Fahren() muss in der Basisklasse virtual sein
+                                           // und in der abgeleiteten Klasse override!
             meinAuto.Anzeigen();
             meinCabrio.Anzeigen();
 
