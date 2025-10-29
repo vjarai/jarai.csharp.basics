@@ -4,15 +4,24 @@
     {
         private static void Main(string[] args)
         {
-            // REFERENZ-Variable anlegen und ein neues Auto Objekt erstellen
-            var meinAuto = new Auto("VW", "ROT", 50);
-            var meinCabrio = new Cabrio();
-            meinCabrio.Fahren(10);
+            Auto meinAuto = new Auto();
+            Cabrio meinCabrio = new Cabrio();
 
-            //Methoden aufrufen
-            meinAuto.Tanken(30);
-            meinAuto.Fahren(1000);
+            Auto aktuellesFahrzeug = null;
+
+            Console.WriteLine("Wollen Sie mit Cabrio oder Auto fahren (C/A)?");
+            string eingabe = Console.ReadLine();
+
+            if (eingabe == "A")
+                aktuellesFahrzeug = meinAuto;
+            else
+                aktuellesFahrzeug = meinCabrio;
+
+            // Spätes Binden wird benötigt, ZUR LAUFZEIT muss entschieden
+            aktuellesFahrzeug.Fahren(100); // Macht ZWEI verschiedene Sachen!!!! 1. Auto.Fahren aufrufen oder 2. Cabrio.Fahren
+
             meinAuto.Anzeigen();
+            meinCabrio.Anzeigen();
 
             Console.ReadLine();
         }
